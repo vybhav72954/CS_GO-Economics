@@ -1,0 +1,13 @@
+-ip==24.0
+awpy==1.2.3
+backports.tarfile==1.2.0
+click==8.3.1
+demoparser2==0.40.3
+importlib-metadata==8.7.1
+jaraco-context==6.1.0
+jaraco-functools==4.4.0
+jaraco.text==4.0.0
+loguru==0.7.3
+platformdirs==4.4.0
+requests==2.32.5
+tomli==2.4.0

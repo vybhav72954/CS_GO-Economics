@@ -1,0 +1,34 @@
+{
+  "run_timestamp": "2026-01-22T03:26:49.755693",
+  "tournaments": [
+    {
+      "tournament": "Stockholm",
+      "role": "training",
+      "total_files": 65,
+      "successful_parses": 65,
+      "failed_parses": 0,
+      "failed_files": [],
+      "total_rounds": 1733
+    },
+    {
+      "tournament": "Antwerp",
+      "role": "confirmation",
+      "total_files": 71,
+      "successful_parses": 71,
+      "failed_parses": 0,
+      "failed_files": [],
+      "total_rounds": 1941
+    },
+    {
+      "tournament": "Rio",
+      "role": "validation",
+      "total_files": 68,
+      "successful_parses": 68,
+      "failed_parses": 0,
+      "failed_files": [],
+      "total_rounds": 1804
+    }
+  ],
+  "total_matches": 204,
+  "total_rounds": 5478
+}
