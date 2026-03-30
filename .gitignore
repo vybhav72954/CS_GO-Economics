@@ -6,6 +6,7 @@ json_output/Stockholm
 .idea
 CS-GO Time Series.ipynb
 json_output/pipeline_summary.json
+analysis_output/Old Outputs/*
 
 ### VisualStudioCode template
 .vscode/*

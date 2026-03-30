@@ -69,3 +69,13 @@ Challengers Stage is excluded for consistency.
 1. **Training (Stockholm)**: Use for exploratory analysis and model development
 2. **Confirmation (Antwerp)**: Test if patterns replicate
 3. **Validation (Rio)**: Final holdout test - do not touch until paper is complete
+
+## Citation
+
+If you use this data, please cite:
+- Original demo files from HLTV.org
+- awpy parser: https://github.com/pnxenopoulos/awpy
+
+## Generated
+
+2026-03-30 13:40:17
