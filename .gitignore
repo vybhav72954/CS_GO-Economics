@@ -7,6 +7,10 @@ json_output/Stockholm
 CS-GO Time Series.ipynb
 json_output/pipeline_summary.json
 analysis_output/Old Outputs/*
+paper_draft_v1.md
+PAPER_INSTRUCTIONS.md
+literature_review.md
+paper.docx
 
 ### VisualStudioCode template
 .vscode/*
