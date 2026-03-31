@@ -1,0 +1,1277 @@
+(CS-GO Time Series Analysis) Z:\Projects\2025\CS-GO Time Series Analysis>python run_all.py
+======================================================================
+THE ECONOMICS OF MOMENTUM: FULL ANALYSIS PIPELINE
+Vybhav Chaturvedi & Pranav Taneja
+======================================================================
+
+Cache found. Skipping Phase 1 (use --parse to force re-parsing).
+
+Phases to run: [2, 3, 4, 5, 6, 7, 8, 9]
+Working directory: Z:\Projects\2025\CS-GO Time Series Analysis
+
+======================================================================
+PHASE 2: EXPLORATORY ANALYSIS
+  Descriptive stats, visualizations, baseline momentum (Stockholm)
+  Script: 02_exploratory.py
+======================================================================
+
+Loaded 1733 rounds from 65 matches
+
+======================================================================
+SECTION 1: DESCRIPTIVE STATISTICS
+======================================================================
+
+1.1 Dataset Overview
+----------------------------------------
+Total rounds: 1733
+Total matches: 65
+Maps: 7
+Unique teams (CT): 16
+
+1.2 Round Outcomes
+----------------------------------------
+CT wins: 989 (57.1%)
+T wins:  744 (42.9%)
+
+1.3 CT Win Rate by Map
+----------------------------------------
+  de_vertigo     : 63.0% (n=219)
+  de_inferno     : 61.7% (n=394)
+  de_dust2       : 60.3% (n=204)
+  de_nuke        : 59.3% (n=209)
+  de_overpass    : 58.5% (n=205)
+  de_ancient     : 49.5% (n=303)
+  de_mirage      : 45.7% (n=199)
+
+1.4 CT Win Rate by Round Phase
+----------------------------------------
+  pistol      : 60.0% (n=130)
+  conversion  : 54.8% (n=259)
+  gun         : 56.9% (n=1300)
+  overtime    : 65.9% (n=44)
+
+1.5 Economic Regime Distribution
+----------------------------------------
+CT Side:
+  broke       :  266 ( 15.3%)
+  building    :  145 (  8.4%)
+  full_buy    :  584 ( 33.7%)
+  flush       :  738 ( 42.6%)
+T Side:
+  broke       :  279 ( 16.1%)
+  building    :  161 (  9.3%)
+  full_buy    :  300 ( 17.3%)
+  flush       :  993 ( 57.3%)
+
+1.6 CT Win Rate by Economic Regime
+----------------------------------------
+  CT broke     : 33.8% win rate (n=266)
+  CT building  : 33.8% win rate (n=145)
+  CT full_buy  : 61.3% win rate (n=584)
+  CT flush     : 66.7% win rate (n=738)
+
+  T broke     : 21.5% win rate (n=279)
+  T building  : 15.5% win rate (n=161)
+  T full_buy  : 53.7% win rate (n=300)
+  T flush     : 50.2% win rate (n=993)
+
+1.7 Equipment Value Statistics
+----------------------------------------
+CT: mean=$22,753, median=$26,950
+T:  mean=$19,354, median=$23,000
+Advantage range: $-26,650 to $30,400
+
+1.8 Loss Streak Statistics
+----------------------------------------
+CT consecutive losses:
+  0 losses: 1045 rounds (60.3%)
+  1 losses: 313 rounds (18.1%)
+  2 losses: 161 rounds (9.3%)
+  3 losses: 106 rounds (6.1%)
+  4 losses: 48 rounds (2.8%)
+  5 losses: 29 rounds (1.7%)
+
+======================================================================
+SECTION 2: VISUALIZATIONS
+======================================================================
+
+2.1 Creating: Win Rate by Equipment Advantage
+2.2 Creating: Economic Regime Transitions
+2.3 Creating: Win Rate by Round Phase
+2.4 Creating: Momentum Effect Visualization
+2.5 Creating: Equipment Distribution by Regime
+
+All figures saved to: Z:\Projects\2025\CS-GO Time Series Analysis\analysis_output
+
+======================================================================
+SECTION 3: MOMENTUM ANALYSIS (MODEL A - BASELINE)
+======================================================================
+
+Analysis sample: 1668 rounds (excluding first round of each match)
+
+3.1 Model A: Baseline Momentum
+----------------------------------------
+
+Logistic Regression Results:
+  Observations: 1668
+  Pseudo R-squared: 0.0499
+
+  Variable                   Coef    Std Err          z      P>|z|
+  ------------------------------------------------------------
+  const                   -0.3307     0.0762      -4.34     0.0000 ***
+  ct_won_lag_1             1.0806     0.1029      10.50     0.0000 ***
+
+3.2 Interpretation
+----------------------------------------
+  Momentum coefficient: 1.0806
+  Odds ratio: 2.946
+  Interpretation: Winning the previous round multiplies the odds of
+                  winning the current round by 2.95x
+
+3.3 Conditional Win Probabilities
+----------------------------------------
+  P(CT wins | lost previous round) = 41.8%
+  P(CT wins | won previous round)  = 67.9%
+  Difference: 26.1 percentage points
+
+======================================================================
+SECTION 4: CONTROL VARIABLE PREVIEW
+======================================================================
+
+4.1 Equipment Advantage
+----------------------------------------
+  Correlation with CT win: 0.421
+
+  Win rate by equipment advantage quintile:
+    (-26650.001, -4210.0]    : 24.6% (n=334)
+    (-4210.0, 1800.0]        : 53.1% (n=337)
+    (1800.0, 5450.0]         : 58.5% (n=335)
+    (5450.0, 11380.0]        : 60.4% (n=328)
+    (11380.0, 30400.0]       : 87.7% (n=334)
+
+4.2 Economic Regime Effect
+----------------------------------------
+  CT broke     : 24.4% (n=201)
+  CT building  : 33.8% (n=145)
+  CT full_buy  : 61.3% (n=584)
+  CT flush     : 66.7% (n=738)
+
+4.3 Round Phase Effect
+----------------------------------------
+  pistol      : 56.9% (n=65)
+  conversion  : 54.8% (n=259)
+  gun         : 56.9% (n=1300)
+  overtime    : 65.9% (n=44)
+
+4.4 Momentum Effect by Economic Regime
+----------------------------------------
+  (CT win rate after winning previous round)
+  broke     : after win=51.1%, after loss=16.7%, diff=+34.4%
+  building  : after win=85.7%, after loss=31.2%, diff=+54.6%
+  full_buy  : after win=67.1%, after loss=54.6%, diff=+12.5%
+  flush     : after win=69.4%, after loss=55.2%, diff=+14.2%
+
+4.5 First Kill Effect
+----------------------------------------
+  CT gets first kill: 75.1% CT win rate
+  T gets first kill:  32.1% CT win rate
+  Difference: 42.9 percentage points
+
+======================================================================
+SECTION 5: SUMMARY
+======================================================================
+
+5.1 Key Findings from Exploratory Analysis
+----------------------------------------
+  1. Baseline momentum coefficient: 1.0806
+  2. Odds ratio: 2.946
+  3. This is the coefficient to track through Models B-F
+
+5.2 Variables for Momentum Decomposition (Phase 3)
+----------------------------------------
+  Model B: + ct_economic_regime (categorical)
+  Model C: + equip_advantage (continuous)
+  Model D: + rank_diff (requires HLTV data)
+  Model E: + baseline_ct_win_prob (map/side)
+  Model F: + round_phase interactions
+
+5.3 Data Gaps to Address
+----------------------------------------
+  - HLTV rankings not yet added (needed for Model D)
+  - Force-buy identification (needed for Phase 5)
+
+======================================================================
+EXPLORATORY ANALYSIS COMPLETE
+======================================================================
+
+Model results saved to: Z:\Projects\2025\CS-GO Time Series Analysis\analysis_output\model_results.csv
+
+  Phase 2 completed in 5.9s
+
+======================================================================
+PHASE 3: MOMENTUM DECOMPOSITION
+  Panel A (categorical) + Panel B (continuous) controls (Stockholm)
+  Script: 03_decomposition.py
+======================================================================
+
+Loaded 1733 rounds from 65 matches
+Analysis sample: 1668 rounds
+
+======================================================================
+BASELINE MODEL
+======================================================================
+
+Baseline: Lag only
+  N=1668, Pseudo R²=0.0499, AIC=2171.2
+  Momentum: coef=1.0806, OR=2.946, p=0.0000 ***
+
+======================================================================
+PANEL A: CATEGORICAL SPECIFICATION (Regime Dummies)
+======================================================================
+Tests whether categorical economic state explains momentum
+
+A1: + Regime dummies
+  N=1668, Pseudo R²=0.1527, AIC=1948.8
+  Momentum: coef=-0.0012, OR=0.999, p=0.9931
+  All coefficients:
+    const                          0.2887 (se=0.2383)
+    ct_won_lag_1                  -0.0012 (se=0.1358)
+    regime_building                1.6238 (se=0.3071) ***
+    regime_full_buy                2.4557 (se=0.2650) ***
+    regime_flush                   2.7630 (se=0.2780) ***
+    t_regime_building             -1.2222 (se=0.3471) ***
+    t_regime_full_buy             -2.5937 (se=0.2931) ***
+    t_regime_flush                -2.6585 (se=0.2852) ***
+
+A2: + Regime + Maps
+  N=1668, Pseudo R²=0.1581, AIC=1948.5
+  Momentum: coef=-0.0315, OR=0.969, p=0.8181
+
+A3: + Regime + Maps + Phase
+  N=1668, Pseudo R²=0.1588, AIC=1952.9
+  Momentum: coef=-0.0185, OR=0.982, p=0.8938
+
+======================================================================
+PANEL B: CONTINUOUS SPECIFICATION (Equipment Advantage)
+======================================================================
+Tests whether continuous equipment difference explains momentum
+
+B1: + Equipment ($10k)
+  N=1668, Pseudo R²=0.1448, AIC=1956.7
+  Momentum: coef=-0.2766, OR=0.758, p=0.0477 *
+  All coefficients:
+    const                          0.1444 (se=0.0872)
+    ct_won_lag_1                  -0.2766 (se=0.1397) *
+    equip_adv_10k                  0.9806 (se=0.0744) ***
+
+B2: + Equipment + Maps
+  N=1668, Pseudo R²=0.1499, AIC=1957.3
+  Momentum: coef=-0.3049, OR=0.737, p=0.0302 *
+
+B3: + Equipment + Maps + Phase
+  N=1668, Pseudo R²=0.1515, AIC=1959.6
+  Momentum: coef=-0.3422, OR=0.710, p=0.0166 *
+
+B4: + First kill (endogenous)
+  N=1668, Pseudo R²=0.2492, AIC=1740.7
+  Momentum: coef=-0.2783, OR=0.757, p=0.0721
+  All coefficients:
+    const                         -1.0469 (se=0.1772) ***
+    ct_won_lag_1                  -0.2783 (se=0.1547)
+    equip_adv_10k                  0.9283 (se=0.0822) ***
+    map_de_dust2                   0.3388 (se=0.2236)
+    map_de_inferno                 0.2802 (se=0.1898)
+    map_de_mirage                 -0.1029 (se=0.2271)
+    map_de_nuke                    0.2248 (se=0.2228)
+    map_de_overpass                0.3699 (se=0.2240)
+    map_de_vertigo                 0.4467 (se=0.2237) *
+    phase_pistol                   0.4514 (se=0.2868)
+    phase_conversion              -0.0004 (se=0.1718)
+    phase_overtime                 0.3705 (se=0.3587)
+    ct_first_kill                  1.7164 (se=0.1198) ***
+    first_kill_missing           -19.9660 (se=54599.6564)
+
+=====================================================================================
+MOMENTUM COEFFICIENT ACROSS ALL SPECIFICATIONS
+=====================================================================================
+Model                                         Coef       SE       OR         p      R²
+-------------------------------------------------------------------------------------
+Baseline: Lag only                          1.0806   0.1029    2.946   0.0000***  0.0499
+A1: + Regime dummies                       -0.0012   0.1358    0.999   0.9931   0.1527
+A2: + Regime + Maps                        -0.0315   0.1369    0.969   0.8181   0.1581
+A3: + Regime + Maps + Phase                -0.0185   0.1387    0.982   0.8938   0.1588
+B1: + Equipment ($10k)                     -0.2766   0.1397    0.758   0.0477*  0.1448
+B2: + Equipment + Maps                     -0.3049   0.1407    0.737   0.0302*  0.1499
+B3: + Equipment + Maps + Phase             -0.3422   0.1428    0.710   0.0166*  0.1515
+B4: + First kill (endogenous)              -0.2783   0.1547    0.757   0.0721   0.2492
+-------------------------------------------------------------------------------------
+
+======================================================================
+KEY COMPARISONS
+======================================================================
+
+Baseline momentum:
+  Coefficient: 1.0806
+  Odds Ratio:  2.946x
+  P-value:     0.0000
+  Interpretation: Winning previous round nearly TRIPLES odds of winning current round
+
+After regime dummies (A1):
+  Coefficient: -0.0012
+  Odds Ratio:  0.999x
+  P-value:     0.9931
+  Interpretation: Momentum effect DISAPPEARS (not significant)
+
+After equipment control (B1):
+  Coefficient: -0.2766
+  Odds Ratio:  0.758x
+  P-value:     0.0477
+  Interpretation: Coefficient becomes NEGATIVE (slight mean reversion)
+
+======================================================================
+ROBUSTNESS: BOTH TEAMS HAVE FULL EQUIPMENT
+======================================================================
+Sample: 1016 rounds where both teams have full_buy or flush
+
+Full Buy: Baseline
+  N=1016, Pseudo R²=0.0007, AIC=1393.2
+  Momentum: coef=0.1278, OR=1.136, p=0.3207
+
+Full Buy: + Equipment
+  N=1016, Pseudo R²=0.0064, AIC=1387.4
+  Momentum: coef=-0.1095, OR=0.896, p=0.4788
+
+  >> Momentum NOT significant (p=0.321) when economics are equalized
+
+======================================================================
+ROBUSTNESS: GUN ROUNDS ONLY (exclude pistol/conversion)
+======================================================================
+Sample: 1300 gun rounds
+
+Gun Rounds: Baseline
+  N=1300, Pseudo R²=0.0472, AIC=1697.3
+  Momentum: coef=1.0471, OR=2.849, p=0.0000 ***
+
+Gun Rounds: + Regime
+  N=1300, Pseudo R²=0.1330, AIC=1556.9
+  Momentum: coef=0.1254, OR=1.134, p=0.4136
+
+Gun Rounds: + Equipment
+  N=1300, Pseudo R²=0.1284, AIC=1555.0
+  Momentum: coef=-0.1802, OR=0.835, p=0.2465
+
+======================================================================
+CREATING FIGURES
+======================================================================
+Saved: fig_06_momentum_decomposition.png
+Saved: fig_07_odds_ratio_comparison.png
+
+======================================================================
+PHASE 3 FINAL SUMMARY
+======================================================================
+
+RESEARCH QUESTION:
+  Is momentum in CS:GO a psychological phenomenon or an economic artifact?
+
+DATA:
+  Stockholm Major 2021, 1668 rounds from 65 matches
+
+BASELINE FINDING:
+  Winning previous round multiplies current round win odds by 2.95x
+  This appears to be strong "momentum" or "hot hand" effect
+
+DECOMPOSITION RESULTS:
+
+  Panel A (Categorical Controls - Regime Dummies):
+    Baseline:              coef = 1.0806, OR = 2.95x, p < 0.001 ***
+    + Regime:              coef = -0.0012, OR = 1.00x, p = 0.993
+    + Regime + Maps:       coef = -0.0315, OR = 0.97x, p = 0.818
+    + Regime + Maps + Ph:  coef = -0.0185, OR = 0.98x, p = 0.894
+
+  Panel B (Continuous Controls - Equipment $):
+    Baseline:              coef = 1.0806, OR = 2.95x, p < 0.001 ***
+    + Equipment:           coef = -0.2766, OR = 0.76x, p = 0.048
+    + Equipment + Maps:    coef = -0.3049, OR = 0.74x, p = 0.030
+    + Equip + Maps + Ph:   coef = -0.3422, OR = 0.71x, p = 0.017
+
+ROBUSTNESS:
+  Both teams full buy (n=1016): momentum coef = 0.1278, p = 0.321
+  Gun rounds only (n=1300): after equipment control, coef = -0.1802
+
+CONCLUSION:
+  The apparent momentum effect (OR = 2.95x) is fully explained by economics.
+
+  - With categorical controls (regime dummies): coefficient drops to ~0, NOT significant
+  - With continuous controls (equipment $): coefficient becomes slightly NEGATIVE
+  - When both teams have full equipment: momentum is NOT significant (p = 0.321)
+
+  Momentum in CS:GO is an ECONOMIC ILLUSION created by the loss bonus system,
+  not a psychological phenomenon. What looks like "hot hand" is simply winners
+  having more money to buy better equipment.
+
+
+Saved: Z:\Projects\2025\CS-GO Time Series Analysis\analysis_output\phase3_model_comparison.csv
+Done.
+
+  Phase 3 completed in 4.8s
+
+======================================================================
+PHASE 4: PATTERN REPLICATION
+  Replicate Stockholm findings on Antwerp + diagnostics
+  Script: 04_pattern_replication.py
+======================================================================
+
+======================================================================
+PHASE 4: ANTWERP REPLICATION
+======================================================================
+
+Stockholm (training):    1733 rounds, 65 matches
+Antwerp (confirmation):  1941 rounds, 71 matches
+
+Analysis samples:
+  Stockholm: 1668 rounds
+  Antwerp:   1870 rounds
+
+======================================================================
+DIAGNOSTIC 1: CORRELATION MATRIX
+======================================================================
+Checking if momentum (ct_won_lag_1) is too correlated with regime
+
+Stockholm:
+
+  Correlations with ct_won_lag_1:
+    regime_building     : r = -0.329
+    regime_full_buy     : r = -0.059
+    regime_flush        : r =  0.416
+    equip_adv_10k       : r =  0.672
+
+Antwerp:
+
+  Correlations with ct_won_lag_1:
+    regime_building     : r = -0.331
+    regime_full_buy     : r = -0.067
+    regime_flush        : r =  0.433
+    equip_adv_10k       : r =  0.679
+
+======================================================================
+DIAGNOSTIC 2: VARIANCE INFLATION FACTOR (VIF)
+======================================================================
+VIF > 5 suggests problematic multicollinearity
+VIF > 10 is severe
+
+Stockholm:
+    ct_won_lag_1             : VIF = 1.78
+    regime_building          : VIF = 1.65
+    regime_full_buy          : VIF = 2.87
+    regime_flush             : VIF = 3.61
+    t_regime_building        : VIF = 1.70
+    t_regime_full_buy        : VIF = 2.19
+    t_regime_flush           : VIF = 2.99
+
+Antwerp:
+    ct_won_lag_1             : VIF = 1.76
+    regime_building          : VIF = 1.72
+    regime_full_buy          : VIF = 3.03
+    regime_flush             : VIF = 3.81
+    t_regime_building        : VIF = 1.70
+    t_regime_full_buy        : VIF = 2.10
+    t_regime_flush           : VIF = 2.85
+
+======================================================================
+DIAGNOSTIC 3: MOMENTUM × REGIME CROSS-TABULATION
+======================================================================
+Checking cell sizes and conditional distributions
+
+Stockholm:
+
+  Counts:
+ct_economic_regime  broke  building  full_buy  flush   All
+  ct_won_lag_1
+  0.0                   156       138       271    143   708
+  1.0                    45         7       313    595   960
+  All                   201       145       584    738  1668
+
+  P(Regime | Momentum):
+ct_economic_regime  broke  building  full_buy  flush
+  ct_won_lag_1
+  0.0                  22.0      19.5      38.3   20.2
+  1.0                   4.7       0.7      32.6   62.0
+
+Antwerp:
+
+  Counts:
+ct_economic_regime  broke  building  full_buy  flush   All
+  ct_won_lag_1
+  0.0                   175       162       308    168   813
+  1.0                    38         8       333    678  1057
+  All                   213       170       641    846  1870
+
+  P(Regime | Momentum):
+ct_economic_regime  broke  building  full_buy  flush
+  ct_won_lag_1
+  0.0                  21.5      19.9      37.9   20.7
+  1.0                   3.6       0.8      31.5   64.1
+
+======================================================================
+STOCKHOLM (TRAINING) MODELS
+======================================================================
+
+Model                         Coef       SE       OR          p
+-----------------------------------------------------------------
+Baseline                    1.0806   0.1029    2.946    0.0000***
+A1: +Regime                -0.0012   0.1358    0.999    0.9931
+A2: +Regime+Maps+Phase     -0.0185   0.1387    0.982    0.8938
+B1: +Equipment             -0.2766   0.1397    0.758    0.0477*
+B2: +Equip+Maps+Phase      -0.3422   0.1428    0.710    0.0166*
+
+======================================================================
+ANTWERP (CONFIRMATION) MODELS
+======================================================================
+
+Model                         Coef       SE       OR          p
+-----------------------------------------------------------------
+Baseline                    1.1810   0.0976    3.258    0.0000***
+A1: +Regime                 0.2800   0.1265    1.323    0.0269*
+A2: +Regime+Maps+Phase      0.2678   0.1278    1.307    0.0361*
+B1: +Equipment             -0.0582   0.1318    0.943    0.6589
+B2: +Equip+Maps+Phase      -0.0770   0.1324    0.926    0.5610
+
+======================================================================
+ROBUSTNESS: BOTH TEAMS FULL BUY
+======================================================================
+
+Stockholm: 1016 rounds with both teams full buy
+  Momentum: coef = 0.1278, OR = 1.136, p = 0.3207 (ns)
+
+Antwerp: 1143 rounds with both teams full buy
+  Momentum: coef = 0.2593, OR = 1.296, p = 0.0322 (*)
+
+======================================================================
+CROSS-TOURNAMENT COMPARISON
+======================================================================
+
+Model                                Stockholm              Antwerp
+                                      Coef (p)             Coef (p)
+-----------------------------------------------------------------
+Baseline                       1.081 (p=0.000)      1.181 (p=0.000)
+A1: +Regime                   -0.001 (p=0.993)      0.280 (p=0.027)
+A2: +Regime+Maps+Phase        -0.019 (p=0.894)      0.268 (p=0.036)
+B1: +Equipment                -0.277 (p=0.048)     -0.058 (p=0.659)
+B2: +Equip+Maps+Phase         -0.342 (p=0.017)     -0.077 (p=0.561)
+
+======================================================================
+CREATING FIGURES
+======================================================================
+Saved: fig_08_antwerp_replication.png
+
+======================================================================
+PHASE 4 SUMMARY
+======================================================================
+
+MULTICOLLINEARITY DIAGNOSTICS:
+  Correlation (ct_won_lag_1 vs regime_flush):
+    Stockholm: 0.416
+    Antwerp:   0.433
+
+  VIF scores are printed above. Values < 5 indicate acceptable collinearity.
+
+REPLICATION RESULTS:
+
+  STOCKHOLM (Training):
+    Baseline:    coef = 1.0806, OR = 2.95x, p = 0.0000
+    +Regime:     coef = -0.0012, OR = 1.00x, p = 0.9931
+
+  ANTWERP (Confirmation):
+    Baseline:    coef = 1.1810, OR = 3.26x, p = 0.0000
+    +Regime:     coef = 0.2800, OR = 1.32x, p = 0.0269
+
+INTERPRETATION:
+  Compare the patterns above. If Antwerp shows similar baseline effect (~2.5-3x)
+  that disappears with economic controls, the finding replicates.
+
+  If patterns differ substantially, investigate why (meta differences,
+  team compositions, patch changes between tournaments).
+
+
+Saved: Z:\Projects\2025\CS-GO Time Series Analysis\analysis_output\phase4_replication_comparison.csv
+
+Done.
+
+  Phase 4 completed in 4.5s
+
+======================================================================
+PHASE 5: POOLED ANALYSIS
+  Combined Stockholm + Antwerp analysis
+  Script: 05_pooled_analysis.py
+======================================================================
+
+======================================================================
+PHASE 5: POOLED ANALYSIS
+======================================================================
+
+Dataset sizes:
+  Stockholm: 1733 rounds, 65 matches
+  Antwerp:   1941 rounds, 71 matches
+  Pooled:    3674 rounds, 136 matches
+
+Analysis sample: 3538 rounds
+
+======================================================================
+POOLED MODELS (Stockholm + Antwerp)
+======================================================================
+
+1. Baseline
+  N=3538, Pseudo R²=0.0549
+  Momentum: coef=1.1337, OR=3.107, p=0.0000 ***
+
+2. + Tournament FE
+  N=3538, Pseudo R²=0.0549
+  Momentum: coef=1.1336, OR=3.107, p=0.0000 ***
+
+3. + Equipment (PRIMARY)
+  N=3538, Pseudo R²=0.1399
+  Momentum: coef=-0.1616, OR=0.851, p=0.0918
+  Coefficients:
+    const                       0.0939
+    ct_won_lag_1               -0.1616
+    is_antwerp                 -0.0154
+    equip_adv_10k               0.9276 ***
+
+4. + Equipment + Maps + Phase
+  N=3538, Pseudo R²=0.1409
+  Momentum: coef=-0.1773, OR=0.838, p=0.0662
+
+5. + Regime Dummies
+  N=3538, Pseudo R²=0.1467
+  Momentum: coef=0.1516, OR=1.164, p=0.1005
+  Coefficients:
+    const                       0.0705
+    ct_won_lag_1                0.1516
+    is_antwerp                 -0.0283
+    regime_building             1.4377 ***
+    regime_full_buy             2.4185 ***
+    regime_flush                2.5112 ***
+    t_regime_building          -0.9856 ***
+    t_regime_full_buy          -2.2686 ***
+    t_regime_flush             -2.3577 ***
+
+6. Regime + Equipment
+  N=3538, Pseudo R²=0.1517
+  Momentum: coef=-0.0142, OR=0.986, p=0.8855
+  Coefficients:
+    const                       0.1539
+    ct_won_lag_1               -0.0142
+    is_antwerp                 -0.0229
+    equip_adv_10k               0.7175 ***
+    regime_building             0.8368 ***
+    regime_full_buy             1.0003 **
+    regime_flush                0.7130
+    t_regime_building          -0.5462 *
+    t_regime_full_buy          -1.1992 ***
+    t_regime_flush             -0.8893 *
+
+======================================================================
+SUMMARY TABLE
+======================================================================
+
+Model                                   Coef       SE       OR          p
+----------------------------------------------------------------------
+1. Baseline                           1.1337   0.0708    3.107    0.0000***
+2. + Tournament FE                    1.1336   0.0708    3.107    0.0000***
+3. + Equipment (PRIMARY)             -0.1616   0.0958    0.851    0.0918
+4. + Equipment + Maps + Phase        -0.1773   0.0965    0.838    0.0662
+5. + Regime Dummies                   0.1516   0.0923    1.164    0.1005
+6. Regime + Equipment                -0.0142   0.0984    0.986    0.8855
+
+======================================================================
+ROBUSTNESS: BOTH TEAMS FULL BUY (Pooled)
+======================================================================
+Sample: 2159 rounds
+
+Baseline:    coef = 0.1976, OR = 1.218, p = 0.0250
++ Equipment: coef = -0.0178, OR = 0.982, p = 0.8671
+
+======================================================================
+HETEROGENEITY: MOMENTUM × TOURNAMENT INTERACTION
+======================================================================
+
+Momentum (Stockholm):        coef = -0.2146, p = 0.0851
+Momentum × Antwerp:          coef = 0.1002, p = 0.5053
+
+  >> No significant interaction: momentum effect is consistent across tournaments
+
+======================================================================
+EFFECT SIZE DECOMPOSITION
+======================================================================
+
+Baseline momentum coefficient: 1.1337
+After equipment control:       -0.1616
+
+Reduction: 114.3%
+Coefficient reduced to zero or negative (fully explained)
+
+======================================================================
+CREATING FIGURES
+======================================================================
+Saved: fig_09_pooled_analysis.png
+
+======================================================================
+PHASE 5 FINAL SUMMARY
+======================================================================
+
+POOLED ANALYSIS (Stockholm 2021 + Antwerp 2022)
+N = 3538 rounds from 136 matches
+
+BASELINE:
+  Coefficient: 1.1337
+  Odds Ratio:  3.11x
+  P-value:     0.0000
+
+PRIMARY SPECIFICATION (+ Equipment $):
+  Coefficient: -0.1616
+  Odds Ratio:  0.85x
+  P-value:     0.0918
+
+REGIME DUMMIES:
+  Coefficient: 0.1516
+  Odds Ratio:  1.16x
+  P-value:     0.1005
+
+REGIME + EQUIPMENT:
+  Coefficient: -0.0142
+  Odds Ratio:  0.99x
+  P-value:     0.8855
+
+BOTH FULL BUY SUBSAMPLE:
+  Baseline:    coef = 0.1976, p = 0.0250
+  + Equipment: coef = -0.0178, p = 0.8671
+
+Saved: Z:\Projects\2025\CS-GO Time Series Analysis\analysis_output\phase5_pooled_results.csv
+
+Done.
+
+  Phase 5 completed in 4.2s
+
+======================================================================
+PHASE 6: RIO VALIDATION
+  Final holdout test on Rio 2022
+  Script: 06_testing_rio.py
+======================================================================
+
+======================================================================
+PHASE 6: RIO VALIDATION (Final Holdout Test)
+======================================================================
+
+Dataset sizes:
+  Stockholm (training):     1733 rounds, 65 matches
+  Antwerp (confirmation):   1941 rounds, 71 matches
+  Rio (validation):         1804 rounds, 68 matches
+
+Rio analysis sample: 1736 rounds
+
+======================================================================
+RIO VALIDATION MODELS
+======================================================================
+
+Model                         Coef       SE       OR          p
+-----------------------------------------------------------------
+Baseline                    1.2353   0.1009    3.439    0.0000***
++ Equipment                -0.0639   0.1353    0.938    0.6365
++ Equip + Maps + Phase     -0.1682   0.1391    0.845    0.2266
++ Regime Dummies            0.2196   0.1313    1.246    0.0944
+Regime + Equipment          0.0897   0.1390    1.094    0.5189
+
+======================================================================
+ROBUSTNESS: BOTH TEAMS FULL BUY (Rio)
+======================================================================
+Sample: 1048 rounds
+
+Baseline:    coef = 0.2216, OR = 1.248, p = 0.0790
++ Equipment: coef = 0.0801, OR = 1.083, p = 0.5928
+
+======================================================================
+CROSS-TOURNAMENT COMPARISON
+======================================================================
+
+Specification                 Stockholm            Antwerp                Rio
+---------------------------------------------------------------------------
+baseline                 1.08 (p=0.000)     1.18 (p=0.000)     1.24 (p=0.000)
+equipment               -0.28 (p=0.048)    -0.06 (p=0.659)    -0.06 (p=0.637)
+regime                  -0.00 (p=0.993)     0.28 (p=0.027)     0.22 (p=0.094)
+
+======================================================================
+FULL SAMPLE (All Three Tournaments)
+======================================================================
+Full sample: 5274 rounds from 204 matches
+
+Model                         Coef       SE       OR          p
+-----------------------------------------------------------------
+Full: Baseline              1.1698   0.0579    3.221    0.0000***
+Full: + Equipment          -0.1283   0.0782    0.880    0.1007
+Full: + Regime              0.1750   0.0755    1.191    0.0204*
+Full: Regime + Equip        0.0222   0.0803    1.022    0.7818
+
+======================================================================
+CREATING FIGURES
+======================================================================
+Saved: fig_10_rio_validation.png
+
+======================================================================
+PHASE 6: FINAL VALIDATION SUMMARY
+======================================================================
+
+RIO VALIDATION RESULTS:
+
+  Baseline:      coef = 1.2353, OR = 3.44x, p = 0.0000
+  + Equipment:   coef = -0.0639, OR = 0.94x, p = 0.6365
+  + Regime:      coef = 0.2196, OR = 1.25x, p = 0.0944
+
+FULL SAMPLE (N = 5274):
+
+  Baseline:      coef = 1.1698, OR = 3.22x, p = 0.0000
+  + Equipment:   coef = -0.1283, OR = 0.88x, p = 0.1007
+  + Regime:      coef = 0.1750, OR = 1.19x, p = 0.0204
+  Both:          coef = 0.0222, OR = 1.02x, p = 0.7818
+
+REPLICATION STATUS:
+
+  [PASS] Rio baseline momentum is significant
+  [PASS] Rio momentum eliminated by equipment control
+  [PASS] Rio momentum eliminated by regime control
+
+Saved: Z:\Projects\2025\CS-GO Time Series Analysis\analysis_output\phase6_rio_validation.csv
+Saved: Z:\Projects\2025\CS-GO Time Series Analysis\analysis_output\phase6_full_sample_results.csv
+
+Done.
+
+  Phase 6 completed in 4.5s
+
+======================================================================
+PHASE 7: BEHAVIORAL ANALYSIS
+  Force-buy rationality and expected value analysis
+  Script: 07_behavioral_analysis.py
+======================================================================
+
+======================================================================
+BEHAVIORAL ANALYSIS: FORCE-BUY RATIONALITY
+======================================================================
+
+Full sample: 5478 rounds
+Pistol rounds: 408
+Gun rounds (excluding pistols): 5070
+
+Forceable situations (gun rounds): 942
+  Force rounds: 381
+  Eco rounds: 561
+
+======================================================================
+PART 1: BEHAVIORAL PATTERNS
+======================================================================
+
+Force rate after WIN:  100.0% (n=25)
+Force rate after LOSS: 38.8% (n=917)
+Difference: -61.2 percentage points
+
+Regression: Force ~ Consecutive Losses
+  Coefficient: -0.2258
+  Odds Ratio:  0.798
+  p-value:     0.0001
+
+======================================================================
+PART 2: SINGLE-ROUND WIN RATES
+======================================================================
+
+Force-buy win rate: 34.1% (n=381)
+Eco win rate:       10.7% (n=561)
+Difference:         +23.4pp
+
+Win Rate by Opponent Regime:
+Opponent       Force WR     Eco WR       Diff
+---------------------------------------------
+full_buy          29.9%       9.7%     +20.2pp
+flush             31.8%      11.2%     +20.6pp
+
+======================================================================
+PART 3: MULTI-ROUND EXPECTED VALUE
+======================================================================
+
+Analysis sample (with next-round data): 913
+
+Metric                                Force          Eco
+--------------------------------------------------------
+N                                       357          556
+This round win rate                   35.9%        10.4%
+Next round WR if WIN                  71.9%        70.7%
+Next round WR if LOSE                 33.2%        48.4%
+2-Round Expected Value                0.829        0.612
+
+Difference: +0.218 rounds in favor of FORCE
+
+======================================================================
+PART 4: BOOTSTRAP CONFIDENCE INTERVAL
+======================================================================
+
+Running 2000 bootstrap iterations...
+
+EV Difference (Force - Eco):
+  Point estimate: +0.218
+  Bootstrap mean: +0.219
+  Bootstrap std:  0.051
+  90% CI:         [+0.135, +0.301]
+  95% CI:         [+0.117, +0.320]
+  P(Force > Eco): 100.0%
+
+======================================================================
+PART 5: ROBUSTNESS CHECKS
+======================================================================
+
+By Tournament:
+Tournament     Force EV     Eco EV       Diff
+---------------------------------------------
+Stockholm         0.876      0.601     +0.275
+Antwerp           0.905      0.663     +0.242
+Rio               0.728      0.574     +0.154
+
+By Consecutive Losses:
+Losses       Force EV     Eco EV       Diff     Better
+-------------------------------------------------------
+1               0.688      0.571     +0.117      FORCE
+2               0.986      0.596     +0.390      FORCE
+3               0.550      0.794     -0.244        ECO
+4               1.043      0.627     +0.416      FORCE
+
+======================================================================
+CREATING FIGURE
+======================================================================
+Saved: fig_12_behavioral_ev_analysis.png
+
+======================================================================
+FINAL SUMMARY
+======================================================================
+
+BEHAVIORAL PATTERN:
+  Force rate after WIN:   100.0%
+  Force rate after LOSS:  38.8%
+  Difference:             -61.2pp
+
+  Regression (Force ~ Losses):
+    Coefficient: -0.2258, p = 0.0001
+
+STRATEGIC ANALYSIS (excluding pistol rounds):
+  Sample: 357 force rounds, 556 eco rounds
+
+  Single-round win rate:
+    Force: 34.1%
+    Eco:   10.7%
+
+  2-Round Expected Value:
+    Force EV: 0.829 rounds
+    Eco EV:   0.612 rounds
+    Diff:     +0.218 rounds
+
+  Bootstrap 95% CI: [+0.117, +0.320]
+  P(Force > Eco):   100.0%
+
+VERDICT: FORCE > ECO is STATISTICALLY SIGNIFICANT (p < 0.05)
+INTERPRETATION: Teams that force more after losses are making the RATIONAL choice.
+TILT STATUS: NOT TILT - strategically optimal behavior
+
+Saved: Z:\Projects\2025\CS-GO Time Series Analysis\analysis_output\phase7_behavioral_consolidated.csv
+
+Done.
+
+  Phase 7 completed in 21.7s
+
+======================================================================
+PHASE 8: CLUSTERED STANDARD ERRORS
+  Robustness: cluster SEs by match_id
+  Script: 08_clustered_errors.py
+======================================================================
+
+======================================================================
+PHASE 8: CLUSTERED STANDARD ERRORS
+======================================================================
+
+Full sample: 5478 rounds from 204 matches
+Average rounds per match: 26.9
+Analysis sample (with lag): 5274 rounds
+
+======================================================================
+PART 1: MOMENTUM DECOMPOSITION (Clustered by Match)
+======================================================================
+
+Baseline
+  N = 5274, Clusters = 204
+  Coefficient: 1.1698
+  Regular SE:   0.0579, p = 0.0000 ***
+  Clustered SE: 0.0501, p = 0.0000 ***
+  SE Ratio (clustered/regular): 0.86x
+
++ Equipment
+  N = 5274, Clusters = 204
+  Coefficient: -0.1283
+  Regular SE:   0.0782, p = 0.1007
+  Clustered SE: 0.0749, p = 0.0866
+  SE Ratio (clustered/regular): 0.96x
+
++ Regime Dummies
+  N = 5274, Clusters = 204
+  Coefficient: 0.1750
+  Regular SE:   0.0755, p = 0.0204 *
+  Clustered SE: 0.0705, p = 0.0130 *
+  SE Ratio (clustered/regular): 0.93x
+
+Regime + Equipment
+  N = 5274, Clusters = 204
+  Coefficient: 0.0222
+  Regular SE:   0.0803, p = 0.7818
+  Clustered SE: 0.0740, p = 0.7637
+  SE Ratio (clustered/regular): 0.92x
+
+======================================================================
+PART 2: BEHAVIORAL ANALYSIS - FORCE-BUY (Clustered by Match)
+======================================================================
+
+Forceable sample (no pistols): 942 rounds
+Clusters (matches): 200
+
+Force = f(Consecutive Losses)
+  Coefficient: -0.2258
+  OR: 0.798
+  Regular SE:   0.0587, p = 0.0001 ***
+  Clustered SE: 0.0744, p = 0.0024 **
+  SE Ratio: 1.27x
+
+======================================================================
+SUMMARY: REGULAR VS CLUSTERED STANDARD ERRORS
+======================================================================
+
+Model                         Coef  SE(reg)  SE(clu)   p(reg)   p(clu)  Ratio
+---------------------------------------------------------------------------
+Baseline                     1.170    0.058    0.050    0.000    0.000   0.86
++ Equipment                 -0.128    0.078    0.075    0.101    0.087   0.96
++ Regime Dummies             0.175    0.075    0.070    0.020    0.013   0.93
+Regime + Equipment           0.022    0.080    0.074    0.782    0.764   0.92
+
+======================================================================
+DO CONCLUSIONS CHANGE WITH CLUSTERING?
+======================================================================
+
+--- MOMENTUM DECOMPOSITION ---
+  Baseline                 : sig → sig (UNCHANGED)
+  + Equipment              : ns → ns (UNCHANGED)
+  + Regime Dummies         : sig → sig (UNCHANGED)
+  Regime + Equipment       : ns → ns (UNCHANGED)
+
+--- BEHAVIORAL (FORCE-BUY) ---
+  Force ~ Losses: sig → sig (UNCHANGED)
+
+======================================================================
+INTERPRETATION
+======================================================================
+
+STANDARD ERROR INFLATION:
+  Average SE ratio (clustered/regular): 0.92x
+
+  Interpretation:
+  - Ratio > 1 means regular SEs were underestimated
+  - Ratio of ~1.5-2x is common with clustered data
+  - Ratio < 1.2 suggests minimal clustering effect
+
+
+MAIN FINDINGS WITH CLUSTERED SEs:
+
+1. BASELINE MOMENTUM:
+   p = 0.0000 (significant)
+
+2. AFTER EQUIPMENT CONTROL:
+   p = 0.0866 (not significant)
+
+CONCLUSION: Main finding ROBUST to clustering.
+            Momentum exists but is explained by economics.
+
+3. BEHAVIORAL (FORCE AFTER LOSSES):
+   p = 0.0024 (significant)
+
+   Teams still force significantly more after losses (with clustering).
+
+Saved: Z:\Projects\2025\CS-GO Time Series Analysis\analysis_output\phase8_clustered_se_results.csv
+
+Done.
+
+  Phase 8 completed in 3.3s
+
+======================================================================
+PHASE 9: HLTV RANKINGS
+  Robustness: team skill controls via HLTV rankings
+  Script: 09_hltv_rankings.py
+======================================================================
+
+======================================================================
+PHASE 9: HLTV RANKINGS INTEGRATION
+======================================================================
+
+Full sample: 5478 rounds from 204 matches
+
+======================================================================
+RANKING COVERAGE
+======================================================================
+
+Stockholm:
+  Teams found: 17
+  Matched to HLTV: 17/17
+
+Antwerp:
+  Teams found: 16
+  Matched to HLTV: 16/16
+
+Rio:
+  Teams found: 16
+  Matched to HLTV: 16/16
+
+Tournament      CT rank     T rank    rank_diff
+--------------------------------------------------
+Stockholm           7.8        9.7        -1.94
+Antwerp             7.2        7.8        -0.58
+Rio                 7.7        8.4        -0.69
+
+======================================================================
+CORRELATION: RANK vs MOMENTUM vs ECONOMICS
+======================================================================
+
+                       ct_won_lag_1  equip_adv_10k    rank_diff_5  ct_wins_round
+ct_won_lag_1                  1.000          0.677         -0.039          0.282
+equip_adv_10k                 0.677          1.000         -0.030          0.423
+rank_diff_5                  -0.039         -0.030          1.000         -0.021
+ct_wins_round                 0.282          0.423         -0.021          1.000
+
+======================================================================
+MOMENTUM DECOMPOSITION WITH RANK CONTROLS
+======================================================================
+
+Model                           Mom.Coef      OR    p(reg)    p(clu)  Rank.Coef    Rank.p      R²
+----------------------------------------------------------------------------------------------------
+1. Baseline                       1.1698   3.221   0.0000***    0.0000          —         —  0.0586
+2. + Rank                         1.1682   3.216   0.0000***    0.0000    -0.0161    0.4456  0.0587
+3. + Equipment                   -0.1283   0.880   0.1007     0.0866          —         —  0.1443
+4. + Equipment + Rank            -0.1299   0.878   0.0968     0.0816    -0.0156    0.4880  0.1444
+5. + Regime + Rank                0.1727   1.188   0.0222*    0.0138    -0.0241    0.2852  0.1523
+6. + Equip + Regime + Rank        0.0205   1.021   0.7986     0.7810    -0.0220    0.3324  0.1568
+
+======================================================================
+KEY MODEL: Equipment + Rank (Full Coefficients)
+======================================================================
+
+Variable                        Coef         SE         OR          p
+----------------------------------------------------------------------
+const                         0.0473     0.0482      1.048    0.3263
+ct_won_lag_1                 -0.1299     0.0782      0.878    0.0968
+equip_adv_10k                 0.9349     0.0416      2.547    0.0000***
+rank_diff_5                  -0.0156     0.0225      0.985    0.4880
+
+======================================================================
+FULL MODEL: Equipment + Regime + Rank (All Coefficients)
+======================================================================
+
+Variable                        Coef         SE         OR          p
+----------------------------------------------------------------------
+const                         0.0619     0.1318      1.064    0.6388
+ct_won_lag_1                  0.0205     0.0803      1.021    0.7986
+equip_adv_10k                 0.6768     0.1199      1.968    0.0000***
+rank_diff_5                  -0.0220     0.0227      0.978    0.3324
+regime_building               0.8659     0.1978      2.377    0.0000***
+regime_full_buy               1.1807     0.2773      3.257    0.0000***
+regime_flush                  0.9004     0.3348      2.461    0.0072**
+t_regime_building            -0.6863     0.2041      0.503    0.0008***
+t_regime_full_buy            -1.2952     0.2403      0.274    0.0000***
+t_regime_flush               -1.0031     0.2891      0.367    0.0005***
+
+======================================================================
+DOES RANK CHANGE THE MOMENTUM STORY?
+======================================================================
+
+    Baseline momentum:           coef = 1.1698, p = 0.0000
+    + Equipment only:            coef = -0.1283, p = 0.1007
+    + Equipment + Rank:          coef = -0.1299, p = 0.0968
+
+    Adding rank to the equipment-controlled model:
+      Momentum coefficient change: -0.0016
+      Rank coefficient: -0.0156 (p = 0.4880)
+
+  RESULT: Momentum remains NON-SIGNIFICANT after adding rank controls.
+          The economic explanation holds with skill controls added.
+  RANK EFFECT: Not significant — skill differences are minimal among Major teams
+               (This supports the 'all Major teams are elite' argument)
+
+======================================================================
+RANK EFFECT BY TOURNAMENT
+======================================================================
+
+Tournament        N  Rank coef     Rank p   Mom coef      Mom p
+------------------------------------------------------------
+Stockholm      1668    -0.0032     0.9248    -0.2769     0.0475
+Antwerp        1870    -0.0273     0.5477    -0.0617     0.6400
+Rio            1736    -0.0206     0.6095    -0.0652     0.6300
+
+======================================================================
+SAVING RESULTS
+======================================================================
+Saved: Z:\Projects\2025\CS-GO Time Series Analysis\analysis_output\phase9_rank_controlled_results.csv
+Updated: stockholm_rounds.csv (+ct_rank, t_rank, rank_diff, rank_diff_5)
+Updated: antwerp_rounds.csv (+ct_rank, t_rank, rank_diff, rank_diff_5)
+Updated: rio_rounds.csv (+ct_rank, t_rank, rank_diff, rank_diff_5)
+Saved: model_full_with_rank_coefficients.csv
+
+======================================================================
+PHASE 9 SUMMARY
+======================================================================
+
+    HLTV ranking controls have been added to the analysis.
+
+    KEY FINDING:
+      Adding team skill controls (HLTV rank difference) does NOT change
+      the core conclusion. Momentum in CS:GO remains explained by
+      economic dynamics (equipment advantage), not by team skill
+      asymmetries or psychological factors.
+
+    RANK VARIABLE INTERPRETATION:
+      rank_diff_5 = (CT rank - T rank) / 5
+      Positive = CT is lower-ranked (weaker team on CT side)
+      Coefficient < 0 would mean higher-ranked teams win more (expected)
+
+Done.
+
+  Phase 9 completed in 3.6s
+
+
+======================================================================
+PIPELINE SUMMARY
+======================================================================
+
+Phase  Name                           Status
+--------------------------------------------------
+  [+]  2. Exploratory Analysis         PASS
+  [+]  3. Momentum Decomposition       PASS
+  [+]  4. Pattern Replication          PASS
+  [+]  5. Pooled Analysis              PASS
+  [+]  6. Rio Validation               PASS
+  [+]  7. Behavioral Analysis          PASS
+  [+]  8. Clustered Standard Errors    PASS
+  [+]  9. HLTV Rankings                PASS
+
+8/8 phases completed in 52.5s
+
+All outputs saved to: Z:\Projects\2025\CS-GO Time Series Analysis\analysis_output
+
+Key output files:
+  phase3_model_comparison.csv     — Momentum decomposition (Stockholm)
+  phase4_replication_comparison.csv — Cross-tournament replication
+  phase5_pooled_results.csv       — Pooled analysis results
+  phase6_rio_validation.csv       — Rio holdout test
+  phase7_behavioral_consolidated.csv — Force-buy EV analysis
+  phase8_clustered_se_results.csv — Clustered SE robustness
+  phase9_rank_controlled_results.csv — HLTV rank controls
+
+Figures: fig_01 through fig_12 in Z:\Projects\2025\CS-GO Time Series Analysis\analysis_output
+
+(CS-GO Time Series Analysis) Z:\Projects\2025\CS-GO Time Series Analysis>
