@@ -276,7 +276,7 @@ def momentum_baseline_analysis(df):
 
     # Prepare data (drop rows with missing lag values)
     analysis_df = df.dropna(subset=['ct_won_lag_1']).copy()
-    print(f"\nAnalysis sample: {len(analysis_df)} rounds (excluding first round of each match)")
+    print(f"\nAnalysis sample: {len(analysis_df)} rounds (excluding first round of each side segment due to half-aware lag)")
 
     # Model A: Simple logistic regression
     print("\n3.1 Model A: Baseline Momentum")

@@ -14,9 +14,9 @@ big-vs-fnatic-m1-overpass,Rio,de_overpass,12,BIG,Fnatic,5,6,-1,28050,26850,1200,
 big-vs-fnatic-m1-overpass,Rio,de_overpass,13,BIG,Fnatic,5,7,-2,2300,26750,-24450,3350,15700,Full Eco,Full Buy,broke,flush,1,0,1,13,gun,False,False,False,0.52,False,T,-1,0.0,1.0,1.0,T,0
 big-vs-fnatic-m1-overpass,Rio,de_overpass,14,BIG,Fnatic,5,8,-3,27700,27250,450,26900,11300,Full Buy,Full Buy,full_buy,flush,2,0,1,14,gun,False,False,False,0.52,True,T,-2,0.0,0.0,1.0,T,0
 big-vs-fnatic-m1-overpass,Rio,de_overpass,15,BIG,Fnatic,5,9,-4,19750,28750,-9000,18150,18150,Semi Buy,Full Buy,full_buy,flush,3,0,1,15,gun,False,False,False,0.52,True,CT,0,0.0,0.0,0.0,CT,1
-big-vs-fnatic-m1-overpass,Rio,de_overpass,16,BIG,Fnatic,9,6,3,4250,4050,200,3250,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,True,T,0,1.0,0.0,0.0,T,0
-big-vs-fnatic-m1-overpass,Rio,de_overpass,17,BIG,Fnatic,9,7,2,13900,19850,-5950,10650,18450,Semi Buy,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.52,False,CT,0,0.0,1.0,0.0,CT,1
-big-vs-fnatic-m1-overpass,Rio,de_overpass,18,BIG,Fnatic,10,7,3,28000,7650,20350,15800,7450,Full Buy,Semi Eco,flush,building,0,1,2,3,conversion,False,True,False,0.52,True,T,0,1.0,0.0,1.0,T,0
+big-vs-fnatic-m1-overpass,Rio,de_overpass,16,BIG,Fnatic,9,6,3,4250,4050,200,3250,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,True,T,0,,,,T,0
+big-vs-fnatic-m1-overpass,Rio,de_overpass,17,BIG,Fnatic,9,7,2,13900,19850,-5950,10650,18450,Semi Buy,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.52,False,CT,0,0.0,,,CT,1
+big-vs-fnatic-m1-overpass,Rio,de_overpass,18,BIG,Fnatic,10,7,3,28000,7650,20350,15800,7450,Full Buy,Semi Eco,flush,building,0,1,2,3,conversion,False,True,False,0.52,True,T,0,1.0,0.0,,T,0
 big-vs-fnatic-m1-overpass,Rio,de_overpass,19,BIG,Fnatic,10,8,2,10800,22100,-11300,10200,18400,Semi Buy,Full Buy,building,flush,1,0,2,4,gun,False,False,False,0.52,True,CT,-1,0.0,1.0,0.0,T,0
 big-vs-fnatic-m1-overpass,Rio,de_overpass,20,BIG,Fnatic,10,9,1,1000,24100,-23100,0,12500,Full Eco,Full Buy,broke,flush,2,0,2,5,gun,False,False,False,0.52,False,T,-2,0.0,0.0,1.0,T,0
 big-vs-fnatic-m1-overpass,Rio,de_overpass,21,BIG,Fnatic,10,10,0,24850,27350,-2500,23850,13650,Full Buy,Full Buy,full_buy,flush,3,0,2,6,gun,False,False,False,0.52,False,CT,0,0.0,0.0,0.0,CT,1
@@ -44,9 +44,9 @@ big-vs-fnatic-m2-mirage,Rio,de_mirage,12,Fnatic,BIG,6,5,1,29950,1000,28950,9850,
 big-vs-fnatic-m2-mirage,Rio,de_mirage,13,Fnatic,BIG,7,5,2,28850,11050,17800,3200,11250,Full Buy,Semi Buy,flush,building,0,3,1,13,gun,False,False,False,0.49,True,CT,3,1.0,1.0,1.0,CT,1
 big-vs-fnatic-m2-mirage,Rio,de_mirage,14,Fnatic,BIG,8,5,3,33450,27150,6300,20500,26450,Full Buy,Full Buy,flush,flush,0,4,1,14,gun,False,False,False,0.49,False,CT,4,1.0,1.0,1.0,CT,1
 big-vs-fnatic-m2-mirage,Rio,de_mirage,15,Fnatic,BIG,9,5,4,34800,19050,15750,28100,19300,Full Buy,Semi Buy,flush,full_buy,0,5,1,15,gun,False,False,False,0.49,False,CT,5,1.0,1.0,1.0,CT,1
-big-vs-fnatic-m2-mirage,Rio,de_mirage,16,Fnatic,BIG,5,10,-5,4300,4250,50,3300,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.49,False,CT,0,1.0,1.0,1.0,T,0
-big-vs-fnatic-m2-mirage,Rio,de_mirage,17,Fnatic,BIG,5,11,-6,1000,18800,-17800,0,17800,Full Eco,Semi Buy,broke,full_buy,1,0,2,2,conversion,False,True,False,0.49,True,T,-1,0.0,1.0,1.0,T,0
-big-vs-fnatic-m2-mirage,Rio,de_mirage,18,Fnatic,BIG,5,12,-7,25350,20600,4750,24350,15900,Full Buy,Full Buy,full_buy,full_buy,2,0,2,3,conversion,False,True,False,0.49,False,CT,0,0.0,0.0,1.0,CT,1
+big-vs-fnatic-m2-mirage,Rio,de_mirage,16,Fnatic,BIG,5,10,-5,4300,4250,50,3300,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.49,False,CT,0,,,,T,0
+big-vs-fnatic-m2-mirage,Rio,de_mirage,17,Fnatic,BIG,5,11,-6,1000,18800,-17800,0,17800,Full Eco,Semi Buy,broke,full_buy,1,0,2,2,conversion,False,True,False,0.49,True,T,-1,0.0,,,T,0
+big-vs-fnatic-m2-mirage,Rio,de_mirage,18,Fnatic,BIG,5,12,-7,25350,20600,4750,24350,15900,Full Buy,Full Buy,full_buy,full_buy,2,0,2,3,conversion,False,True,False,0.49,False,CT,0,0.0,0.0,,CT,1
 big-vs-fnatic-m2-mirage,Rio,de_mirage,19,Fnatic,BIG,6,12,-6,27600,15450,12150,11250,6750,Full Buy,Semi Buy,full_buy,full_buy,0,1,2,4,gun,False,False,False,0.49,True,T,0,1.0,0.0,0.0,T,0
 big-vs-fnatic-m2-mirage,Rio,de_mirage,20,Fnatic,BIG,6,13,-7,3600,23500,-19900,3500,14500,Full Eco,Full Buy,broke,flush,1,0,2,5,gun,False,False,False,0.49,True,CT,-1,0.0,1.0,0.0,T,0
 big-vs-fnatic-m2-mirage,Rio,de_mirage,21,Fnatic,BIG,6,14,-8,26900,25550,1350,26100,20450,Full Buy,Full Buy,full_buy,flush,2,0,2,6,gun,False,False,False,0.49,True,T,-2,0.0,0.0,1.0,T,0
@@ -67,9 +67,9 @@ big-vs-natus-vincere-m1-mirage,Rio,de_mirage,12,BIG,Natus Vincere,8,3,5,21200,21
 big-vs-natus-vincere-m1-mirage,Rio,de_mirage,13,BIG,Natus Vincere,9,3,6,27000,21500,5500,18700,20500,Full Buy,Full Buy,full_buy,full_buy,0,2,1,13,gun,False,False,False,0.49,True,T,0,1.0,1.0,0.0,T,0
 big-vs-natus-vincere-m1-mirage,Rio,de_mirage,14,BIG,Natus Vincere,9,4,5,9550,27050,-17500,600,12500,Semi Eco,Full Buy,building,flush,1,0,1,14,gun,False,False,False,0.49,False,CT,-1,0.0,1.0,1.0,T,0
 big-vs-natus-vincere-m1-mirage,Rio,de_mirage,15,BIG,Natus Vincere,9,5,4,17600,28250,-10650,19500,13600,Semi Buy,Full Buy,building,flush,2,0,1,15,gun,False,False,False,0.49,False,T,-2,0.0,0.0,1.0,T,0
-big-vs-natus-vincere-m1-mirage,Rio,de_mirage,16,BIG,Natus Vincere,6,9,-3,4400,4450,-50,3400,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.49,False,CT,0,0.0,0.0,0.0,CT,1
-big-vs-natus-vincere-m1-mirage,Rio,de_mirage,17,BIG,Natus Vincere,7,9,-2,20100,1500,18600,18000,700,Full Buy,Full Eco,full_buy,broke,0,1,2,2,conversion,False,True,False,0.49,False,CT,1,1.0,0.0,0.0,CT,1
-big-vs-natus-vincere-m1-mirage,Rio,de_mirage,18,BIG,Natus Vincere,8,9,-1,24400,23300,1100,13400,22300,Full Buy,Full Buy,full_buy,flush,0,2,2,3,conversion,False,True,False,0.49,False,CT,2,1.0,1.0,0.0,CT,1
+big-vs-natus-vincere-m1-mirage,Rio,de_mirage,16,BIG,Natus Vincere,6,9,-3,4400,4450,-50,3400,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.49,False,CT,0,,,,CT,1
+big-vs-natus-vincere-m1-mirage,Rio,de_mirage,17,BIG,Natus Vincere,7,9,-2,20100,1500,18600,18000,700,Full Buy,Full Eco,full_buy,broke,0,1,2,2,conversion,False,True,False,0.49,False,CT,1,1.0,,,CT,1
+big-vs-natus-vincere-m1-mirage,Rio,de_mirage,18,BIG,Natus Vincere,8,9,-1,24400,23300,1100,13400,22300,Full Buy,Full Buy,full_buy,flush,0,2,2,3,conversion,False,True,False,0.49,False,CT,2,1.0,1.0,,CT,1
 big-vs-natus-vincere-m1-mirage,Rio,de_mirage,19,BIG,Natus Vincere,9,9,0,27600,9550,18050,6050,4650,Full Buy,Semi Eco,full_buy,building,0,3,2,4,gun,False,False,False,0.49,True,T,0,1.0,1.0,1.0,T,0
 big-vs-natus-vincere-m1-mirage,Rio,de_mirage,20,BIG,Natus Vincere,9,10,-1,28000,22500,5500,22700,19150,Full Buy,Full Buy,flush,flush,1,0,2,5,gun,False,False,False,0.49,True,CT,-1,0.0,1.0,1.0,T,0
 big-vs-natus-vincere-m1-mirage,Rio,de_mirage,21,BIG,Natus Vincere,9,11,-2,1700,27550,-25850,900,12500,Full Eco,Full Buy,broke,flush,2,0,2,6,gun,False,False,False,0.49,False,T,-2,0.0,0.0,1.0,T,0
@@ -95,9 +95,9 @@ big-vs-natus-vincere-m2-dust2,Rio,de_dust2,12,Natus Vincere,BIG,6,5,1,23500,2435
 big-vs-natus-vincere-m2-dust2,Rio,de_dust2,13,Natus Vincere,BIG,6,6,0,2100,19600,-17500,1800,16600,Full Eco,Semi Buy,broke,full_buy,1,0,1,13,gun,False,False,False,0.48,True,T,-1,0.0,1.0,0.0,T,0
 big-vs-natus-vincere-m2-dust2,Rio,de_dust2,14,Natus Vincere,BIG,6,7,-1,25400,27550,-2150,22100,11800,Full Buy,Full Buy,full_buy,flush,2,0,1,14,gun,False,False,False,0.48,True,T,-2,0.0,0.0,1.0,T,0
 big-vs-natus-vincere-m2-dust2,Rio,de_dust2,15,Natus Vincere,BIG,6,8,-2,29350,27550,1800,13650,8050,Full Buy,Full Buy,flush,flush,3,0,1,15,gun,False,False,False,0.48,False,CT,0,0.0,0.0,0.0,CT,1
-big-vs-natus-vincere-m2-dust2,Rio,de_dust2,16,Natus Vincere,BIG,8,7,1,4550,4350,200,3350,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.48,True,T,0,1.0,0.0,0.0,T,0
-big-vs-natus-vincere-m2-dust2,Rio,de_dust2,17,Natus Vincere,BIG,8,8,0,10350,16000,-5650,10350,17950,Semi Buy,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.48,True,T,-1,0.0,1.0,0.0,T,0
-big-vs-natus-vincere-m2-dust2,Rio,de_dust2,18,Natus Vincere,BIG,8,9,-1,5600,21800,-16200,1500,7900,Semi Eco,Full Buy,broke,full_buy,2,0,2,3,conversion,False,True,False,0.48,True,CT,-2,0.0,0.0,1.0,T,0
+big-vs-natus-vincere-m2-dust2,Rio,de_dust2,16,Natus Vincere,BIG,8,7,1,4550,4350,200,3350,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.48,True,T,0,,,,T,0
+big-vs-natus-vincere-m2-dust2,Rio,de_dust2,17,Natus Vincere,BIG,8,8,0,10350,16000,-5650,10350,17950,Semi Buy,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.48,True,T,-1,0.0,,,T,0
+big-vs-natus-vincere-m2-dust2,Rio,de_dust2,18,Natus Vincere,BIG,8,9,-1,5600,21800,-16200,1500,7900,Semi Eco,Full Buy,broke,full_buy,2,0,2,3,conversion,False,True,False,0.48,True,CT,-2,0.0,0.0,,T,0
 big-vs-natus-vincere-m2-dust2,Rio,de_dust2,19,Natus Vincere,BIG,8,10,-2,27250,25250,2000,23700,10950,Full Buy,Full Buy,full_buy,flush,3,0,2,4,gun,False,False,False,0.48,True,CT,-3,0.0,0.0,0.0,T,0
 big-vs-natus-vincere-m2-dust2,Rio,de_dust2,20,Natus Vincere,BIG,8,11,-3,8400,26150,-17750,8500,16600,Semi Eco,Full Buy,building,flush,4,0,2,5,gun,False,False,False,0.48,False,T,-4,0.0,0.0,0.0,T,0
 big-vs-natus-vincere-m2-dust2,Rio,de_dust2,21,Natus Vincere,BIG,8,12,-4,28250,27150,1100,27750,16500,Full Buy,Full Buy,flush,flush,5,0,2,6,gun,False,False,False,0.48,False,CT,0,0.0,0.0,0.0,CT,1
@@ -122,9 +122,9 @@ ence-vs-bad-news-eagles-ancient,Rio,de_ancient,12,ENCE,Bad News Eagles,11,0,11,3
 ence-vs-bad-news-eagles-ancient,Rio,de_ancient,13,ENCE,Bad News Eagles,11,1,10,30500,28150,2350,29500,17450,Full Buy,Full Buy,flush,flush,1,0,1,13,gun,False,False,False,0.52,True,T,-1,0.0,1.0,1.0,T,0
 ence-vs-bad-news-eagles-ancient,Rio,de_ancient,14,ENCE,Bad News Eagles,11,2,9,25850,27550,-1700,18800,8900,Full Buy,Full Buy,full_buy,flush,2,0,1,14,gun,False,False,False,0.52,False,CT,-2,0.0,0.0,1.0,T,0
 ence-vs-bad-news-eagles-ancient,Rio,de_ancient,15,ENCE,Bad News Eagles,11,3,8,28850,26650,2200,28250,23600,Full Buy,Full Buy,flush,flush,3,0,1,15,gun,False,False,False,0.52,False,CT,0,0.0,0.0,0.0,CT,1
-ence-vs-bad-news-eagles-ancient,Rio,de_ancient,16,ENCE,Bad News Eagles,3,12,-9,4400,4200,200,3400,3400,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,False,CT,0,1.0,0.0,0.0,T,0
-ence-vs-bad-news-eagles-ancient,Rio,de_ancient,17,ENCE,Bad News Eagles,3,13,-10,9400,18900,-9500,10700,17900,Semi Eco,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.52,True,CT,0,0.0,1.0,0.0,CT,1
-ence-vs-bad-news-eagles-ancient,Rio,de_ancient,18,ENCE,Bad News Eagles,4,13,-9,22850,12100,10750,15700,11600,Full Buy,Semi Buy,full_buy,building,0,1,2,3,conversion,False,True,False,0.52,True,T,1,1.0,0.0,1.0,CT,1
+ence-vs-bad-news-eagles-ancient,Rio,de_ancient,16,ENCE,Bad News Eagles,3,12,-9,4400,4200,200,3400,3400,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,False,CT,0,,,,T,0
+ence-vs-bad-news-eagles-ancient,Rio,de_ancient,17,ENCE,Bad News Eagles,3,13,-10,9400,18900,-9500,10700,17900,Semi Eco,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.52,True,CT,0,0.0,,,CT,1
+ence-vs-bad-news-eagles-ancient,Rio,de_ancient,18,ENCE,Bad News Eagles,4,13,-9,22850,12100,10750,15700,11600,Full Buy,Semi Buy,full_buy,building,0,1,2,3,conversion,False,True,False,0.52,True,T,1,1.0,0.0,,CT,1
 ence-vs-bad-news-eagles-ancient,Rio,de_ancient,19,ENCE,Bad News Eagles,5,13,-8,28400,8400,20000,18800,5800,Full Buy,Semi Eco,flush,building,0,2,2,4,gun,False,False,False,0.52,False,CT,2,1.0,1.0,0.0,CT,1
 ence-vs-bad-news-eagles-ancient,Rio,de_ancient,20,ENCE,Bad News Eagles,6,13,-7,26250,21800,4450,18650,21000,Full Buy,Full Buy,full_buy,full_buy,0,3,2,5,gun,False,False,False,0.52,True,T,3,1.0,1.0,1.0,CT,1
 ence-vs-bad-news-eagles-ancient,Rio,de_ancient,21,ENCE,Bad News Eagles,7,13,-6,29750,21700,8050,15950,20700,Full Buy,Full Buy,flush,full_buy,0,4,2,6,gun,False,False,False,0.52,True,CT,0,1.0,1.0,1.0,T,0
@@ -145,9 +145,9 @@ ence-vs-fnatic-nuke,Rio,de_nuke,12,ENCE,Fnatic,3,8,-5,25950,24300,1650,20900,233
 ence-vs-fnatic-nuke,Rio,de_nuke,13,ENCE,Fnatic,4,8,-4,25200,5250,19950,15600,4450,Full Buy,Semi Eco,full_buy,broke,0,2,1,13,gun,False,False,False,0.57,True,CT,0,1.0,1.0,0.0,T,0
 ence-vs-fnatic-nuke,Rio,de_nuke,14,ENCE,Fnatic,4,9,-5,20100,26200,-6100,13800,18700,Full Buy,Full Buy,full_buy,flush,1,0,1,14,gun,False,False,False,0.57,False,CT,0,0.0,1.0,1.0,CT,1
 ence-vs-fnatic-nuke,Rio,de_nuke,15,ENCE,Fnatic,5,9,-4,26100,17600,8500,16250,16600,Full Buy,Semi Buy,full_buy,full_buy,0,1,1,15,gun,False,False,False,0.57,False,CT,1,1.0,0.0,1.0,CT,1
-ence-vs-fnatic-nuke,Rio,de_nuke,16,ENCE,Fnatic,9,6,3,4200,4250,-50,3400,3250,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.57,False,CT,2,1.0,1.0,0.0,CT,1
-ence-vs-fnatic-nuke,Rio,de_nuke,17,ENCE,Fnatic,10,6,4,21550,9400,12150,17900,9400,Full Buy,Semi Eco,full_buy,building,0,1,2,2,conversion,False,True,False,0.57,False,CT,3,1.0,1.0,1.0,CT,1
-ence-vs-fnatic-nuke,Rio,de_nuke,18,ENCE,Fnatic,11,6,5,24850,3650,21200,5800,4150,Full Buy,Full Eco,full_buy,broke,0,2,2,3,conversion,False,True,False,0.57,True,CT,4,1.0,1.0,1.0,CT,1
+ence-vs-fnatic-nuke,Rio,de_nuke,16,ENCE,Fnatic,9,6,3,4200,4250,-50,3400,3250,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.57,False,CT,2,,,,CT,1
+ence-vs-fnatic-nuke,Rio,de_nuke,17,ENCE,Fnatic,10,6,4,21550,9400,12150,17900,9400,Full Buy,Semi Eco,full_buy,building,0,1,2,2,conversion,False,True,False,0.57,False,CT,3,1.0,,,CT,1
+ence-vs-fnatic-nuke,Rio,de_nuke,18,ENCE,Fnatic,11,6,5,24850,3650,21200,5800,4150,Full Buy,Full Eco,full_buy,broke,0,2,2,3,conversion,False,True,False,0.57,True,CT,4,1.0,1.0,,CT,1
 ence-vs-fnatic-nuke,Rio,de_nuke,19,ENCE,Fnatic,12,6,6,30700,25300,5400,25100,25100,Full Buy,Full Buy,flush,flush,0,3,2,4,gun,False,False,False,0.57,False,CT,5,1.0,1.0,1.0,CT,1
 ence-vs-fnatic-nuke,Rio,de_nuke,20,ENCE,Fnatic,13,6,7,31250,20650,10600,10800,19650,Full Buy,Full Buy,flush,full_buy,0,4,2,5,gun,False,False,False,0.57,False,T,0,1.0,1.0,1.0,T,0
 ence-vs-fnatic-nuke,Rio,de_nuke,21,ENCE,Fnatic,13,7,6,22350,24800,-2450,21050,15800,Full Buy,Full Buy,full_buy,flush,1,0,2,6,gun,False,False,False,0.57,False,CT,0,0.0,1.0,1.0,CT,1
@@ -168,9 +168,9 @@ ence-vs-vitality-m1-vertigo,Rio,de_vertigo,12,ENCE,Vitality,6,5,1,12300,27350,-1
 ence-vs-vitality-m1-vertigo,Rio,de_vertigo,13,ENCE,Vitality,7,5,2,24450,27150,-2700,15300,26150,Full Buy,Full Buy,full_buy,flush,0,1,1,13,gun,False,False,False,0.53,False,CT,1,1.0,0.0,1.0,CT,1
 ence-vs-vitality-m1-vertigo,Rio,de_vertigo,14,ENCE,Vitality,8,5,3,30750,17400,13350,15700,20300,Full Buy,Semi Buy,flush,full_buy,0,2,1,14,gun,False,False,False,0.53,False,CT,2,1.0,1.0,0.0,CT,1
 ence-vs-vitality-m1-vertigo,Rio,de_vertigo,15,ENCE,Vitality,9,5,4,32350,12500,19850,21700,13000,Full Buy,Semi Buy,flush,building,0,3,1,15,gun,False,False,False,0.53,True,T,0,1.0,1.0,1.0,T,0
-ence-vs-vitality-m1-vertigo,Rio,de_vertigo,16,ENCE,Vitality,6,9,-3,4700,4850,-150,3400,3550,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.53,True,T,-1,0.0,1.0,1.0,T,0
-ence-vs-vitality-m1-vertigo,Rio,de_vertigo,17,ENCE,Vitality,6,10,-4,10250,19450,-9200,10350,17800,Semi Buy,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.53,True,CT,0,0.0,0.0,1.0,CT,1
-ence-vs-vitality-m1-vertigo,Rio,de_vertigo,18,ENCE,Vitality,7,10,-3,23650,12600,11050,17350,12400,Full Buy,Semi Buy,full_buy,building,0,1,2,3,conversion,False,True,False,0.53,False,CT,1,1.0,0.0,0.0,CT,1
+ence-vs-vitality-m1-vertigo,Rio,de_vertigo,16,ENCE,Vitality,6,9,-3,4700,4850,-150,3400,3550,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.53,True,T,-1,,,,T,0
+ence-vs-vitality-m1-vertigo,Rio,de_vertigo,17,ENCE,Vitality,6,10,-4,10250,19450,-9200,10350,17800,Semi Buy,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.53,True,CT,0,0.0,,,CT,1
+ence-vs-vitality-m1-vertigo,Rio,de_vertigo,18,ENCE,Vitality,7,10,-3,23650,12600,11050,17350,12400,Full Buy,Semi Buy,full_buy,building,0,1,2,3,conversion,False,True,False,0.53,False,CT,1,1.0,0.0,,CT,1
 ence-vs-vitality-m1-vertigo,Rio,de_vertigo,19,ENCE,Vitality,8,10,-2,24850,1300,23550,15250,500,Full Buy,Full Eco,full_buy,broke,0,2,2,4,gun,False,False,False,0.53,False,CT,2,1.0,1.0,0.0,CT,1
 ence-vs-vitality-m1-vertigo,Rio,de_vertigo,20,ENCE,Vitality,9,10,-1,26850,22800,4050,2700,21800,Full Buy,Full Buy,full_buy,flush,0,3,2,5,gun,False,False,False,0.53,False,CT,3,1.0,1.0,1.0,CT,1
 ence-vs-vitality-m1-vertigo,Rio,de_vertigo,21,ENCE,Vitality,10,10,0,28600,5150,23450,14900,8050,Full Buy,Semi Eco,flush,broke,0,4,2,6,gun,False,False,False,0.53,True,T,0,1.0,1.0,1.0,T,0
@@ -196,9 +196,9 @@ ence-vs-vitality-m2-nuke,Rio,de_nuke,12,Vitality,ENCE,6,5,1,30600,24700,5900,178
 ence-vs-vitality-m2-nuke,Rio,de_nuke,13,Vitality,ENCE,7,5,2,28050,9100,18950,14650,11000,Full Buy,Semi Eco,flush,building,0,6,1,13,gun,False,False,False,0.57,False,T,6,1.0,1.0,1.0,CT,1
 ence-vs-vitality-m2-nuke,Rio,de_nuke,14,Vitality,ENCE,8,5,3,31950,25000,6950,10700,19500,Full Buy,Full Buy,flush,flush,0,7,1,14,gun,False,False,False,0.57,True,T,0,1.0,1.0,1.0,T,0
 ence-vs-vitality-m2-nuke,Rio,de_nuke,15,Vitality,ENCE,8,6,2,27050,28450,-1400,26250,17500,Full Buy,Full Buy,full_buy,flush,1,0,1,15,gun,False,False,False,0.57,False,CT,0,0.0,1.0,1.0,CT,1
-ence-vs-vitality-m2-nuke,Rio,de_nuke,16,Vitality,ENCE,6,9,-3,4400,4250,150,3400,3250,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.57,False,CT,1,1.0,0.0,1.0,CT,1
-ence-vs-vitality-m2-nuke,Rio,de_nuke,17,Vitality,ENCE,7,9,-2,19150,1200,17950,16800,600,Semi Buy,Full Eco,full_buy,broke,0,1,2,2,conversion,False,True,False,0.57,False,CT,2,1.0,1.0,0.0,CT,1
-ence-vs-vitality-m2-nuke,Rio,de_nuke,18,Vitality,ENCE,8,9,-1,25150,22900,2250,10250,21900,Full Buy,Full Buy,full_buy,flush,0,2,2,3,conversion,False,True,False,0.57,False,CT,3,1.0,1.0,1.0,CT,1
+ence-vs-vitality-m2-nuke,Rio,de_nuke,16,Vitality,ENCE,6,9,-3,4400,4250,150,3400,3250,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.57,False,CT,1,,,,CT,1
+ence-vs-vitality-m2-nuke,Rio,de_nuke,17,Vitality,ENCE,7,9,-2,19150,1200,17950,16800,600,Semi Buy,Full Eco,full_buy,broke,0,1,2,2,conversion,False,True,False,0.57,False,CT,2,1.0,,,CT,1
+ence-vs-vitality-m2-nuke,Rio,de_nuke,18,Vitality,ENCE,8,9,-1,25150,22900,2250,10250,21900,Full Buy,Full Buy,full_buy,flush,0,2,2,3,conversion,False,True,False,0.57,False,CT,3,1.0,1.0,,CT,1
 ence-vs-vitality-m2-nuke,Rio,de_nuke,19,Vitality,ENCE,9,9,0,29750,6700,23050,4700,7450,Full Buy,Semi Eco,flush,building,0,3,2,4,gun,False,False,False,0.57,False,CT,4,1.0,1.0,1.0,CT,1
 ence-vs-vitality-m2-nuke,Rio,de_nuke,20,Vitality,ENCE,10,9,1,30550,24700,5850,6100,23700,Full Buy,Full Buy,flush,flush,0,4,2,5,gun,False,False,False,0.57,False,CT,5,1.0,1.0,1.0,CT,1
 ence-vs-vitality-m2-nuke,Rio,de_nuke,21,Vitality,ENCE,11,9,2,30550,8350,22200,9700,9000,Full Buy,Semi Eco,flush,building,0,5,2,6,gun,False,False,False,0.57,False,CT,6,1.0,1.0,1.0,CT,1
@@ -211,10 +211,10 @@ ence-vs-vitality-m2-nuke,Rio,de_nuke,27,Vitality,ENCE,14,12,2,28450,22600,5850,2
 ence-vs-vitality-m2-nuke,Rio,de_nuke,28,Vitality,ENCE,14,13,1,2600,25400,-22800,2500,11900,Full Eco,Full Buy,broke,flush,2,0,2,13,gun,False,False,False,0.57,False,T,-2,0.0,0.0,1.0,T,0
 ence-vs-vitality-m2-nuke,Rio,de_nuke,29,Vitality,ENCE,14,14,0,23750,25900,-2150,21950,3300,Full Buy,Full Buy,full_buy,flush,3,0,2,14,gun,False,False,False,0.57,True,T,-3,0.0,0.0,0.0,T,0
 ence-vs-vitality-m2-nuke,Rio,de_nuke,30,Vitality,ENCE,14,15,-1,16200,29750,-13550,14750,21000,Semi Buy,Full Buy,building,flush,4,0,2,15,gun,False,False,False,0.57,True,CT,0,0.0,0.0,0.0,CT,1
-ence-vs-vitality-m2-nuke,Rio,de_nuke,31,Vitality,ENCE,15,15,0,28950,25200,3750,27950,24200,Full Buy,Full Buy,flush,flush,0,1,3,1,overtime,False,False,True,0.57,False,CT,1,1.0,0.0,0.0,CT,1
-ence-vs-vitality-m2-nuke,Rio,de_nuke,32,Vitality,ENCE,16,15,1,31050,25200,5850,20600,24200,Full Buy,Full Buy,flush,flush,0,2,3,2,overtime,False,False,True,0.57,False,CT,2,1.0,1.0,0.0,CT,1
-ence-vs-vitality-m2-nuke,Rio,de_nuke,33,Vitality,ENCE,17,15,2,32750,24800,7950,13050,23800,Full Buy,Full Buy,flush,flush,0,3,3,3,overtime,False,False,True,0.57,False,CT,3,1.0,1.0,1.0,CT,1
-ence-vs-vitality-m2-nuke,Rio,de_nuke,34,Vitality,ENCE,15,18,-3,29750,24900,4850,29150,23900,Full Buy,Full Buy,flush,flush,0,4,3,4,overtime,False,False,True,0.57,True,T,0,1.0,1.0,1.0,T,0
+ence-vs-vitality-m2-nuke,Rio,de_nuke,31,Vitality,ENCE,15,15,0,28950,25200,3750,27950,24200,Full Buy,Full Buy,flush,flush,0,1,3,1,overtime,False,False,True,0.57,False,CT,1,,,,CT,1
+ence-vs-vitality-m2-nuke,Rio,de_nuke,32,Vitality,ENCE,16,15,1,31050,25200,5850,20600,24200,Full Buy,Full Buy,flush,flush,0,2,3,2,overtime,False,False,True,0.57,False,CT,2,1.0,,,CT,1
+ence-vs-vitality-m2-nuke,Rio,de_nuke,33,Vitality,ENCE,17,15,2,32750,24800,7950,13050,23800,Full Buy,Full Buy,flush,flush,0,3,3,3,overtime,False,False,True,0.57,False,CT,3,1.0,1.0,,CT,1
+ence-vs-vitality-m2-nuke,Rio,de_nuke,34,Vitality,ENCE,15,18,-3,29750,24900,4850,29150,23900,Full Buy,Full Buy,flush,flush,0,4,3,4,overtime,False,False,True,0.57,True,T,0,,,,T,0
 faze-vs-bad-news-eagles-m1-vertigo,Rio,de_vertigo,1,FaZe Clan,Bad News Eagles,0,0,0,4450,4650,-200,3450,3450,Full Eco,Full Eco,broke,broke,0,0,1,1,pistol,True,False,False,0.53,True,CT,0,,,,CT,1
 faze-vs-bad-news-eagles-m1-vertigo,Rio,de_vertigo,2,FaZe Clan,Bad News Eagles,1,0,1,22350,11950,10400,19450,13750,Full Buy,Semi Buy,full_buy,building,0,1,1,2,conversion,False,True,False,0.53,True,T,0,1.0,,,T,0
 faze-vs-bad-news-eagles-m1-vertigo,Rio,de_vertigo,3,FaZe Clan,Bad News Eagles,1,1,0,7650,22200,-14550,7650,12900,Semi Eco,Full Buy,broke,flush,1,0,1,3,conversion,False,True,False,0.53,True,T,-1,0.0,1.0,,T,0
@@ -230,9 +230,9 @@ faze-vs-bad-news-eagles-m1-vertigo,Rio,de_vertigo,12,FaZe Clan,Bad News Eagles,4
 faze-vs-bad-news-eagles-m1-vertigo,Rio,de_vertigo,13,FaZe Clan,Bad News Eagles,5,7,-2,30450,22850,7600,3900,21850,Full Buy,Full Buy,flush,flush,0,3,1,13,gun,False,False,False,0.53,False,CT,3,1.0,1.0,1.0,CT,1
 faze-vs-bad-news-eagles-m1-vertigo,Rio,de_vertigo,14,FaZe Clan,Bad News Eagles,6,7,-1,26700,19500,7200,6300,6000,Full Buy,Semi Buy,full_buy,full_buy,0,4,1,14,gun,False,False,False,0.53,True,T,0,1.0,1.0,1.0,T,0
 faze-vs-bad-news-eagles-m1-vertigo,Rio,de_vertigo,15,FaZe Clan,Bad News Eagles,6,8,-2,31850,22150,9700,31250,17900,Full Buy,Full Buy,flush,flush,1,0,1,15,gun,False,False,False,0.53,False,T,-1,0.0,1.0,1.0,T,0
-faze-vs-bad-news-eagles-m1-vertigo,Rio,de_vertigo,16,FaZe Clan,Bad News Eagles,9,6,3,4300,4150,150,3300,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.53,True,CT,-2,0.0,0.0,1.0,T,0
-faze-vs-bad-news-eagles-m1-vertigo,Rio,de_vertigo,17,FaZe Clan,Bad News Eagles,9,7,2,11500,18400,-6900,11100,17300,Semi Buy,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.53,False,T,0,0.0,0.0,0.0,CT,1
-faze-vs-bad-news-eagles-m1-vertigo,Rio,de_vertigo,18,FaZe Clan,Bad News Eagles,10,7,3,20100,7800,12300,14850,8400,Full Buy,Semi Eco,full_buy,building,0,1,2,3,conversion,False,True,False,0.53,False,CT,1,1.0,0.0,0.0,CT,1
+faze-vs-bad-news-eagles-m1-vertigo,Rio,de_vertigo,16,FaZe Clan,Bad News Eagles,9,6,3,4300,4150,150,3300,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.53,True,CT,-2,,,,T,0
+faze-vs-bad-news-eagles-m1-vertigo,Rio,de_vertigo,17,FaZe Clan,Bad News Eagles,9,7,2,11500,18400,-6900,11100,17300,Semi Buy,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.53,False,T,0,0.0,,,CT,1
+faze-vs-bad-news-eagles-m1-vertigo,Rio,de_vertigo,18,FaZe Clan,Bad News Eagles,10,7,3,20100,7800,12300,14850,8400,Full Buy,Semi Eco,full_buy,building,0,1,2,3,conversion,False,True,False,0.53,False,CT,1,1.0,0.0,,CT,1
 faze-vs-bad-news-eagles-m1-vertigo,Rio,de_vertigo,19,FaZe Clan,Bad News Eagles,11,7,4,26950,1600,25350,9500,1000,Full Buy,Full Eco,full_buy,broke,0,2,2,4,gun,False,False,False,0.53,False,T,2,1.0,1.0,0.0,CT,1
 faze-vs-bad-news-eagles-m1-vertigo,Rio,de_vertigo,20,FaZe Clan,Bad News Eagles,12,7,5,29050,22800,6250,9900,21600,Full Buy,Full Buy,flush,flush,0,3,2,5,gun,False,False,False,0.53,True,CT,0,1.0,1.0,1.0,T,0
 faze-vs-bad-news-eagles-m1-vertigo,Rio,de_vertigo,21,FaZe Clan,Bad News Eagles,12,8,4,29150,21450,7700,23850,16750,Full Buy,Full Buy,flush,full_buy,1,0,2,6,gun,False,False,False,0.53,True,T,-1,0.0,1.0,1.0,T,0
@@ -245,11 +245,11 @@ faze-vs-bad-news-eagles-m1-vertigo,Rio,de_vertigo,27,FaZe Clan,Bad News Eagles,1
 faze-vs-bad-news-eagles-m1-vertigo,Rio,de_vertigo,28,FaZe Clan,Bad News Eagles,14,13,1,5550,23350,-17800,6400,10750,Semi Eco,Full Buy,broke,flush,1,0,2,13,gun,False,False,False,0.53,False,CT,0,0.0,1.0,1.0,CT,1
 faze-vs-bad-news-eagles-m1-vertigo,Rio,de_vertigo,29,FaZe Clan,Bad News Eagles,15,13,2,27850,21350,6500,23950,20650,Full Buy,Full Buy,full_buy,full_buy,0,1,2,14,gun,False,False,False,0.53,True,CT,0,1.0,0.0,1.0,T,0
 faze-vs-bad-news-eagles-m1-vertigo,Rio,de_vertigo,30,FaZe Clan,Bad News Eagles,15,14,1,12850,24750,-11900,12650,14700,Semi Buy,Full Buy,building,flush,1,0,2,15,gun,False,False,False,0.53,False,T,-1,0.0,1.0,0.0,T,0
-faze-vs-bad-news-eagles-m1-vertigo,Rio,de_vertigo,31,FaZe Clan,Bad News Eagles,15,15,0,29850,26600,3250,28850,26100,Full Buy,Full Buy,flush,flush,2,0,3,1,overtime,False,False,True,0.53,True,T,-2,0.0,0.0,1.0,T,0
-faze-vs-bad-news-eagles-m1-vertigo,Rio,de_vertigo,32,FaZe Clan,Bad News Eagles,15,16,-1,27500,27650,-150,26900,14400,Full Buy,Full Buy,full_buy,flush,3,0,3,2,overtime,False,False,True,0.53,False,CT,0,0.0,0.0,0.0,CT,1
-faze-vs-bad-news-eagles-m1-vertigo,Rio,de_vertigo,33,FaZe Clan,Bad News Eagles,16,16,0,32550,25600,6950,16650,25300,Full Buy,Full Buy,flush,flush,0,1,3,3,overtime,False,False,True,0.53,False,CT,1,1.0,0.0,0.0,CT,1
-faze-vs-bad-news-eagles-m1-vertigo,Rio,de_vertigo,34,FaZe Clan,Bad News Eagles,16,17,-1,28750,26450,2300,27950,26350,Full Buy,Full Buy,flush,flush,0,2,3,4,overtime,False,False,True,0.53,True,T,0,1.0,1.0,0.0,T,0
-faze-vs-bad-news-eagles-m1-vertigo,Rio,de_vertigo,35,FaZe Clan,Bad News Eagles,16,18,-2,29600,26250,3350,29000,13000,Full Buy,Full Buy,flush,flush,1,0,3,5,overtime,False,False,True,0.53,True,CT,-1,0.0,1.0,1.0,T,0
+faze-vs-bad-news-eagles-m1-vertigo,Rio,de_vertigo,31,FaZe Clan,Bad News Eagles,15,15,0,29850,26600,3250,28850,26100,Full Buy,Full Buy,flush,flush,2,0,3,1,overtime,False,False,True,0.53,True,T,-2,,,,T,0
+faze-vs-bad-news-eagles-m1-vertigo,Rio,de_vertigo,32,FaZe Clan,Bad News Eagles,15,16,-1,27500,27650,-150,26900,14400,Full Buy,Full Buy,full_buy,flush,3,0,3,2,overtime,False,False,True,0.53,False,CT,0,0.0,,,CT,1
+faze-vs-bad-news-eagles-m1-vertigo,Rio,de_vertigo,33,FaZe Clan,Bad News Eagles,16,16,0,32550,25600,6950,16650,25300,Full Buy,Full Buy,flush,flush,0,1,3,3,overtime,False,False,True,0.53,False,CT,1,1.0,0.0,,CT,1
+faze-vs-bad-news-eagles-m1-vertigo,Rio,de_vertigo,34,FaZe Clan,Bad News Eagles,16,17,-1,28750,26450,2300,27950,26350,Full Buy,Full Buy,flush,flush,0,2,3,4,overtime,False,False,True,0.53,True,T,0,,,,T,0
+faze-vs-bad-news-eagles-m1-vertigo,Rio,de_vertigo,35,FaZe Clan,Bad News Eagles,16,18,-2,29600,26250,3350,29000,13000,Full Buy,Full Buy,flush,flush,1,0,3,5,overtime,False,False,True,0.53,True,CT,-1,0.0,,,T,0
 faze-vs-bad-news-eagles-m2-nuke,Rio,de_nuke,1,Bad News Eagles,FaZe Clan,0,0,0,4300,4850,-550,3300,3450,Full Eco,Full Eco,broke,broke,0,0,1,1,pistol,True,False,False,0.57,True,T,0,,,,T,0
 faze-vs-bad-news-eagles-m2-nuke,Rio,de_nuke,2,Bad News Eagles,FaZe Clan,0,1,-1,9800,19900,-10100,9900,17600,Semi Eco,Semi Buy,building,full_buy,1,0,1,2,conversion,False,True,False,0.57,True,T,-1,0.0,,,T,0
 faze-vs-bad-news-eagles-m2-nuke,Rio,de_nuke,3,Bad News Eagles,FaZe Clan,0,2,-2,3750,23050,-19300,1250,8300,Full Eco,Full Buy,broke,flush,2,0,1,3,conversion,False,True,False,0.57,False,T,-2,0.0,0.0,,T,0
@@ -265,9 +265,9 @@ faze-vs-bad-news-eagles-m2-nuke,Rio,de_nuke,12,Bad News Eagles,FaZe Clan,2,9,-7,
 faze-vs-bad-news-eagles-m2-nuke,Rio,de_nuke,13,Bad News Eagles,FaZe Clan,3,9,-6,30350,26750,3600,11400,25950,Full Buy,Full Buy,flush,flush,0,2,1,13,gun,False,False,False,0.57,False,T,2,1.0,1.0,0.0,CT,1
 faze-vs-bad-news-eagles-m2-nuke,Rio,de_nuke,14,Bad News Eagles,FaZe Clan,4,9,-5,27850,22350,5500,7800,10100,Full Buy,Full Buy,full_buy,flush,0,3,1,14,gun,False,False,False,0.57,False,CT,3,1.0,1.0,1.0,CT,1
 faze-vs-bad-news-eagles-m2-nuke,Rio,de_nuke,15,Bad News Eagles,FaZe Clan,5,9,-4,32550,13800,18750,12000,14800,Full Buy,Semi Buy,flush,building,0,4,1,15,gun,False,False,False,0.57,False,CT,0,1.0,1.0,1.0,T,0
-faze-vs-bad-news-eagles-m2-nuke,Rio,de_nuke,16,Bad News Eagles,FaZe Clan,10,5,5,4250,4300,-50,3250,3500,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.57,True,T,0,0.0,1.0,1.0,CT,1
-faze-vs-bad-news-eagles-m2-nuke,Rio,de_nuke,17,Bad News Eagles,FaZe Clan,11,5,6,21650,13400,8250,19800,13500,Full Buy,Semi Buy,full_buy,building,0,1,2,2,conversion,False,True,False,0.57,False,CT,1,1.0,0.0,1.0,CT,1
-faze-vs-bad-news-eagles-m2-nuke,Rio,de_nuke,18,Bad News Eagles,FaZe Clan,12,5,7,26150,3700,22450,6550,6300,Full Buy,Full Eco,full_buy,broke,0,2,2,3,conversion,False,True,False,0.57,False,CT,2,1.0,1.0,0.0,CT,1
+faze-vs-bad-news-eagles-m2-nuke,Rio,de_nuke,16,Bad News Eagles,FaZe Clan,10,5,5,4250,4300,-50,3250,3500,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.57,True,T,0,,,,CT,1
+faze-vs-bad-news-eagles-m2-nuke,Rio,de_nuke,17,Bad News Eagles,FaZe Clan,11,5,6,21650,13400,8250,19800,13500,Full Buy,Semi Buy,full_buy,building,0,1,2,2,conversion,False,True,False,0.57,False,CT,1,1.0,,,CT,1
+faze-vs-bad-news-eagles-m2-nuke,Rio,de_nuke,18,Bad News Eagles,FaZe Clan,12,5,7,26150,3700,22450,6550,6300,Full Buy,Full Eco,full_buy,broke,0,2,2,3,conversion,False,True,False,0.57,False,CT,2,1.0,1.0,,CT,1
 faze-vs-bad-news-eagles-m2-nuke,Rio,de_nuke,19,Bad News Eagles,FaZe Clan,13,5,8,27050,22600,4450,4700,21600,Full Buy,Full Buy,full_buy,flush,0,3,2,4,gun,False,False,False,0.57,True,CT,0,1.0,1.0,1.0,T,0
 faze-vs-bad-news-eagles-m2-nuke,Rio,de_nuke,20,Bad News Eagles,FaZe Clan,13,6,7,28350,17150,11200,27350,14650,Full Buy,Semi Buy,flush,full_buy,1,0,2,5,gun,False,False,False,0.57,False,T,-1,0.0,1.0,1.0,T,0
 faze-vs-bad-news-eagles-m2-nuke,Rio,de_nuke,21,Bad News Eagles,FaZe Clan,13,7,6,5650,24600,-18950,5050,15800,Semi Eco,Full Buy,broke,flush,2,0,2,6,gun,False,False,False,0.57,False,T,-2,0.0,0.0,1.0,T,0
@@ -289,9 +289,9 @@ faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,12,FaZe Clan,Bad News Eagles,8,3
 faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,13,FaZe Clan,Bad News Eagles,9,3,6,31750,14700,17050,15800,8900,Full Buy,Semi Buy,flush,full_buy,0,4,1,13,gun,False,False,False,0.49,False,T,4,1.0,1.0,1.0,CT,1
 faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,14,FaZe Clan,Bad News Eagles,10,3,7,32450,19900,12550,16300,18900,Full Buy,Semi Buy,flush,full_buy,0,5,1,14,gun,False,False,False,0.49,False,T,0,1.0,1.0,1.0,T,0
 faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,15,FaZe Clan,Bad News Eagles,10,4,6,31550,24650,6900,31150,17000,Full Buy,Full Buy,flush,flush,1,0,1,15,gun,False,False,False,0.49,False,CT,0,0.0,1.0,1.0,CT,1
-faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,16,FaZe Clan,Bad News Eagles,4,11,-7,4300,5200,-900,3300,3400,Full Eco,Semi Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.49,False,CT,1,1.0,0.0,1.0,CT,1
-faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,17,FaZe Clan,Bad News Eagles,5,11,-6,15650,1200,14450,17550,600,Semi Buy,Full Eco,building,broke,0,1,2,2,conversion,False,True,False,0.49,False,CT,2,1.0,1.0,0.0,CT,1
-faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,18,FaZe Clan,Bad News Eagles,6,11,-5,22100,23100,-1000,4400,21900,Full Buy,Full Buy,full_buy,flush,0,2,2,3,conversion,False,True,False,0.49,False,CT,3,1.0,1.0,1.0,CT,1
+faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,16,FaZe Clan,Bad News Eagles,4,11,-7,4300,5200,-900,3300,3400,Full Eco,Semi Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.49,False,CT,1,,,,CT,1
+faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,17,FaZe Clan,Bad News Eagles,5,11,-6,15650,1200,14450,17550,600,Semi Buy,Full Eco,building,broke,0,1,2,2,conversion,False,True,False,0.49,False,CT,2,1.0,,,CT,1
+faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,18,FaZe Clan,Bad News Eagles,6,11,-5,22100,23100,-1000,4400,21900,Full Buy,Full Buy,full_buy,flush,0,2,2,3,conversion,False,True,False,0.49,False,CT,3,1.0,1.0,,CT,1
 faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,19,FaZe Clan,Bad News Eagles,7,11,-4,27700,6100,21600,19150,6750,Full Buy,Semi Eco,full_buy,building,0,3,2,4,gun,False,False,False,0.49,False,CT,4,1.0,1.0,1.0,CT,1
 faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,20,FaZe Clan,Bad News Eagles,8,11,-3,28800,25950,2850,3600,24950,Full Buy,Full Buy,flush,flush,0,4,2,5,gun,False,False,False,0.49,True,CT,0,1.0,1.0,1.0,T,0
 faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,21,FaZe Clan,Bad News Eagles,8,12,-4,29000,27050,1950,28000,8300,Full Buy,Full Buy,flush,flush,1,0,2,6,gun,False,False,False,0.49,True,T,-1,0.0,1.0,1.0,T,0
@@ -304,18 +304,18 @@ faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,27,FaZe Clan,Bad News Eagles,11,
 faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,28,FaZe Clan,Bad News Eagles,12,15,-3,33600,22900,10700,10000,21900,Full Buy,Full Buy,flush,flush,0,2,2,13,gun,False,False,False,0.49,True,T,2,1.0,1.0,0.0,CT,1
 faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,29,FaZe Clan,Bad News Eagles,13,15,-2,33600,11800,21800,10500,11600,Full Buy,Semi Buy,flush,building,0,3,2,14,gun,False,False,False,0.49,False,CT,3,1.0,1.0,1.0,CT,1
 faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,30,FaZe Clan,Bad News Eagles,14,15,-1,34000,24800,9200,20550,23800,Full Buy,Full Buy,flush,flush,0,4,2,15,gun,False,False,False,0.49,False,CT,4,1.0,1.0,1.0,CT,1
-faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,31,FaZe Clan,Bad News Eagles,15,15,0,27800,25900,1900,26800,24900,Full Buy,Full Buy,full_buy,flush,0,5,3,1,overtime,False,False,True,0.49,False,CT,5,1.0,1.0,1.0,CT,1
-faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,32,FaZe Clan,Bad News Eagles,16,15,1,30000,26650,3350,14150,25650,Full Buy,Full Buy,flush,flush,0,6,3,2,overtime,False,False,True,0.49,True,T,0,1.0,1.0,1.0,T,0
-faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,33,FaZe Clan,Bad News Eagles,16,16,0,28350,27450,900,30850,17000,Full Buy,Full Buy,flush,flush,1,0,3,3,overtime,False,False,True,0.49,False,CT,0,0.0,1.0,1.0,CT,1
-faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,34,FaZe Clan,Bad News Eagles,16,17,-1,30250,27050,3200,30950,26250,Full Buy,Full Buy,flush,flush,0,1,3,4,overtime,False,False,True,0.49,True,T,0,1.0,0.0,1.0,T,0
-faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,35,FaZe Clan,Bad News Eagles,16,18,-2,28000,27350,650,27400,15750,Full Buy,Full Buy,flush,flush,1,0,3,5,overtime,False,False,True,0.49,False,CT,0,0.0,1.0,0.0,CT,1
-faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,36,FaZe Clan,Bad News Eagles,17,18,-1,30350,28250,2100,16200,28150,Full Buy,Full Buy,flush,flush,0,1,3,6,overtime,False,False,True,0.49,False,T,1,1.0,0.0,1.0,CT,1
-faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,37,FaZe Clan,Bad News Eagles,18,18,0,29600,26950,2650,28600,26250,Full Buy,Full Buy,flush,flush,0,2,3,1,overtime,False,False,True,0.49,False,CT,2,1.0,1.0,0.0,CT,1
-faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,38,FaZe Clan,Bad News Eagles,19,18,1,30550,24300,6250,16350,23700,Full Buy,Full Buy,flush,flush,0,3,3,2,overtime,False,False,True,0.49,True,T,0,1.0,1.0,1.0,T,0
-faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,39,FaZe Clan,Bad News Eagles,19,19,0,28900,28550,350,28600,21350,Full Buy,Full Buy,flush,flush,1,0,3,3,overtime,False,False,True,0.49,True,CT,-1,0.0,1.0,1.0,T,0
-faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,40,FaZe Clan,Bad News Eagles,20,19,1,29700,27150,2550,28700,26350,Full Buy,Full Buy,flush,flush,2,0,3,4,overtime,False,False,True,0.49,True,T,-2,0.0,0.0,1.0,T,0
-faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,41,FaZe Clan,Bad News Eagles,20,20,0,26950,27650,-700,26150,7000,Full Buy,Full Buy,full_buy,flush,3,0,3,5,overtime,False,False,True,0.49,False,CT,0,0.0,0.0,0.0,CT,1
-faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,42,FaZe Clan,Bad News Eagles,21,20,1,31850,27950,3900,18800,27550,Full Buy,Full Buy,flush,flush,0,1,3,6,overtime,False,False,True,0.49,False,T,1,1.0,0.0,0.0,CT,1
+faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,31,FaZe Clan,Bad News Eagles,15,15,0,27800,25900,1900,26800,24900,Full Buy,Full Buy,full_buy,flush,0,5,3,1,overtime,False,False,True,0.49,False,CT,5,,,,CT,1
+faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,32,FaZe Clan,Bad News Eagles,16,15,1,30000,26650,3350,14150,25650,Full Buy,Full Buy,flush,flush,0,6,3,2,overtime,False,False,True,0.49,True,T,0,1.0,,,T,0
+faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,33,FaZe Clan,Bad News Eagles,16,16,0,28350,27450,900,30850,17000,Full Buy,Full Buy,flush,flush,1,0,3,3,overtime,False,False,True,0.49,False,CT,0,0.0,1.0,,CT,1
+faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,34,FaZe Clan,Bad News Eagles,16,17,-1,30250,27050,3200,30950,26250,Full Buy,Full Buy,flush,flush,0,1,3,4,overtime,False,False,True,0.49,True,T,0,,,,T,0
+faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,35,FaZe Clan,Bad News Eagles,16,18,-2,28000,27350,650,27400,15750,Full Buy,Full Buy,flush,flush,1,0,3,5,overtime,False,False,True,0.49,False,CT,0,0.0,,,CT,1
+faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,36,FaZe Clan,Bad News Eagles,17,18,-1,30350,28250,2100,16200,28150,Full Buy,Full Buy,flush,flush,0,1,3,6,overtime,False,False,True,0.49,False,T,1,1.0,0.0,,CT,1
+faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,37,FaZe Clan,Bad News Eagles,18,18,0,29600,26950,2650,28600,26250,Full Buy,Full Buy,flush,flush,0,2,3,1,overtime,False,False,True,0.49,False,CT,2,,,,CT,1
+faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,38,FaZe Clan,Bad News Eagles,19,18,1,30550,24300,6250,16350,23700,Full Buy,Full Buy,flush,flush,0,3,3,2,overtime,False,False,True,0.49,True,T,0,1.0,,,T,0
+faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,39,FaZe Clan,Bad News Eagles,19,19,0,28900,28550,350,28600,21350,Full Buy,Full Buy,flush,flush,1,0,3,3,overtime,False,False,True,0.49,True,CT,-1,0.0,1.0,,T,0
+faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,40,FaZe Clan,Bad News Eagles,20,19,1,29700,27150,2550,28700,26350,Full Buy,Full Buy,flush,flush,2,0,3,4,overtime,False,False,True,0.49,True,T,-2,,,,T,0
+faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,41,FaZe Clan,Bad News Eagles,20,20,0,26950,27650,-700,26150,7000,Full Buy,Full Buy,full_buy,flush,3,0,3,5,overtime,False,False,True,0.49,False,CT,0,0.0,,,CT,1
+faze-vs-bad-news-eagles-m3-mirage,Rio,de_mirage,42,FaZe Clan,Bad News Eagles,21,20,1,31850,27950,3900,18800,27550,Full Buy,Full Buy,flush,flush,0,1,3,6,overtime,False,False,True,0.49,False,T,1,1.0,0.0,,CT,1
 faze-vs-cloud9-overpass,Rio,de_overpass,1,FaZe Clan,Cloud9,0,0,0,4250,4200,50,3250,3400,Full Eco,Full Eco,broke,broke,0,0,1,1,pistol,True,False,False,0.52,False,T,0,,,,CT,1
 faze-vs-cloud9-overpass,Rio,de_overpass,2,FaZe Clan,Cloud9,1,0,1,20350,1100,19250,18000,1000,Full Buy,Full Eco,full_buy,broke,0,1,1,2,conversion,False,True,False,0.52,False,CT,1,1.0,,,CT,1
 faze-vs-cloud9-overpass,Rio,de_overpass,3,FaZe Clan,Cloud9,2,0,2,22400,22750,-350,5400,21750,Full Buy,Full Buy,full_buy,flush,0,2,1,3,conversion,False,True,False,0.52,True,CT,0,1.0,1.0,,T,0
@@ -331,9 +331,9 @@ faze-vs-cloud9-overpass,Rio,de_overpass,12,FaZe Clan,Cloud9,10,1,9,31650,12200,1
 faze-vs-cloud9-overpass,Rio,de_overpass,13,FaZe Clan,Cloud9,10,2,8,30150,26850,3300,29150,12500,Full Buy,Full Buy,flush,flush,1,0,1,13,gun,False,False,False,0.52,True,T,-1,0.0,1.0,1.0,T,0
 faze-vs-cloud9-overpass,Rio,de_overpass,14,FaZe Clan,Cloud9,10,3,7,29900,22800,7100,18650,9300,Full Buy,Full Buy,flush,flush,2,0,1,14,gun,False,False,False,0.52,False,CT,0,0.0,0.0,1.0,CT,1
 faze-vs-cloud9-overpass,Rio,de_overpass,15,FaZe Clan,Cloud9,11,3,8,31450,22300,9150,18350,19600,Full Buy,Full Buy,flush,flush,0,1,1,15,gun,False,False,False,0.52,True,T,0,1.0,0.0,0.0,T,0
-faze-vs-cloud9-overpass,Rio,de_overpass,16,FaZe Clan,Cloud9,4,11,-7,4100,4200,-100,3400,3400,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,True,T,-1,0.0,1.0,0.0,T,0
-faze-vs-cloud9-overpass,Rio,de_overpass,17,FaZe Clan,Cloud9,4,12,-8,1000,20300,-19300,0,18500,Full Eco,Full Buy,broke,full_buy,1,0,2,2,conversion,False,True,False,0.52,True,T,-2,0.0,0.0,1.0,T,0
-faze-vs-cloud9-overpass,Rio,de_overpass,18,FaZe Clan,Cloud9,4,13,-9,23200,21900,1300,22200,8300,Full Buy,Full Buy,full_buy,full_buy,2,0,2,3,conversion,False,True,False,0.52,False,CT,0,0.0,0.0,0.0,CT,1
+faze-vs-cloud9-overpass,Rio,de_overpass,16,FaZe Clan,Cloud9,4,11,-7,4100,4200,-100,3400,3400,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,True,T,-1,,,,T,0
+faze-vs-cloud9-overpass,Rio,de_overpass,17,FaZe Clan,Cloud9,4,12,-8,1000,20300,-19300,0,18500,Full Eco,Full Buy,broke,full_buy,1,0,2,2,conversion,False,True,False,0.52,True,T,-2,0.0,,,T,0
+faze-vs-cloud9-overpass,Rio,de_overpass,18,FaZe Clan,Cloud9,4,13,-9,23200,21900,1300,22200,8300,Full Buy,Full Buy,full_buy,full_buy,2,0,2,3,conversion,False,True,False,0.52,False,CT,0,0.0,0.0,,CT,1
 faze-vs-cloud9-overpass,Rio,de_overpass,19,FaZe Clan,Cloud9,5,13,-8,25850,19800,6050,11350,13100,Full Buy,Semi Buy,full_buy,full_buy,0,1,2,4,gun,False,False,False,0.52,False,T,1,1.0,0.0,0.0,CT,1
 faze-vs-cloud9-overpass,Rio,de_overpass,20,FaZe Clan,Cloud9,6,13,-7,27900,1600,26300,8450,1000,Full Buy,Full Eco,full_buy,broke,0,2,2,5,gun,False,False,False,0.52,False,CT,2,1.0,1.0,0.0,CT,1
 faze-vs-cloud9-overpass,Rio,de_overpass,21,FaZe Clan,Cloud9,7,13,-6,30050,23050,7000,15050,22050,Full Buy,Full Buy,flush,flush,0,3,2,6,gun,False,False,False,0.52,False,CT,3,1.0,1.0,1.0,CT,1
@@ -361,9 +361,9 @@ faze-vs-vitality-inferno,Rio,de_inferno,12,FaZe Clan,Vitality,3,8,-5,10400,27250
 faze-vs-vitality-inferno,Rio,de_inferno,13,FaZe Clan,Vitality,3,9,-6,27600,27850,-250,26600,16900,Full Buy,Full Buy,full_buy,flush,5,0,1,13,gun,False,False,False,0.5,True,T,-5,0.0,0.0,0.0,T,0
 faze-vs-vitality-inferno,Rio,de_inferno,14,FaZe Clan,Vitality,3,10,-7,16450,27250,-10800,10550,26450,Semi Buy,Full Buy,building,flush,6,0,1,14,gun,False,False,False,0.5,True,T,-6,0.0,0.0,0.0,T,0
 faze-vs-vitality-inferno,Rio,de_inferno,15,FaZe Clan,Vitality,3,11,-8,28250,28750,-500,23100,28550,Full Buy,Full Buy,flush,flush,7,0,1,15,gun,False,False,False,0.5,True,T,-7,0.0,0.0,0.0,T,0
-faze-vs-vitality-inferno,Rio,de_inferno,16,FaZe Clan,Vitality,12,3,9,4200,4050,150,3400,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.5,False,CT,0,0.0,0.0,0.0,CT,1
-faze-vs-vitality-inferno,Rio,de_inferno,17,FaZe Clan,Vitality,13,3,10,19800,10750,9050,17400,10550,Semi Buy,Semi Buy,full_buy,building,0,1,2,2,conversion,False,True,False,0.5,False,CT,1,1.0,0.0,0.0,CT,1
-faze-vs-vitality-inferno,Rio,de_inferno,18,FaZe Clan,Vitality,14,3,11,24450,11650,12800,7050,11650,Full Buy,Semi Buy,full_buy,building,0,2,2,3,conversion,False,True,False,0.5,True,T,0,1.0,1.0,0.0,T,0
+faze-vs-vitality-inferno,Rio,de_inferno,16,FaZe Clan,Vitality,12,3,9,4200,4050,150,3400,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.5,False,CT,0,,,,CT,1
+faze-vs-vitality-inferno,Rio,de_inferno,17,FaZe Clan,Vitality,13,3,10,19800,10750,9050,17400,10550,Semi Buy,Semi Buy,full_buy,building,0,1,2,2,conversion,False,True,False,0.5,False,CT,1,1.0,,,CT,1
+faze-vs-vitality-inferno,Rio,de_inferno,18,FaZe Clan,Vitality,14,3,11,24450,11650,12800,7050,11650,Full Buy,Semi Buy,full_buy,building,0,2,2,3,conversion,False,True,False,0.5,True,T,0,1.0,1.0,,T,0
 faze-vs-vitality-inferno,Rio,de_inferno,19,FaZe Clan,Vitality,14,4,10,23550,25050,-1500,8300,13200,Full Buy,Full Buy,full_buy,flush,1,0,2,4,gun,False,False,False,0.5,True,T,-1,0.0,1.0,1.0,T,0
 faze-vs-vitality-inferno,Rio,de_inferno,20,FaZe Clan,Vitality,14,5,9,24750,26400,-1650,18750,8300,Full Buy,Full Buy,full_buy,flush,2,0,2,5,gun,False,False,False,0.5,False,CT,0,0.0,0.0,1.0,CT,1
 faze-vs-vitality-inferno,Rio,de_inferno,21,FaZe Clan,Vitality,15,5,10,27950,24100,3850,10850,23100,Full Buy,Full Buy,full_buy,flush,0,1,2,6,gun,False,False,False,0.5,True,T,0,1.0,0.0,0.0,T,0
@@ -383,9 +383,9 @@ furia-vs-big-m1-nuke,Rio,de_nuke,12,FURIA,BIG,5,6,-1,20950,27450,-6500,17800,910
 furia-vs-big-m1-nuke,Rio,de_nuke,13,FURIA,BIG,6,6,0,30400,27150,3250,13150,12200,Full Buy,Full Buy,flush,flush,0,1,1,13,gun,False,False,False,0.57,False,T,1,1.0,0.0,1.0,CT,1
 furia-vs-big-m1-nuke,Rio,de_nuke,14,FURIA,BIG,7,6,1,28750,8000,20750,11350,650,Full Buy,Semi Eco,flush,building,0,2,1,14,gun,False,False,False,0.57,False,CT,2,1.0,1.0,0.0,CT,1
 furia-vs-big-m1-nuke,Rio,de_nuke,15,FURIA,BIG,8,6,2,32550,24000,8550,11300,23000,Full Buy,Full Buy,flush,flush,0,3,1,15,gun,False,False,False,0.57,False,CT,3,1.0,1.0,1.0,CT,1
-furia-vs-big-m1-nuke,Rio,de_nuke,16,FURIA,BIG,6,9,-3,4250,4750,-500,3250,3550,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.57,True,CT,0,1.0,1.0,1.0,T,0
-furia-vs-big-m1-nuke,Rio,de_nuke,17,FURIA,BIG,6,10,-4,9800,19050,-9250,9600,17650,Semi Eco,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.57,True,CT,-1,0.0,1.0,1.0,T,0
-furia-vs-big-m1-nuke,Rio,de_nuke,18,FURIA,BIG,6,11,-5,7250,21700,-14450,1700,11900,Semi Eco,Full Buy,broke,full_buy,2,0,2,3,conversion,False,True,False,0.57,False,T,-2,0.0,0.0,1.0,T,0
+furia-vs-big-m1-nuke,Rio,de_nuke,16,FURIA,BIG,6,9,-3,4250,4750,-500,3250,3550,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.57,True,CT,0,,,,T,0
+furia-vs-big-m1-nuke,Rio,de_nuke,17,FURIA,BIG,6,10,-4,9800,19050,-9250,9600,17650,Semi Eco,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.57,True,CT,-1,0.0,,,T,0
+furia-vs-big-m1-nuke,Rio,de_nuke,18,FURIA,BIG,6,11,-5,7250,21700,-14450,1700,11900,Semi Eco,Full Buy,broke,full_buy,2,0,2,3,conversion,False,True,False,0.57,False,T,-2,0.0,0.0,,T,0
 furia-vs-big-m1-nuke,Rio,de_nuke,19,FURIA,BIG,6,12,-6,27500,23700,3800,26500,7900,Full Buy,Full Buy,full_buy,flush,3,0,2,4,gun,False,False,False,0.57,False,CT,0,0.0,0.0,0.0,CT,1
 furia-vs-big-m1-nuke,Rio,de_nuke,20,FURIA,BIG,7,12,-5,29300,23150,6150,14550,21750,Full Buy,Full Buy,flush,flush,0,1,2,5,gun,False,False,False,0.57,True,CT,1,1.0,0.0,0.0,CT,1
 furia-vs-big-m1-nuke,Rio,de_nuke,21,FURIA,BIG,8,12,-4,26200,9750,16450,20900,9750,Full Buy,Semi Eco,full_buy,building,0,2,2,6,gun,False,False,False,0.57,False,T,0,1.0,1.0,0.0,T,0
@@ -408,9 +408,9 @@ furia-vs-big-m2-vertigo,Rio,de_vertigo,12,BIG,FURIA,3,8,-5,28100,21600,6500,1055
 furia-vs-big-m2-vertigo,Rio,de_vertigo,13,BIG,FURIA,3,9,-6,27400,24800,2600,20500,16000,Full Buy,Full Buy,full_buy,flush,1,0,1,13,gun,False,False,False,0.53,False,CT,-1,0.0,1.0,0.0,T,0
 furia-vs-big-m2-vertigo,Rio,de_vertigo,14,BIG,FURIA,3,10,-7,10100,23650,-13550,12100,14650,Semi Buy,Full Buy,building,flush,2,0,1,14,gun,False,False,False,0.53,True,CT,-2,0.0,0.0,1.0,T,0
 furia-vs-big-m2-vertigo,Rio,de_vertigo,15,BIG,FURIA,3,11,-8,23400,28350,-4950,22250,19700,Full Buy,Full Buy,full_buy,flush,3,0,1,15,gun,False,False,False,0.53,True,T,-3,0.0,0.0,0.0,T,0
-furia-vs-big-m2-vertigo,Rio,de_vertigo,16,BIG,FURIA,12,3,9,5250,4500,750,3450,3500,Semi Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.53,True,CT,-4,0.0,0.0,0.0,T,0
-furia-vs-big-m2-vertigo,Rio,de_vertigo,17,BIG,FURIA,12,4,8,1200,18700,-17500,200,17900,Full Eco,Semi Buy,broke,full_buy,1,0,2,2,conversion,False,True,False,0.53,True,T,-5,0.0,0.0,0.0,T,0
-furia-vs-big-m2-vertigo,Rio,de_vertigo,18,BIG,FURIA,12,5,7,24100,22750,1350,22200,7900,Full Buy,Full Buy,full_buy,flush,2,0,2,3,conversion,False,True,False,0.53,True,T,-6,0.0,0.0,0.0,T,0
+furia-vs-big-m2-vertigo,Rio,de_vertigo,16,BIG,FURIA,12,3,9,5250,4500,750,3450,3500,Semi Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.53,True,CT,-4,,,,T,0
+furia-vs-big-m2-vertigo,Rio,de_vertigo,17,BIG,FURIA,12,4,8,1200,18700,-17500,200,17900,Full Eco,Semi Buy,broke,full_buy,1,0,2,2,conversion,False,True,False,0.53,True,T,-5,0.0,,,T,0
+furia-vs-big-m2-vertigo,Rio,de_vertigo,18,BIG,FURIA,12,5,7,24100,22750,1350,22200,7900,Full Buy,Full Buy,full_buy,flush,2,0,2,3,conversion,False,True,False,0.53,True,T,-6,0.0,0.0,,T,0
 furia-vs-big-m2-vertigo,Rio,de_vertigo,19,BIG,FURIA,12,6,6,25750,27450,-1700,12500,10350,Full Buy,Full Buy,full_buy,flush,3,0,2,4,gun,False,False,False,0.53,False,CT,0,0.0,0.0,0.0,CT,1
 furia-vs-big-m2-vertigo,Rio,de_vertigo,20,BIG,FURIA,13,6,7,25450,24150,1300,10000,23350,Full Buy,Full Buy,full_buy,flush,0,1,2,5,gun,False,False,False,0.53,False,T,1,1.0,0.0,0.0,CT,1
 furia-vs-big-m2-vertigo,Rio,de_vertigo,21,BIG,FURIA,14,6,8,29100,2650,26450,14100,2050,Full Buy,Full Eco,flush,broke,0,2,2,6,gun,False,False,False,0.53,False,CT,2,1.0,1.0,0.0,CT,1
@@ -430,9 +430,9 @@ furia-vs-ence-vertigo,Rio,de_vertigo,12,ENCE,FURIA,5,6,-1,21250,27450,-6200,1995
 furia-vs-ence-vertigo,Rio,de_vertigo,13,ENCE,FURIA,5,7,-2,1600,27450,-25850,1000,11800,Full Eco,Full Buy,broke,flush,2,0,1,13,gun,False,False,False,0.53,True,T,-2,0.0,0.0,1.0,T,0
 furia-vs-ence-vertigo,Rio,de_vertigo,14,ENCE,FURIA,5,8,-3,22300,27350,-5050,21300,2600,Full Buy,Full Buy,full_buy,flush,3,0,1,14,gun,False,False,False,0.53,True,T,-3,0.0,0.0,0.0,T,0
 furia-vs-ence-vertigo,Rio,de_vertigo,15,ENCE,FURIA,5,9,-4,16300,26100,-9800,15700,27000,Semi Buy,Full Buy,building,flush,4,0,1,15,gun,False,False,False,0.53,True,T,-4,0.0,0.0,0.0,T,0
-furia-vs-ence-vertigo,Rio,de_vertigo,16,ENCE,FURIA,10,5,5,4600,4750,-150,3300,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.53,True,CT,0,0.0,0.0,0.0,CT,1
-furia-vs-ence-vertigo,Rio,de_vertigo,17,ENCE,FURIA,11,5,6,21450,16050,5400,19600,15350,Full Buy,Semi Buy,full_buy,full_buy,0,1,2,2,conversion,False,True,False,0.53,True,T,1,1.0,0.0,0.0,CT,1
-furia-vs-ence-vertigo,Rio,de_vertigo,18,ENCE,FURIA,12,5,7,22500,18100,4400,18150,17100,Full Buy,Semi Buy,full_buy,full_buy,0,2,2,3,conversion,False,True,False,0.53,False,T,2,1.0,1.0,0.0,CT,1
+furia-vs-ence-vertigo,Rio,de_vertigo,16,ENCE,FURIA,10,5,5,4600,4750,-150,3300,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.53,True,CT,0,,,,CT,1
+furia-vs-ence-vertigo,Rio,de_vertigo,17,ENCE,FURIA,11,5,6,21450,16050,5400,19600,15350,Full Buy,Semi Buy,full_buy,full_buy,0,1,2,2,conversion,False,True,False,0.53,True,T,1,1.0,,,CT,1
+furia-vs-ence-vertigo,Rio,de_vertigo,18,ENCE,FURIA,12,5,7,22500,18100,4400,18150,17100,Full Buy,Semi Buy,full_buy,full_buy,0,2,2,3,conversion,False,True,False,0.53,False,T,2,1.0,1.0,,CT,1
 furia-vs-ence-vertigo,Rio,de_vertigo,19,ENCE,FURIA,13,5,8,27050,7350,19700,17800,8850,Full Buy,Semi Eco,full_buy,building,0,3,2,4,gun,False,False,False,0.53,False,T,3,1.0,1.0,1.0,CT,1
 furia-vs-ence-vertigo,Rio,de_vertigo,20,ENCE,FURIA,14,5,9,23700,25000,-1300,17700,24000,Full Buy,Full Buy,full_buy,flush,0,4,2,5,gun,False,False,False,0.53,False,CT,4,1.0,1.0,1.0,CT,1
 furia-vs-ence-vertigo,Rio,de_vertigo,21,ENCE,FURIA,15,5,10,27350,19800,7550,13850,18500,Full Buy,Semi Buy,full_buy,full_buy,0,5,2,6,gun,False,False,False,0.53,True,T,0,1.0,1.0,1.0,T,0
@@ -452,9 +452,9 @@ furia-vs-natus-vincere-m1-nuke,Rio,de_nuke,12,FURIA,Natus Vincere,6,5,1,5150,252
 furia-vs-natus-vincere-m1-nuke,Rio,de_nuke,13,FURIA,Natus Vincere,6,6,0,22100,25200,-3100,21100,12750,Full Buy,Full Buy,full_buy,flush,3,0,1,13,gun,False,False,False,0.57,True,CT,-3,0.0,0.0,0.0,T,0
 furia-vs-natus-vincere-m1-nuke,Rio,de_nuke,14,FURIA,Natus Vincere,6,7,-1,23350,25400,-2050,11100,16600,Full Buy,Full Buy,full_buy,flush,4,0,1,14,gun,False,False,False,0.57,True,CT,-4,0.0,0.0,0.0,T,0
 furia-vs-natus-vincere-m1-nuke,Rio,de_nuke,15,FURIA,Natus Vincere,6,8,-2,23600,26200,-2600,22600,18350,Full Buy,Full Buy,full_buy,flush,5,0,1,15,gun,False,False,False,0.57,True,T,0,0.0,0.0,0.0,CT,1
-furia-vs-natus-vincere-m1-nuke,Rio,de_nuke,16,FURIA,Natus Vincere,8,7,1,4200,4550,-350,3400,3550,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.57,False,CT,1,1.0,0.0,0.0,CT,1
-furia-vs-natus-vincere-m1-nuke,Rio,de_nuke,17,FURIA,Natus Vincere,9,7,2,18500,2000,16500,17250,1300,Semi Buy,Full Eco,full_buy,broke,0,1,2,2,conversion,False,True,False,0.57,False,CT,2,1.0,1.0,0.0,CT,1
-furia-vs-natus-vincere-m1-nuke,Rio,de_nuke,18,FURIA,Natus Vincere,10,7,3,21100,21450,-350,4500,20450,Full Buy,Full Buy,full_buy,full_buy,0,2,2,3,conversion,False,True,False,0.57,False,CT,3,1.0,1.0,1.0,CT,1
+furia-vs-natus-vincere-m1-nuke,Rio,de_nuke,16,FURIA,Natus Vincere,8,7,1,4200,4550,-350,3400,3550,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.57,False,CT,1,,,,CT,1
+furia-vs-natus-vincere-m1-nuke,Rio,de_nuke,17,FURIA,Natus Vincere,9,7,2,18500,2000,16500,17250,1300,Semi Buy,Full Eco,full_buy,broke,0,1,2,2,conversion,False,True,False,0.57,False,CT,2,1.0,,,CT,1
+furia-vs-natus-vincere-m1-nuke,Rio,de_nuke,18,FURIA,Natus Vincere,10,7,3,21100,21450,-350,4500,20450,Full Buy,Full Buy,full_buy,full_buy,0,2,2,3,conversion,False,True,False,0.57,False,CT,3,1.0,1.0,,CT,1
 furia-vs-natus-vincere-m1-nuke,Rio,de_nuke,19,FURIA,Natus Vincere,11,7,4,28000,10100,17900,18000,10300,Full Buy,Semi Buy,flush,building,0,3,2,4,gun,False,False,False,0.57,False,CT,4,1.0,1.0,1.0,CT,1
 furia-vs-natus-vincere-m1-nuke,Rio,de_nuke,20,FURIA,Natus Vincere,12,7,5,28600,24500,4100,5000,23100,Full Buy,Full Buy,flush,flush,0,4,2,5,gun,False,False,False,0.57,True,T,0,1.0,1.0,1.0,T,0
 furia-vs-natus-vincere-m1-nuke,Rio,de_nuke,21,FURIA,Natus Vincere,12,8,4,29250,23550,5700,28450,15150,Full Buy,Full Buy,flush,flush,1,0,2,6,gun,False,False,False,0.57,True,CT,0,0.0,1.0,1.0,CT,1
@@ -482,9 +482,9 @@ furia-vs-natus-vincere-m2-ancient,Rio,de_ancient,12,Natus Vincere,FURIA,3,8,-5,2
 furia-vs-natus-vincere-m2-ancient,Rio,de_ancient,13,Natus Vincere,FURIA,3,9,-6,3950,27650,-23700,6800,16700,Full Eco,Full Buy,broke,flush,3,0,1,13,gun,False,False,False,0.52,False,T,-3,0.0,0.0,0.0,T,0
 furia-vs-natus-vincere-m2-ancient,Rio,de_ancient,14,Natus Vincere,FURIA,3,10,-7,27450,27450,0,26450,12200,Full Buy,Full Buy,full_buy,flush,4,0,1,14,gun,False,False,False,0.52,False,CT,0,0.0,0.0,0.0,CT,1
 furia-vs-natus-vincere-m2-ancient,Rio,de_ancient,15,Natus Vincere,FURIA,4,10,-6,29650,28350,1300,13500,28150,Full Buy,Full Buy,flush,flush,0,1,1,15,gun,False,False,False,0.52,False,CT,1,1.0,0.0,0.0,CT,1
-furia-vs-natus-vincere-m2-ancient,Rio,de_ancient,16,Natus Vincere,FURIA,10,5,5,4550,4250,300,3450,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,True,T,0,1.0,1.0,0.0,T,0
-furia-vs-natus-vincere-m2-ancient,Rio,de_ancient,17,Natus Vincere,FURIA,10,6,4,10550,19900,-9350,11050,18050,Semi Buy,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.52,True,CT,-1,0.0,1.0,1.0,T,0
-furia-vs-natus-vincere-m2-ancient,Rio,de_ancient,18,Natus Vincere,FURIA,10,7,3,11600,21400,-9800,12500,16400,Semi Buy,Full Buy,building,full_buy,2,0,2,3,conversion,False,True,False,0.52,True,CT,-2,0.0,0.0,1.0,T,0
+furia-vs-natus-vincere-m2-ancient,Rio,de_ancient,16,Natus Vincere,FURIA,10,5,5,4550,4250,300,3450,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,True,T,0,,,,T,0
+furia-vs-natus-vincere-m2-ancient,Rio,de_ancient,17,Natus Vincere,FURIA,10,6,4,10550,19900,-9350,11050,18050,Semi Buy,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.52,True,CT,-1,0.0,,,T,0
+furia-vs-natus-vincere-m2-ancient,Rio,de_ancient,18,Natus Vincere,FURIA,10,7,3,11600,21400,-9800,12500,16400,Semi Buy,Full Buy,building,full_buy,2,0,2,3,conversion,False,True,False,0.52,True,CT,-2,0.0,0.0,,T,0
 furia-vs-natus-vincere-m2-ancient,Rio,de_ancient,19,Natus Vincere,FURIA,10,8,2,8150,25100,-16950,2400,7250,Semi Eco,Full Buy,building,flush,3,0,2,4,gun,False,False,False,0.52,True,T,-3,0.0,0.0,0.0,T,0
 furia-vs-natus-vincere-m2-ancient,Rio,de_ancient,20,Natus Vincere,FURIA,10,9,1,30100,25600,4500,29100,13100,Full Buy,Full Buy,flush,flush,4,0,2,5,gun,False,False,False,0.52,False,CT,0,0.0,0.0,0.0,CT,1
 furia-vs-natus-vincere-m2-ancient,Rio,de_ancient,21,Natus Vincere,FURIA,11,9,2,29000,18800,10200,14100,23600,Full Buy,Semi Buy,flush,full_buy,0,1,2,6,gun,False,False,False,0.52,False,CT,1,1.0,0.0,0.0,CT,1
@@ -508,9 +508,9 @@ furia-vs-natus-vincere-m3-mirage,Rio,de_mirage,12,FURIA,Natus Vincere,6,5,1,1600
 furia-vs-natus-vincere-m3-mirage,Rio,de_mirage,13,FURIA,Natus Vincere,6,6,0,23300,27850,-4550,22300,4600,Full Buy,Full Buy,full_buy,flush,3,0,1,13,gun,False,False,False,0.49,False,CT,0,0.0,0.0,0.0,CT,1
 furia-vs-natus-vincere-m3-mirage,Rio,de_mirage,14,FURIA,Natus Vincere,7,6,1,29600,27050,2550,11600,26050,Full Buy,Full Buy,flush,flush,0,1,1,14,gun,False,False,False,0.49,False,CT,1,1.0,0.0,0.0,CT,1
 furia-vs-natus-vincere-m3-mirage,Rio,de_mirage,15,FURIA,Natus Vincere,8,6,2,33850,26350,7500,14950,25550,Full Buy,Full Buy,flush,flush,0,2,1,15,gun,False,False,False,0.49,False,T,0,1.0,1.0,0.0,T,0
-furia-vs-natus-vincere-m3-mirage,Rio,de_mirage,16,FURIA,Natus Vincere,7,8,-1,4400,5350,-950,3400,3450,Full Eco,Semi Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.49,True,CT,-1,0.0,1.0,1.0,T,0
-furia-vs-natus-vincere-m3-mirage,Rio,de_mirage,17,FURIA,Natus Vincere,7,9,-2,1700,19300,-17600,900,18200,Full Eco,Semi Buy,broke,full_buy,1,0,2,2,conversion,False,True,False,0.49,False,T,-2,0.0,0.0,1.0,T,0
-furia-vs-natus-vincere-m3-mirage,Rio,de_mirage,18,FURIA,Natus Vincere,7,10,-3,22700,22900,-200,22000,8100,Full Buy,Full Buy,full_buy,flush,2,0,2,3,conversion,False,True,False,0.49,False,T,0,0.0,0.0,0.0,CT,1
+furia-vs-natus-vincere-m3-mirage,Rio,de_mirage,16,FURIA,Natus Vincere,7,8,-1,4400,5350,-950,3400,3450,Full Eco,Semi Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.49,True,CT,-1,,,,T,0
+furia-vs-natus-vincere-m3-mirage,Rio,de_mirage,17,FURIA,Natus Vincere,7,9,-2,1700,19300,-17600,900,18200,Full Eco,Semi Buy,broke,full_buy,1,0,2,2,conversion,False,True,False,0.49,False,T,-2,0.0,,,T,0
+furia-vs-natus-vincere-m3-mirage,Rio,de_mirage,18,FURIA,Natus Vincere,7,10,-3,22700,22900,-200,22000,8100,Full Buy,Full Buy,full_buy,flush,2,0,2,3,conversion,False,True,False,0.49,False,T,0,0.0,0.0,,CT,1
 furia-vs-natus-vincere-m3-mirage,Rio,de_mirage,19,FURIA,Natus Vincere,8,10,-2,23700,16050,7650,15050,15450,Full Buy,Semi Buy,full_buy,full_buy,0,1,2,4,gun,False,False,False,0.49,False,CT,1,1.0,0.0,0.0,CT,1
 furia-vs-natus-vincere-m3-mirage,Rio,de_mirage,20,FURIA,Natus Vincere,9,10,-1,26600,4400,22200,13050,800,Full Buy,Full Eco,full_buy,broke,0,2,2,5,gun,False,False,False,0.49,False,CT,2,1.0,1.0,0.0,CT,1
 furia-vs-natus-vincere-m3-mirage,Rio,de_mirage,21,FURIA,Natus Vincere,10,10,0,28500,21400,7100,6800,20600,Full Buy,Full Buy,flush,full_buy,0,3,2,6,gun,False,False,False,0.49,True,CT,0,1.0,1.0,1.0,T,0
@@ -534,9 +534,9 @@ heroic-vs-cloud9-m1-vertigo,Rio,de_vertigo,12,Heroic,Cloud9,1,10,-9,7200,27850,-
 heroic-vs-cloud9-m1-vertigo,Rio,de_vertigo,13,Heroic,Cloud9,1,11,-10,25950,28250,-2300,25550,4200,Full Buy,Full Buy,full_buy,flush,2,0,1,13,gun,False,False,False,0.53,False,T,0,0.0,0.0,1.0,CT,1
 heroic-vs-cloud9-m1-vertigo,Rio,de_vertigo,14,Heroic,Cloud9,2,11,-9,27650,27950,-300,14600,27550,Full Buy,Full Buy,full_buy,flush,0,1,1,14,gun,False,False,False,0.53,False,CT,1,1.0,0.0,0.0,CT,1
 heroic-vs-cloud9-m1-vertigo,Rio,de_vertigo,15,Heroic,Cloud9,3,11,-8,30000,28550,1450,16850,26750,Full Buy,Full Buy,flush,flush,0,2,1,15,gun,False,False,False,0.53,False,T,2,1.0,1.0,0.0,CT,1
-heroic-vs-cloud9-m1-vertigo,Rio,de_vertigo,16,Heroic,Cloud9,11,4,7,4750,4600,150,3450,3400,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.53,False,T,3,1.0,1.0,1.0,CT,1
-heroic-vs-cloud9-m1-vertigo,Rio,de_vertigo,17,Heroic,Cloud9,12,4,8,16700,10400,6300,17850,10400,Semi Buy,Semi Buy,building,building,0,1,2,2,conversion,False,True,False,0.53,False,CT,4,1.0,1.0,1.0,CT,1
-heroic-vs-cloud9-m1-vertigo,Rio,de_vertigo,18,Heroic,Cloud9,13,4,9,25650,1100,24550,12500,1600,Full Buy,Full Eco,full_buy,broke,0,2,2,3,conversion,False,True,False,0.53,False,CT,5,1.0,1.0,1.0,CT,1
+heroic-vs-cloud9-m1-vertigo,Rio,de_vertigo,16,Heroic,Cloud9,11,4,7,4750,4600,150,3450,3400,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.53,False,T,3,,,,CT,1
+heroic-vs-cloud9-m1-vertigo,Rio,de_vertigo,17,Heroic,Cloud9,12,4,8,16700,10400,6300,17850,10400,Semi Buy,Semi Buy,building,building,0,1,2,2,conversion,False,True,False,0.53,False,CT,4,1.0,,,CT,1
+heroic-vs-cloud9-m1-vertigo,Rio,de_vertigo,18,Heroic,Cloud9,13,4,9,25650,1100,24550,12500,1600,Full Buy,Full Eco,full_buy,broke,0,2,2,3,conversion,False,True,False,0.53,False,CT,5,1.0,1.0,,CT,1
 heroic-vs-cloud9-m1-vertigo,Rio,de_vertigo,19,Heroic,Cloud9,14,4,10,30100,25200,4900,9800,24200,Full Buy,Full Buy,flush,flush,0,3,2,4,gun,False,False,False,0.53,True,T,0,1.0,1.0,1.0,T,0
 heroic-vs-cloud9-m1-vertigo,Rio,de_vertigo,20,Heroic,Cloud9,14,5,9,25050,25300,-250,13500,3800,Full Buy,Full Buy,full_buy,flush,1,0,2,5,gun,False,False,False,0.53,True,T,-1,0.0,1.0,1.0,T,0
 heroic-vs-cloud9-m1-vertigo,Rio,de_vertigo,21,Heroic,Cloud9,14,6,8,16950,27450,-10500,5800,22950,Semi Buy,Full Buy,building,flush,2,0,2,6,gun,False,False,False,0.53,True,CT,-2,0.0,0.0,1.0,T,0
@@ -559,9 +559,9 @@ heroic-vs-cloud9-m2-inferno,Rio,de_inferno,12,Cloud9,Heroic,6,5,1,29700,22600,71
 heroic-vs-cloud9-m2-inferno,Rio,de_inferno,13,Cloud9,Heroic,6,6,0,22200,23400,-1200,22900,16550,Full Buy,Full Buy,full_buy,flush,1,0,1,13,gun,False,False,False,0.5,True,CT,0,0.0,1.0,0.0,CT,1
 heroic-vs-cloud9-m2-inferno,Rio,de_inferno,14,Cloud9,Heroic,7,6,1,30250,2350,27900,7850,2950,Full Buy,Full Eco,flush,broke,0,1,1,14,gun,False,False,False,0.5,True,T,0,1.0,0.0,1.0,T,0
 heroic-vs-cloud9-m2-inferno,Rio,de_inferno,15,Cloud9,Heroic,7,7,0,21250,28850,-7600,19950,24200,Full Buy,Full Buy,full_buy,flush,1,0,1,15,gun,False,False,False,0.5,True,T,-1,0.0,1.0,0.0,T,0
-heroic-vs-cloud9-m2-inferno,Rio,de_inferno,16,Cloud9,Heroic,8,7,1,4250,4800,-550,3250,3400,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.5,False,CT,-2,0.0,0.0,1.0,T,0
-heroic-vs-cloud9-m2-inferno,Rio,de_inferno,17,Cloud9,Heroic,8,8,0,10000,16850,-6850,10800,16900,Semi Buy,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.5,False,T,-3,0.0,0.0,0.0,T,0
-heroic-vs-cloud9-m2-inferno,Rio,de_inferno,18,Cloud9,Heroic,8,9,-1,1000,20700,-19700,0,6900,Full Eco,Full Buy,broke,full_buy,2,0,2,3,conversion,False,True,False,0.5,True,T,-4,0.0,0.0,0.0,T,0
+heroic-vs-cloud9-m2-inferno,Rio,de_inferno,16,Cloud9,Heroic,8,7,1,4250,4800,-550,3250,3400,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.5,False,CT,-2,,,,T,0
+heroic-vs-cloud9-m2-inferno,Rio,de_inferno,17,Cloud9,Heroic,8,8,0,10000,16850,-6850,10800,16900,Semi Buy,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.5,False,T,-3,0.0,,,T,0
+heroic-vs-cloud9-m2-inferno,Rio,de_inferno,18,Cloud9,Heroic,8,9,-1,1000,20700,-19700,0,6900,Full Eco,Full Buy,broke,full_buy,2,0,2,3,conversion,False,True,False,0.5,True,T,-4,0.0,0.0,,T,0
 heroic-vs-cloud9-m2-inferno,Rio,de_inferno,19,Cloud9,Heroic,8,10,-2,28400,25600,2800,27400,16800,Full Buy,Full Buy,flush,flush,3,0,2,4,gun,False,False,False,0.5,True,T,-5,0.0,0.0,0.0,T,0
 heroic-vs-cloud9-m2-inferno,Rio,de_inferno,20,Cloud9,Heroic,8,11,-3,29500,25800,3700,12450,3300,Full Buy,Full Buy,flush,flush,4,0,2,5,gun,False,False,False,0.5,True,T,-6,0.0,0.0,0.0,T,0
 heroic-vs-cloud9-m2-inferno,Rio,de_inferno,21,Cloud9,Heroic,8,12,-4,19800,27350,-7550,20200,20400,Semi Buy,Full Buy,full_buy,flush,5,0,2,6,gun,False,False,False,0.5,False,CT,0,0.0,0.0,0.0,CT,1
@@ -584,9 +584,9 @@ heroic-vs-fnatic-mirage,Rio,de_mirage,12,Heroic,Fnatic,10,1,9,30450,26250,4200,3
 heroic-vs-fnatic-mirage,Rio,de_mirage,13,Heroic,Fnatic,10,2,8,27850,26850,1000,26850,16700,Full Buy,Full Buy,full_buy,flush,2,0,1,13,gun,False,False,False,0.49,False,T,0,0.0,0.0,1.0,CT,1
 heroic-vs-fnatic-mirage,Rio,de_mirage,14,Heroic,Fnatic,11,2,9,19600,18950,650,17550,18550,Semi Buy,Semi Buy,full_buy,full_buy,0,1,1,14,gun,False,False,False,0.49,False,T,1,1.0,0.0,0.0,CT,1
 heroic-vs-fnatic-mirage,Rio,de_mirage,15,Heroic,Fnatic,12,2,10,27750,8850,18900,19050,15100,Full Buy,Semi Eco,full_buy,building,0,2,1,15,gun,False,False,False,0.49,False,CT,2,1.0,1.0,0.0,CT,1
-heroic-vs-fnatic-mirage,Rio,de_mirage,16,Heroic,Fnatic,2,13,-11,4300,4700,-400,3300,3400,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.49,True,CT,0,1.0,1.0,1.0,T,0
-heroic-vs-fnatic-mirage,Rio,de_mirage,17,Heroic,Fnatic,2,14,-12,10750,19400,-8650,10350,18300,Semi Buy,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.49,True,T,-1,0.0,1.0,1.0,T,0
-heroic-vs-fnatic-mirage,Rio,de_mirage,18,Heroic,Fnatic,2,15,-13,16650,22500,-5850,11950,5400,Semi Buy,Full Buy,building,flush,2,0,2,3,conversion,False,True,False,0.49,True,T,-2,0.0,0.0,1.0,T,0
+heroic-vs-fnatic-mirage,Rio,de_mirage,16,Heroic,Fnatic,2,13,-11,4300,4700,-400,3300,3400,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.49,True,CT,0,,,,T,0
+heroic-vs-fnatic-mirage,Rio,de_mirage,17,Heroic,Fnatic,2,14,-12,10750,19400,-8650,10350,18300,Semi Buy,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.49,True,T,-1,0.0,,,T,0
+heroic-vs-fnatic-mirage,Rio,de_mirage,18,Heroic,Fnatic,2,15,-13,16650,22500,-5850,11950,5400,Semi Buy,Full Buy,building,flush,2,0,2,3,conversion,False,True,False,0.49,True,T,-2,0.0,0.0,,T,0
 heroic-vs-furia-m1-inferno,Rio,de_inferno,1,FURIA,Heroic,0,0,0,5000,4400,600,3400,3400,Semi Eco,Full Eco,broke,broke,0,0,1,1,pistol,True,False,False,0.5,True,T,0,,,,T,0
 heroic-vs-furia-m1-inferno,Rio,de_inferno,2,FURIA,Heroic,0,1,-1,10300,20000,-9700,9900,18250,Semi Buy,Full Buy,building,full_buy,1,0,1,2,conversion,False,True,False,0.5,True,T,-1,0.0,,,T,0
 heroic-vs-furia-m1-inferno,Rio,de_inferno,3,FURIA,Heroic,0,2,-2,6700,23350,-16650,1850,8600,Semi Eco,Full Buy,broke,flush,2,0,1,3,conversion,False,True,False,0.5,True,CT,-2,0.0,0.0,,T,0
@@ -602,9 +602,9 @@ heroic-vs-furia-m1-inferno,Rio,de_inferno,12,FURIA,Heroic,7,4,3,33450,27250,6200
 heroic-vs-furia-m1-inferno,Rio,de_inferno,13,FURIA,Heroic,8,4,4,33250,27150,6100,16500,26150,Full Buy,Full Buy,flush,flush,0,1,1,13,gun,False,False,False,0.5,True,T,0,1.0,0.0,1.0,T,0
 heroic-vs-furia-m1-inferno,Rio,de_inferno,14,FURIA,Heroic,8,5,3,28500,27250,1250,27500,16900,Full Buy,Full Buy,flush,flush,1,0,1,14,gun,False,False,False,0.5,True,T,-1,0.0,1.0,0.0,T,0
 heroic-vs-furia-m1-inferno,Rio,de_inferno,15,FURIA,Heroic,8,6,2,16300,26600,-10300,13900,20550,Semi Buy,Full Buy,building,flush,2,0,1,15,gun,False,False,False,0.5,False,CT,0,0.0,0.0,1.0,CT,1
-heroic-vs-furia-m1-inferno,Rio,de_inferno,16,FURIA,Heroic,6,9,-3,4300,4350,-50,3300,3350,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.5,True,T,0,1.0,0.0,0.0,T,0
-heroic-vs-furia-m1-inferno,Rio,de_inferno,17,FURIA,Heroic,6,10,-4,10550,19400,-8850,10450,18400,Semi Buy,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.5,True,T,-1,0.0,1.0,0.0,T,0
-heroic-vs-furia-m1-inferno,Rio,de_inferno,18,FURIA,Heroic,6,11,-5,6400,21800,-15400,800,4500,Semi Eco,Full Buy,broke,full_buy,2,0,2,3,conversion,False,True,False,0.5,True,T,-2,0.0,0.0,1.0,T,0
+heroic-vs-furia-m1-inferno,Rio,de_inferno,16,FURIA,Heroic,6,9,-3,4300,4350,-50,3300,3350,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.5,True,T,0,,,,T,0
+heroic-vs-furia-m1-inferno,Rio,de_inferno,17,FURIA,Heroic,6,10,-4,10550,19400,-8850,10450,18400,Semi Buy,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.5,True,T,-1,0.0,,,T,0
+heroic-vs-furia-m1-inferno,Rio,de_inferno,18,FURIA,Heroic,6,11,-5,6400,21800,-15400,800,4500,Semi Eco,Full Buy,broke,full_buy,2,0,2,3,conversion,False,True,False,0.5,True,T,-2,0.0,0.0,,T,0
 heroic-vs-furia-m1-inferno,Rio,de_inferno,19,FURIA,Heroic,6,12,-6,24800,21700,3100,25200,5300,Full Buy,Full Buy,full_buy,full_buy,3,0,2,4,gun,False,False,False,0.5,True,CT,-3,0.0,0.0,0.0,T,0
 heroic-vs-furia-m1-inferno,Rio,de_inferno,20,FURIA,Heroic,6,13,-7,27900,25600,2300,14050,22550,Full Buy,Full Buy,full_buy,flush,4,0,2,5,gun,False,False,False,0.5,True,CT,-4,0.0,0.0,0.0,T,0
 heroic-vs-furia-m1-inferno,Rio,de_inferno,21,FURIA,Heroic,6,14,-8,26650,23850,2800,20450,17100,Full Buy,Full Buy,full_buy,flush,5,0,2,6,gun,False,False,False,0.5,True,T,-5,0.0,0.0,0.0,T,0
@@ -624,9 +624,9 @@ heroic-vs-furia-m2-ancient,Rio,de_ancient,12,Heroic,FURIA,6,5,1,26750,11500,1525
 heroic-vs-furia-m2-ancient,Rio,de_ancient,13,Heroic,FURIA,7,5,2,28250,5400,22850,10300,6200,Full Buy,Semi Eco,flush,broke,0,4,1,13,gun,False,False,False,0.52,False,T,4,1.0,1.0,1.0,CT,1
 heroic-vs-furia-m2-ancient,Rio,de_ancient,14,Heroic,FURIA,8,5,3,30550,26800,3750,21750,25800,Full Buy,Full Buy,flush,flush,0,5,1,14,gun,False,False,False,0.52,False,CT,5,1.0,1.0,1.0,CT,1
 heroic-vs-furia-m2-ancient,Rio,de_ancient,15,Heroic,FURIA,9,5,4,31950,17600,14350,12050,17850,Full Buy,Semi Buy,flush,full_buy,0,6,1,15,gun,False,False,False,0.52,False,CT,6,1.0,1.0,1.0,CT,1
-heroic-vs-furia-m2-ancient,Rio,de_ancient,16,Heroic,FURIA,5,10,-5,4350,4650,-300,3350,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,True,CT,0,1.0,1.0,1.0,T,0
-heroic-vs-furia-m2-ancient,Rio,de_ancient,17,Heroic,FURIA,5,11,-6,1200,18800,-17600,400,17600,Full Eco,Semi Buy,broke,full_buy,1,0,2,2,conversion,False,True,False,0.52,False,T,-1,0.0,1.0,1.0,T,0
-heroic-vs-furia-m2-ancient,Rio,de_ancient,18,Heroic,FURIA,5,12,-7,23750,20100,3650,22450,2200,Full Buy,Full Buy,full_buy,full_buy,2,0,2,3,conversion,False,True,False,0.52,True,T,-2,0.0,0.0,1.0,T,0
+heroic-vs-furia-m2-ancient,Rio,de_ancient,16,Heroic,FURIA,5,10,-5,4350,4650,-300,3350,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,True,CT,0,,,,T,0
+heroic-vs-furia-m2-ancient,Rio,de_ancient,17,Heroic,FURIA,5,11,-6,1200,18800,-17600,400,17600,Full Eco,Semi Buy,broke,full_buy,1,0,2,2,conversion,False,True,False,0.52,False,T,-1,0.0,,,T,0
+heroic-vs-furia-m2-ancient,Rio,de_ancient,18,Heroic,FURIA,5,12,-7,23750,20100,3650,22450,2200,Full Buy,Full Buy,full_buy,full_buy,2,0,2,3,conversion,False,True,False,0.52,True,T,-2,0.0,0.0,,T,0
 heroic-vs-furia-m2-ancient,Rio,de_ancient,19,Heroic,FURIA,5,13,-8,6850,23350,-16500,7550,21550,Semi Eco,Full Buy,broke,flush,3,0,2,4,gun,False,False,False,0.52,True,T,-3,0.0,0.0,0.0,T,0
 heroic-vs-furia-m2-ancient,Rio,de_ancient,20,Heroic,FURIA,5,14,-9,28650,25200,3450,20400,13400,Full Buy,Full Buy,flush,flush,4,0,2,5,gun,False,False,False,0.52,True,T,-4,0.0,0.0,0.0,T,0
 heroic-vs-furia-m2-ancient,Rio,de_ancient,21,Heroic,FURIA,5,15,-10,27200,25200,2000,19150,9400,Full Buy,Full Buy,full_buy,flush,5,0,2,6,gun,False,False,False,0.52,False,CT,0,0.0,0.0,0.0,CT,1
@@ -639,12 +639,12 @@ heroic-vs-furia-m2-ancient,Rio,de_ancient,27,Heroic,FURIA,11,15,-4,30350,26750,3
 heroic-vs-furia-m2-ancient,Rio,de_ancient,28,Heroic,FURIA,12,15,-3,30550,20750,9800,17150,15100,Full Buy,Full Buy,flush,full_buy,0,7,2,13,gun,False,False,False,0.52,False,CT,7,1.0,1.0,1.0,CT,1
 heroic-vs-furia-m2-ancient,Rio,de_ancient,29,Heroic,FURIA,13,15,-2,31350,10100,21250,24200,10300,Full Buy,Semi Buy,flush,building,0,8,2,14,gun,False,False,False,0.52,True,CT,8,1.0,1.0,1.0,CT,1
 heroic-vs-furia-m2-ancient,Rio,de_ancient,30,Heroic,FURIA,14,15,-1,32550,25300,7250,21500,24800,Full Buy,Full Buy,flush,flush,0,9,2,15,gun,False,False,False,0.52,False,T,9,1.0,1.0,1.0,CT,1
-heroic-vs-furia-m2-ancient,Rio,de_ancient,31,Heroic,FURIA,15,15,0,30300,27250,3050,29700,26550,Full Buy,Full Buy,flush,flush,0,10,3,1,overtime,False,False,True,0.52,False,CT,10,1.0,1.0,1.0,CT,1
-heroic-vs-furia-m2-ancient,Rio,de_ancient,32,Heroic,FURIA,16,15,1,30700,27250,3450,15300,26250,Full Buy,Full Buy,flush,flush,0,11,3,2,overtime,False,False,True,0.52,True,T,0,1.0,1.0,1.0,T,0
-heroic-vs-furia-m2-ancient,Rio,de_ancient,33,Heroic,FURIA,16,16,0,29350,27650,1700,28550,22300,Full Buy,Full Buy,flush,flush,1,0,3,3,overtime,False,False,True,0.52,False,CT,0,0.0,1.0,1.0,CT,1
-heroic-vs-furia-m2-ancient,Rio,de_ancient,34,Heroic,FURIA,16,17,-1,29500,27150,2350,28700,26350,Full Buy,Full Buy,flush,flush,0,1,3,4,overtime,False,False,True,0.52,False,CT,1,1.0,0.0,1.0,CT,1
-heroic-vs-furia-m2-ancient,Rio,de_ancient,35,Heroic,FURIA,17,17,0,30350,25000,5350,10500,24000,Full Buy,Full Buy,flush,flush,0,2,3,5,overtime,False,False,True,0.52,True,CT,2,1.0,1.0,0.0,CT,1
-heroic-vs-furia-m2-ancient,Rio,de_ancient,36,Heroic,FURIA,18,17,1,29500,24300,5200,21300,23500,Full Buy,Full Buy,flush,flush,0,3,3,6,overtime,False,False,True,0.52,False,CT,3,1.0,1.0,1.0,CT,1
+heroic-vs-furia-m2-ancient,Rio,de_ancient,31,Heroic,FURIA,15,15,0,30300,27250,3050,29700,26550,Full Buy,Full Buy,flush,flush,0,10,3,1,overtime,False,False,True,0.52,False,CT,10,,,,CT,1
+heroic-vs-furia-m2-ancient,Rio,de_ancient,32,Heroic,FURIA,16,15,1,30700,27250,3450,15300,26250,Full Buy,Full Buy,flush,flush,0,11,3,2,overtime,False,False,True,0.52,True,T,0,1.0,,,T,0
+heroic-vs-furia-m2-ancient,Rio,de_ancient,33,Heroic,FURIA,16,16,0,29350,27650,1700,28550,22300,Full Buy,Full Buy,flush,flush,1,0,3,3,overtime,False,False,True,0.52,False,CT,0,0.0,1.0,,CT,1
+heroic-vs-furia-m2-ancient,Rio,de_ancient,34,Heroic,FURIA,16,17,-1,29500,27150,2350,28700,26350,Full Buy,Full Buy,flush,flush,0,1,3,4,overtime,False,False,True,0.52,False,CT,1,,,,CT,1
+heroic-vs-furia-m2-ancient,Rio,de_ancient,35,Heroic,FURIA,17,17,0,30350,25000,5350,10500,24000,Full Buy,Full Buy,flush,flush,0,2,3,5,overtime,False,False,True,0.52,True,CT,2,1.0,,,CT,1
+heroic-vs-furia-m2-ancient,Rio,de_ancient,36,Heroic,FURIA,18,17,1,29500,24300,5200,21300,23500,Full Buy,Full Buy,flush,flush,0,3,3,6,overtime,False,False,True,0.52,False,CT,3,1.0,1.0,,CT,1
 heroic-vs-furia-m3-nuke,Rio,de_nuke,1,FURIA,Heroic,0,0,0,4200,5300,-1100,3400,3300,Full Eco,Semi Eco,broke,broke,0,0,1,1,pistol,True,False,False,0.57,True,T,0,,,,T,0
 heroic-vs-furia-m3-nuke,Rio,de_nuke,2,FURIA,Heroic,0,1,-1,1000,18100,-17100,0,16650,Full Eco,Semi Buy,broke,full_buy,1,0,1,2,conversion,False,True,False,0.57,True,T,-1,0.0,,,T,0
 heroic-vs-furia-m3-nuke,Rio,de_nuke,3,FURIA,Heroic,0,2,-2,23450,18100,5350,22450,5800,Full Buy,Semi Buy,full_buy,full_buy,2,0,1,3,conversion,False,True,False,0.57,False,T,0,0.0,0.0,,CT,1
@@ -660,9 +660,9 @@ heroic-vs-furia-m3-nuke,Rio,de_nuke,12,FURIA,Heroic,2,9,-7,30800,26850,3950,1290
 heroic-vs-furia-m3-nuke,Rio,de_nuke,13,FURIA,Heroic,3,9,-6,31150,27150,4000,5850,26150,Full Buy,Full Buy,flush,flush,0,1,1,13,gun,False,False,False,0.57,False,CT,1,1.0,0.0,0.0,CT,1
 heroic-vs-furia-m3-nuke,Rio,de_nuke,14,FURIA,Heroic,4,9,-5,30950,25200,5750,12600,18650,Full Buy,Full Buy,flush,flush,0,2,1,14,gun,False,False,False,0.57,True,CT,0,1.0,1.0,0.0,T,0
 heroic-vs-furia-m3-nuke,Rio,de_nuke,15,FURIA,Heroic,4,10,-6,34100,27750,6350,36800,14000,Full Buy,Full Buy,flush,flush,1,0,1,15,gun,False,False,False,0.57,True,T,0,0.0,1.0,1.0,CT,1
-heroic-vs-furia-m3-nuke,Rio,de_nuke,16,FURIA,Heroic,10,5,5,4250,4550,-300,3250,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.57,False,T,1,1.0,0.0,1.0,CT,1
-heroic-vs-furia-m3-nuke,Rio,de_nuke,17,FURIA,Heroic,11,5,6,19700,1500,18200,18050,700,Semi Buy,Full Eco,full_buy,broke,0,1,2,2,conversion,False,True,False,0.57,False,CT,2,1.0,1.0,0.0,CT,1
-heroic-vs-furia-m3-nuke,Rio,de_nuke,18,FURIA,Heroic,12,5,7,21800,22700,-900,4800,21700,Full Buy,Full Buy,full_buy,flush,0,2,2,3,conversion,False,True,False,0.57,False,CT,3,1.0,1.0,1.0,CT,1
+heroic-vs-furia-m3-nuke,Rio,de_nuke,16,FURIA,Heroic,10,5,5,4250,4550,-300,3250,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.57,False,T,1,,,,CT,1
+heroic-vs-furia-m3-nuke,Rio,de_nuke,17,FURIA,Heroic,11,5,6,19700,1500,18200,18050,700,Semi Buy,Full Eco,full_buy,broke,0,1,2,2,conversion,False,True,False,0.57,False,CT,2,1.0,,,CT,1
+heroic-vs-furia-m3-nuke,Rio,de_nuke,18,FURIA,Heroic,12,5,7,21800,22700,-900,4800,21700,Full Buy,Full Buy,full_buy,flush,0,2,2,3,conversion,False,True,False,0.57,False,CT,3,1.0,1.0,,CT,1
 heroic-vs-furia-m3-nuke,Rio,de_nuke,19,FURIA,Heroic,13,5,8,27700,8850,18850,23200,8550,Full Buy,Semi Eco,full_buy,building,0,3,2,4,gun,False,False,False,0.57,False,CT,4,1.0,1.0,1.0,CT,1
 heroic-vs-furia-m3-nuke,Rio,de_nuke,20,FURIA,Heroic,14,5,9,28900,24700,4200,19200,23300,Full Buy,Full Buy,flush,flush,0,4,2,5,gun,False,False,False,0.57,False,CT,5,1.0,1.0,1.0,CT,1
 heroic-vs-furia-m3-nuke,Rio,de_nuke,21,FURIA,Heroic,15,5,10,28800,20750,8050,9400,18950,Full Buy,Full Buy,flush,full_buy,0,5,2,6,gun,False,False,False,0.57,False,T,6,1.0,1.0,1.0,CT,1
@@ -681,9 +681,9 @@ heroic-vs-liquid-m1-vertigo,Rio,de_vertigo,12,Heroic,Team Liquid,6,5,1,30450,280
 heroic-vs-liquid-m1-vertigo,Rio,de_vertigo,13,Heroic,Team Liquid,7,5,2,27750,24600,3150,9700,23600,Full Buy,Full Buy,full_buy,flush,0,4,1,13,gun,False,False,False,0.53,False,CT,4,1.0,1.0,1.0,CT,1
 heroic-vs-liquid-m1-vertigo,Rio,de_vertigo,14,Heroic,Team Liquid,8,5,3,30950,18700,12250,6500,17700,Full Buy,Semi Buy,flush,full_buy,0,5,1,14,gun,False,False,False,0.53,False,T,0,1.0,1.0,1.0,T,0
 heroic-vs-liquid-m1-vertigo,Rio,de_vertigo,15,Heroic,Team Liquid,8,6,2,34900,26450,8450,41700,16300,Full Buy,Full Buy,flush,flush,1,0,1,15,gun,False,False,False,0.53,True,CT,0,0.0,1.0,1.0,CT,1
-heroic-vs-liquid-m1-vertigo,Rio,de_vertigo,16,Heroic,Team Liquid,6,9,-3,4200,4550,-350,3400,3550,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.53,True,T,0,1.0,0.0,1.0,T,0
-heroic-vs-liquid-m1-vertigo,Rio,de_vertigo,17,Heroic,Team Liquid,6,10,-4,10900,16400,-5500,10500,16200,Semi Buy,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.53,True,T,-1,0.0,1.0,0.0,T,0
-heroic-vs-liquid-m1-vertigo,Rio,de_vertigo,18,Heroic,Team Liquid,6,11,-5,2450,21500,-19050,1100,12600,Full Eco,Full Buy,broke,full_buy,2,0,2,3,conversion,False,True,False,0.53,True,T,-2,0.0,0.0,1.0,T,0
+heroic-vs-liquid-m1-vertigo,Rio,de_vertigo,16,Heroic,Team Liquid,6,9,-3,4200,4550,-350,3400,3550,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.53,True,T,0,,,,T,0
+heroic-vs-liquid-m1-vertigo,Rio,de_vertigo,17,Heroic,Team Liquid,6,10,-4,10900,16400,-5500,10500,16200,Semi Buy,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.53,True,T,-1,0.0,,,T,0
+heroic-vs-liquid-m1-vertigo,Rio,de_vertigo,18,Heroic,Team Liquid,6,11,-5,2450,21500,-19050,1100,12600,Full Eco,Full Buy,broke,full_buy,2,0,2,3,conversion,False,True,False,0.53,True,T,-2,0.0,0.0,,T,0
 heroic-vs-liquid-m1-vertigo,Rio,de_vertigo,19,Heroic,Team Liquid,6,12,-6,26650,23400,3250,25650,4800,Full Buy,Full Buy,full_buy,flush,3,0,2,4,gun,False,False,False,0.53,False,T,0,0.0,0.0,0.0,CT,1
 heroic-vs-liquid-m1-vertigo,Rio,de_vertigo,20,Heroic,Team Liquid,7,12,-5,23800,17950,5850,16900,14550,Full Buy,Semi Buy,full_buy,full_buy,0,1,2,5,gun,False,False,False,0.53,False,CT,0,1.0,0.0,0.0,T,0
 heroic-vs-liquid-m1-vertigo,Rio,de_vertigo,21,Heroic,Team Liquid,7,13,-6,1700,27850,-26150,3000,21000,Full Eco,Full Buy,broke,flush,1,0,2,6,gun,False,False,False,0.53,True,CT,-1,0.0,1.0,0.0,T,0
@@ -705,9 +705,9 @@ heroic-vs-liquid-m2-mirage,Rio,de_mirage,12,Team Liquid,Heroic,8,3,5,30650,4550,
 heroic-vs-liquid-m2-mirage,Rio,de_mirage,13,Team Liquid,Heroic,9,3,6,31450,26300,5150,8700,25300,Full Buy,Full Buy,flush,flush,0,9,1,13,gun,False,False,False,0.49,False,CT,9,1.0,1.0,1.0,CT,1
 heroic-vs-liquid-m2-mirage,Rio,de_mirage,14,Team Liquid,Heroic,10,3,7,31550,9400,22150,15400,10100,Full Buy,Semi Eco,flush,building,0,10,1,14,gun,False,False,False,0.49,False,CT,10,1.0,1.0,1.0,CT,1
 heroic-vs-liquid-m2-mirage,Rio,de_mirage,15,Team Liquid,Heroic,11,3,8,32350,25000,7350,10550,24050,Full Buy,Full Buy,flush,flush,0,11,1,15,gun,False,False,False,0.49,True,CT,0,1.0,1.0,1.0,T,0
-heroic-vs-liquid-m2-mirage,Rio,de_mirage,16,Team Liquid,Heroic,4,11,-7,4200,4200,0,3400,3600,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.49,True,T,-1,0.0,1.0,1.0,T,0
-heroic-vs-liquid-m2-mirage,Rio,de_mirage,17,Team Liquid,Heroic,4,12,-8,10400,18000,-7600,10600,16900,Semi Buy,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.49,True,T,-2,0.0,0.0,1.0,T,0
-heroic-vs-liquid-m2-mirage,Rio,de_mirage,18,Team Liquid,Heroic,4,13,-9,6750,20300,-13550,300,5500,Semi Eco,Full Buy,broke,full_buy,2,0,2,3,conversion,False,True,False,0.49,True,CT,-3,0.0,0.0,0.0,T,0
+heroic-vs-liquid-m2-mirage,Rio,de_mirage,16,Team Liquid,Heroic,4,11,-7,4200,4200,0,3400,3600,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.49,True,T,-1,,,,T,0
+heroic-vs-liquid-m2-mirage,Rio,de_mirage,17,Team Liquid,Heroic,4,12,-8,10400,18000,-7600,10600,16900,Semi Buy,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.49,True,T,-2,0.0,,,T,0
+heroic-vs-liquid-m2-mirage,Rio,de_mirage,18,Team Liquid,Heroic,4,13,-9,6750,20300,-13550,300,5500,Semi Eco,Full Buy,broke,full_buy,2,0,2,3,conversion,False,True,False,0.49,True,CT,-3,0.0,0.0,,T,0
 heroic-vs-liquid-m2-mirage,Rio,de_mirage,19,Team Liquid,Heroic,4,14,-10,26750,23800,2950,25850,12300,Full Buy,Full Buy,full_buy,flush,3,0,2,4,gun,False,False,False,0.49,False,T,-4,0.0,0.0,0.0,T,0
 heroic-vs-liquid-m2-mirage,Rio,de_mirage,20,Team Liquid,Heroic,4,15,-11,19650,22000,-2350,18350,7800,Semi Buy,Full Buy,full_buy,flush,4,0,2,5,gun,False,False,False,0.49,False,CT,0,0.0,0.0,0.0,CT,1
 heroic-vs-liquid-m2-mirage,Rio,de_mirage,21,Team Liquid,Heroic,5,15,-10,24550,27150,-2600,13150,26350,Full Buy,Full Buy,full_buy,flush,0,1,2,6,gun,False,False,False,0.49,False,T,0,1.0,0.0,0.0,T,0
@@ -726,9 +726,9 @@ heroic-vs-liquid-m3-overpass,Rio,de_overpass,12,Heroic,Team Liquid,7,4,3,12400,2
 heroic-vs-liquid-m3-overpass,Rio,de_overpass,13,Heroic,Team Liquid,8,4,4,29000,26650,2350,12750,25650,Full Buy,Full Buy,flush,flush,0,1,1,13,gun,False,False,False,0.52,False,CT,1,1.0,0.0,0.0,CT,1
 heroic-vs-liquid-m3-overpass,Rio,de_overpass,14,Heroic,Team Liquid,9,4,5,30750,16850,13900,15500,12050,Full Buy,Semi Buy,flush,full_buy,0,2,1,14,gun,False,False,False,0.52,False,CT,2,1.0,1.0,0.0,CT,1
 heroic-vs-liquid-m3-overpass,Rio,de_overpass,15,Heroic,Team Liquid,10,4,6,31750,16750,15000,15300,12300,Full Buy,Semi Buy,flush,full_buy,0,3,1,15,gun,False,False,False,0.52,False,CT,3,1.0,1.0,1.0,CT,1
-heroic-vs-liquid-m3-overpass,Rio,de_overpass,16,Heroic,Team Liquid,4,11,-7,4800,2900,1900,3400,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,False,CT,4,1.0,1.0,1.0,CT,1
-heroic-vs-liquid-m3-overpass,Rio,de_overpass,17,Heroic,Team Liquid,5,11,-6,21500,12250,9250,17900,10050,Full Buy,Semi Buy,full_buy,building,0,1,2,2,conversion,False,True,False,0.52,False,CT,5,1.0,1.0,1.0,CT,1
-heroic-vs-liquid-m3-overpass,Rio,de_overpass,18,Heroic,Team Liquid,6,11,-5,26150,7500,18650,10400,4600,Full Buy,Semi Eco,full_buy,building,0,2,2,3,conversion,False,True,False,0.52,False,CT,6,1.0,1.0,1.0,CT,1
+heroic-vs-liquid-m3-overpass,Rio,de_overpass,16,Heroic,Team Liquid,4,11,-7,4800,2900,1900,3400,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,False,CT,4,,,,CT,1
+heroic-vs-liquid-m3-overpass,Rio,de_overpass,17,Heroic,Team Liquid,5,11,-6,21500,12250,9250,17900,10050,Full Buy,Semi Buy,full_buy,building,0,1,2,2,conversion,False,True,False,0.52,False,CT,5,1.0,,,CT,1
+heroic-vs-liquid-m3-overpass,Rio,de_overpass,18,Heroic,Team Liquid,6,11,-5,26150,7500,18650,10400,4600,Full Buy,Semi Eco,full_buy,building,0,2,2,3,conversion,False,True,False,0.52,False,CT,6,1.0,1.0,,CT,1
 heroic-vs-liquid-m3-overpass,Rio,de_overpass,19,Heroic,Team Liquid,7,11,-4,30850,22600,8250,15450,21800,Full Buy,Full Buy,flush,flush,0,3,2,4,gun,False,False,False,0.52,False,CT,7,1.0,1.0,1.0,CT,1
 heroic-vs-liquid-m3-overpass,Rio,de_overpass,20,Heroic,Team Liquid,8,11,-3,31350,7200,24150,14800,8900,Full Buy,Semi Eco,flush,building,0,4,2,5,gun,False,False,False,0.52,False,CT,8,1.0,1.0,1.0,CT,1
 heroic-vs-liquid-m3-overpass,Rio,de_overpass,21,Heroic,Team Liquid,9,11,-2,31250,26400,4850,20750,25400,Full Buy,Full Buy,flush,flush,0,5,2,6,gun,False,False,False,0.52,False,CT,9,1.0,1.0,1.0,CT,1
@@ -753,9 +753,9 @@ liquid-vs-spirit-m1-vertigo,Rio,de_vertigo,12,Team Spirit,Team Liquid,7,4,3,3025
 liquid-vs-spirit-m1-vertigo,Rio,de_vertigo,13,Team Spirit,Team Liquid,7,5,2,30100,27250,2850,29800,13300,Full Buy,Full Buy,flush,flush,1,0,1,13,gun,False,False,False,0.53,False,CT,0,0.0,1.0,1.0,CT,1
 liquid-vs-spirit-m1-vertigo,Rio,de_vertigo,14,Team Spirit,Team Liquid,8,5,3,30150,15100,15050,18950,16500,Full Buy,Semi Buy,flush,full_buy,0,1,1,14,gun,False,False,False,0.53,False,T,1,1.0,0.0,1.0,CT,1
 liquid-vs-spirit-m1-vertigo,Rio,de_vertigo,15,Team Spirit,Team Liquid,9,5,4,31550,18700,12850,20000,17700,Full Buy,Semi Buy,flush,full_buy,0,2,1,15,gun,False,False,False,0.53,True,T,2,1.0,1.0,0.0,CT,1
-liquid-vs-spirit-m1-vertigo,Rio,de_vertigo,16,Team Spirit,Team Liquid,5,10,-5,4450,5100,-650,3450,3500,Full Eco,Semi Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.53,True,T,0,1.0,1.0,1.0,T,0
-liquid-vs-spirit-m1-vertigo,Rio,de_vertigo,17,Team Spirit,Team Liquid,5,11,-6,1000,20350,-19350,0,18300,Full Eco,Full Buy,broke,full_buy,1,0,2,2,conversion,False,True,False,0.53,False,T,-1,0.0,1.0,1.0,T,0
-liquid-vs-spirit-m1-vertigo,Rio,de_vertigo,18,Team Spirit,Team Liquid,5,12,-7,23800,23700,100,22600,8100,Full Buy,Full Buy,full_buy,flush,2,0,2,3,conversion,False,True,False,0.53,False,CT,0,0.0,0.0,1.0,CT,1
+liquid-vs-spirit-m1-vertigo,Rio,de_vertigo,16,Team Spirit,Team Liquid,5,10,-5,4450,5100,-650,3450,3500,Full Eco,Semi Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.53,True,T,0,,,,T,0
+liquid-vs-spirit-m1-vertigo,Rio,de_vertigo,17,Team Spirit,Team Liquid,5,11,-6,1000,20350,-19350,0,18300,Full Eco,Full Buy,broke,full_buy,1,0,2,2,conversion,False,True,False,0.53,False,T,-1,0.0,,,T,0
+liquid-vs-spirit-m1-vertigo,Rio,de_vertigo,18,Team Spirit,Team Liquid,5,12,-7,23800,23700,100,22600,8100,Full Buy,Full Buy,full_buy,flush,2,0,2,3,conversion,False,True,False,0.53,False,CT,0,0.0,0.0,,CT,1
 liquid-vs-spirit-m1-vertigo,Rio,de_vertigo,19,Team Spirit,Team Liquid,6,12,-6,26500,18100,8400,13600,17300,Full Buy,Semi Buy,full_buy,full_buy,0,1,2,4,gun,False,False,False,0.53,True,CT,0,1.0,0.0,0.0,T,0
 liquid-vs-spirit-m1-vertigo,Rio,de_vertigo,20,Team Spirit,Team Liquid,6,13,-7,2300,25900,-23600,1900,9600,Full Eco,Full Buy,broke,flush,1,0,2,5,gun,False,False,False,0.53,True,CT,-1,0.0,1.0,0.0,T,0
 liquid-vs-spirit-m1-vertigo,Rio,de_vertigo,21,Team Spirit,Team Liquid,6,14,-8,26550,25800,750,22750,9100,Full Buy,Full Buy,full_buy,flush,2,0,2,6,gun,False,False,False,0.53,True,T,0,0.0,0.0,1.0,CT,1
@@ -779,9 +779,9 @@ liquid-vs-spirit-m2-mirage,Rio,de_mirage,12,Team Spirit,Team Liquid,3,8,-5,15100
 liquid-vs-spirit-m2-mirage,Rio,de_mirage,13,Team Spirit,Team Liquid,3,9,-6,29800,27550,2250,21850,16500,Full Buy,Full Buy,flush,flush,2,0,1,13,gun,False,False,False,0.49,False,CT,0,0.0,0.0,1.0,CT,1
 liquid-vs-spirit-m2-mirage,Rio,de_mirage,14,Team Spirit,Team Liquid,4,9,-5,30000,27050,2950,10150,26350,Full Buy,Full Buy,flush,flush,0,1,1,14,gun,False,False,False,0.49,True,CT,0,1.0,0.0,0.0,T,0
 liquid-vs-spirit-m2-mirage,Rio,de_mirage,15,Team Spirit,Team Liquid,4,10,-6,26850,28250,-1400,26650,18400,Full Buy,Full Buy,full_buy,flush,1,0,1,15,gun,False,False,False,0.49,False,CT,0,0.0,1.0,0.0,CT,1
-liquid-vs-spirit-m2-mirage,Rio,de_mirage,16,Team Spirit,Team Liquid,10,5,5,4650,4750,-100,3550,3550,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.49,True,T,0,1.0,0.0,1.0,T,0
-liquid-vs-spirit-m2-mirage,Rio,de_mirage,17,Team Spirit,Team Liquid,10,6,4,11400,21150,-9750,10050,18500,Semi Buy,Full Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.49,True,T,-1,0.0,1.0,0.0,T,0
-liquid-vs-spirit-m2-mirage,Rio,de_mirage,18,Team Spirit,Team Liquid,10,7,3,6800,21350,-14550,1550,6150,Semi Eco,Full Buy,broke,full_buy,2,0,2,3,conversion,False,True,False,0.49,True,T,-2,0.0,0.0,1.0,T,0
+liquid-vs-spirit-m2-mirage,Rio,de_mirage,16,Team Spirit,Team Liquid,10,5,5,4650,4750,-100,3550,3550,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.49,True,T,0,,,,T,0
+liquid-vs-spirit-m2-mirage,Rio,de_mirage,17,Team Spirit,Team Liquid,10,6,4,11400,21150,-9750,10050,18500,Semi Buy,Full Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.49,True,T,-1,0.0,,,T,0
+liquid-vs-spirit-m2-mirage,Rio,de_mirage,18,Team Spirit,Team Liquid,10,7,3,6800,21350,-14550,1550,6150,Semi Eco,Full Buy,broke,full_buy,2,0,2,3,conversion,False,True,False,0.49,True,T,-2,0.0,0.0,,T,0
 liquid-vs-spirit-m2-mirage,Rio,de_mirage,19,Team Spirit,Team Liquid,10,8,2,25500,26150,-650,23450,16850,Full Buy,Full Buy,full_buy,flush,3,0,2,4,gun,False,False,False,0.49,False,CT,0,0.0,0.0,0.0,CT,1
 liquid-vs-spirit-m2-mirage,Rio,de_mirage,20,Team Spirit,Team Liquid,11,8,3,29150,26050,3100,5650,15200,Full Buy,Full Buy,flush,flush,0,1,2,5,gun,False,False,False,0.49,True,T,0,1.0,0.0,0.0,T,0
 liquid-vs-spirit-m2-mirage,Rio,de_mirage,21,Team Spirit,Team Liquid,11,9,2,26550,27050,-500,25550,11900,Full Buy,Full Buy,full_buy,flush,1,0,2,6,gun,False,False,False,0.49,True,T,-1,0.0,1.0,0.0,T,0
@@ -807,9 +807,9 @@ liquid-vs-spirit-m3-ancient,Rio,de_ancient,12,Team Liquid,Team Spirit,5,6,-1,297
 liquid-vs-spirit-m3-ancient,Rio,de_ancient,13,Team Liquid,Team Spirit,5,7,-2,24200,27050,-2850,18550,16900,Full Buy,Full Buy,full_buy,flush,1,0,1,13,gun,False,False,False,0.52,True,T,-1,0.0,1.0,1.0,T,0
 liquid-vs-spirit-m3-ancient,Rio,de_ancient,14,Team Liquid,Team Spirit,5,8,-3,9950,27050,-17100,6700,16400,Semi Eco,Full Buy,building,flush,2,0,1,14,gun,False,False,False,0.52,True,T,0,0.0,0.0,1.0,CT,1
 liquid-vs-spirit-m3-ancient,Rio,de_ancient,15,Team Liquid,Team Spirit,6,8,-2,33800,28550,5250,17750,28550,Full Buy,Full Buy,flush,flush,0,1,1,15,gun,False,False,False,0.52,False,CT,1,1.0,0.0,0.0,CT,1
-liquid-vs-spirit-m3-ancient,Rio,de_ancient,16,Team Liquid,Team Spirit,8,7,1,4650,4450,200,3550,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,True,T,2,1.0,1.0,0.0,CT,1
-liquid-vs-spirit-m3-ancient,Rio,de_ancient,17,Team Liquid,Team Spirit,9,7,2,20150,15150,5000,19150,15350,Full Buy,Semi Buy,full_buy,full_buy,0,1,2,2,conversion,False,True,False,0.52,True,T,0,1.0,1.0,1.0,T,0
-liquid-vs-spirit-m3-ancient,Rio,de_ancient,18,Team Liquid,Team Spirit,9,8,1,8250,20050,-11800,8250,13850,Semi Eco,Full Buy,building,full_buy,1,0,2,3,conversion,False,True,False,0.52,True,T,-1,0.0,1.0,1.0,T,0
+liquid-vs-spirit-m3-ancient,Rio,de_ancient,16,Team Liquid,Team Spirit,8,7,1,4650,4450,200,3550,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,True,T,2,,,,CT,1
+liquid-vs-spirit-m3-ancient,Rio,de_ancient,17,Team Liquid,Team Spirit,9,7,2,20150,15150,5000,19150,15350,Full Buy,Semi Buy,full_buy,full_buy,0,1,2,2,conversion,False,True,False,0.52,True,T,0,1.0,,,T,0
+liquid-vs-spirit-m3-ancient,Rio,de_ancient,18,Team Liquid,Team Spirit,9,8,1,8250,20050,-11800,8250,13850,Semi Eco,Full Buy,building,full_buy,1,0,2,3,conversion,False,True,False,0.52,True,T,-1,0.0,1.0,,T,0
 liquid-vs-spirit-m3-ancient,Rio,de_ancient,19,Team Liquid,Team Spirit,9,9,0,3650,21500,-17850,200,9800,Full Eco,Full Buy,broke,full_buy,2,0,2,4,gun,False,False,False,0.52,True,CT,-2,0.0,0.0,1.0,T,0
 liquid-vs-spirit-m3-ancient,Rio,de_ancient,20,Team Liquid,Team Spirit,9,10,-1,25300,23650,1650,20500,12300,Full Buy,Full Buy,full_buy,flush,3,0,2,5,gun,False,False,False,0.52,False,CT,0,0.0,0.0,0.0,CT,1
 liquid-vs-spirit-m3-ancient,Rio,de_ancient,21,Team Liquid,Team Spirit,10,10,0,27250,26450,800,16450,26750,Full Buy,Full Buy,full_buy,flush,0,1,2,6,gun,False,False,False,0.52,False,T,1,1.0,0.0,0.0,CT,1
@@ -836,9 +836,9 @@ mouz-vs-big-mirage,Rio,de_mirage,12,MOUZ,BIG,5,6,-1,31200,26050,5150,14200,25050
 mouz-vs-big-mirage,Rio,de_mirage,13,MOUZ,BIG,5,7,-2,13750,26850,-13100,14150,12200,Semi Buy,Full Buy,building,flush,1,0,1,13,gun,False,False,False,0.49,True,T,-1,0.0,1.0,0.0,T,0
 mouz-vs-big-mirage,Rio,de_mirage,14,MOUZ,BIG,5,8,-3,4900,27750,-22850,300,3900,Full Eco,Full Buy,broke,flush,2,0,1,14,gun,False,False,False,0.49,True,T,-2,0.0,0.0,1.0,T,0
 mouz-vs-big-mirage,Rio,de_mirage,15,MOUZ,BIG,5,9,-4,23800,28750,-4950,21200,10250,Full Buy,Full Buy,full_buy,flush,3,0,1,15,gun,False,False,False,0.49,True,CT,-3,0.0,0.0,0.0,T,0
-mouz-vs-big-mirage,Rio,de_mirage,16,MOUZ,BIG,10,5,5,4300,4250,50,3300,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.49,False,CT,0,0.0,0.0,0.0,CT,1
-mouz-vs-big-mirage,Rio,de_mirage,17,MOUZ,BIG,11,5,6,20600,1000,19600,17050,0,Full Buy,Full Eco,full_buy,broke,0,1,2,2,conversion,False,True,False,0.49,False,CT,1,1.0,0.0,0.0,CT,1
-mouz-vs-big-mirage,Rio,de_mirage,18,MOUZ,BIG,12,5,7,23100,23000,100,5400,21800,Full Buy,Full Buy,full_buy,flush,0,2,2,3,conversion,False,True,False,0.49,True,CT,0,1.0,1.0,0.0,T,0
+mouz-vs-big-mirage,Rio,de_mirage,16,MOUZ,BIG,10,5,5,4300,4250,50,3300,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.49,False,CT,0,,,,CT,1
+mouz-vs-big-mirage,Rio,de_mirage,17,MOUZ,BIG,11,5,6,20600,1000,19600,17050,0,Full Buy,Full Eco,full_buy,broke,0,1,2,2,conversion,False,True,False,0.49,False,CT,1,1.0,,,CT,1
+mouz-vs-big-mirage,Rio,de_mirage,18,MOUZ,BIG,12,5,7,23100,23000,100,5400,21800,Full Buy,Full Buy,full_buy,flush,0,2,2,3,conversion,False,True,False,0.49,True,CT,0,1.0,1.0,,T,0
 mouz-vs-big-mirage,Rio,de_mirage,19,MOUZ,BIG,12,6,6,23750,21750,2000,22450,17050,Full Buy,Full Buy,full_buy,full_buy,1,0,2,4,gun,False,False,False,0.49,True,CT,-1,0.0,1.0,1.0,T,0
 mouz-vs-big-mirage,Rio,de_mirage,20,MOUZ,BIG,12,7,5,15050,27450,-12400,6050,13000,Semi Buy,Full Buy,building,flush,2,0,2,5,gun,False,False,False,0.49,False,CT,0,0.0,0.0,1.0,CT,1
 mouz-vs-big-mirage,Rio,de_mirage,21,MOUZ,BIG,13,7,6,22150,21500,650,20700,10350,Full Buy,Full Buy,full_buy,full_buy,0,1,2,6,gun,False,False,False,0.49,False,T,1,1.0,0.0,0.0,CT,1
@@ -859,9 +859,9 @@ mouz-vs-cloud9-m1-inferno,Rio,de_inferno,12,Cloud9,MOUZ,6,5,1,29900,21100,8800,1
 mouz-vs-cloud9-m1-inferno,Rio,de_inferno,13,Cloud9,MOUZ,6,6,0,28900,24300,4600,21650,15500,Full Buy,Full Buy,flush,flush,1,0,1,13,gun,False,False,False,0.5,True,T,0,0.0,1.0,0.0,CT,1
 mouz-vs-cloud9-m1-inferno,Rio,de_inferno,14,Cloud9,MOUZ,7,6,1,26250,21750,4500,22950,20950,Full Buy,Full Buy,full_buy,full_buy,0,1,1,14,gun,False,False,False,0.5,False,CT,1,1.0,0.0,1.0,CT,1
 mouz-vs-cloud9-m1-inferno,Rio,de_inferno,15,Cloud9,MOUZ,8,6,2,33250,20100,13150,13050,10050,Full Buy,Full Buy,flush,full_buy,0,2,1,15,gun,False,False,False,0.5,False,CT,2,1.0,1.0,0.0,CT,1
-mouz-vs-cloud9-m1-inferno,Rio,de_inferno,16,Cloud9,MOUZ,6,9,-3,5200,4350,850,3400,3350,Semi Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.5,True,T,0,1.0,1.0,1.0,T,0
-mouz-vs-cloud9-m1-inferno,Rio,de_inferno,17,Cloud9,MOUZ,6,10,-4,9500,16600,-7100,9800,18000,Semi Eco,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.5,True,,-1,0.0,1.0,1.0,T,0
-mouz-vs-cloud9-m1-inferno,Rio,de_inferno,18,Cloud9,MOUZ,6,11,-5,9200,20400,-11200,1100,6000,Semi Eco,Full Buy,building,full_buy,2,0,2,3,conversion,False,True,False,0.5,True,CT,-2,0.0,0.0,1.0,T,0
+mouz-vs-cloud9-m1-inferno,Rio,de_inferno,16,Cloud9,MOUZ,6,9,-3,5200,4350,850,3400,3350,Semi Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.5,True,T,0,,,,T,0
+mouz-vs-cloud9-m1-inferno,Rio,de_inferno,17,Cloud9,MOUZ,6,10,-4,9500,16600,-7100,9800,18000,Semi Eco,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.5,True,,-1,0.0,,,T,0
+mouz-vs-cloud9-m1-inferno,Rio,de_inferno,18,Cloud9,MOUZ,6,11,-5,9200,20400,-11200,1100,6000,Semi Eco,Full Buy,building,full_buy,2,0,2,3,conversion,False,True,False,0.5,True,CT,-2,0.0,0.0,,T,0
 mouz-vs-cloud9-m1-inferno,Rio,de_inferno,19,Cloud9,MOUZ,6,12,-6,30250,24100,6150,26000,12300,Full Buy,Full Buy,flush,flush,3,0,2,4,gun,False,False,False,0.5,False,CT,0,0.0,0.0,0.0,CT,1
 mouz-vs-cloud9-m1-inferno,Rio,de_inferno,20,Cloud9,MOUZ,7,12,-5,31350,26150,5200,6750,20750,Full Buy,Full Buy,flush,flush,0,1,2,5,gun,False,False,False,0.5,False,CT,1,1.0,0.0,0.0,CT,1
 mouz-vs-cloud9-m1-inferno,Rio,de_inferno,21,Cloud9,MOUZ,8,12,-4,30650,17250,13400,14900,11100,Full Buy,Semi Buy,flush,full_buy,0,2,2,6,gun,False,False,False,0.5,True,T,0,1.0,1.0,0.0,T,0
@@ -886,9 +886,9 @@ mouz-vs-cloud9-m2-overpass,Rio,de_overpass,12,MOUZ,Cloud9,8,3,5,14250,27650,-134
 mouz-vs-cloud9-m2-overpass,Rio,de_overpass,13,MOUZ,Cloud9,8,4,4,25000,27650,-2650,21000,9200,Full Buy,Full Buy,full_buy,flush,3,0,1,13,gun,False,False,False,0.52,False,CT,0,0.0,0.0,0.0,CT,1
 mouz-vs-cloud9-m2-overpass,Rio,de_overpass,14,MOUZ,Cloud9,9,4,5,30450,27550,2900,14050,26950,Full Buy,Full Buy,flush,flush,0,1,1,14,gun,False,False,False,0.52,False,CT,1,1.0,0.0,0.0,CT,1
 mouz-vs-cloud9-m2-overpass,Rio,de_overpass,15,MOUZ,Cloud9,10,4,6,30550,24100,6450,6150,23300,Full Buy,Full Buy,flush,flush,0,2,1,15,gun,False,False,False,0.52,False,T,0,1.0,1.0,0.0,T,0
-mouz-vs-cloud9-m2-overpass,Rio,de_overpass,16,MOUZ,Cloud9,5,10,-5,5200,4750,450,3400,3550,Semi Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,True,CT,-1,0.0,1.0,1.0,T,0
-mouz-vs-cloud9-m2-overpass,Rio,de_overpass,17,MOUZ,Cloud9,5,11,-6,11050,18450,-7400,10750,18350,Semi Buy,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.52,True,CT,-2,0.0,0.0,1.0,T,0
-mouz-vs-cloud9-m2-overpass,Rio,de_overpass,18,MOUZ,Cloud9,5,12,-7,17600,20950,-3350,13350,17050,Semi Buy,Full Buy,building,full_buy,2,0,2,3,conversion,False,True,False,0.52,True,T,-3,0.0,0.0,0.0,T,0
+mouz-vs-cloud9-m2-overpass,Rio,de_overpass,16,MOUZ,Cloud9,5,10,-5,5200,4750,450,3400,3550,Semi Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,True,CT,-1,,,,T,0
+mouz-vs-cloud9-m2-overpass,Rio,de_overpass,17,MOUZ,Cloud9,5,11,-6,11050,18450,-7400,10750,18350,Semi Buy,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.52,True,CT,-2,0.0,,,T,0
+mouz-vs-cloud9-m2-overpass,Rio,de_overpass,18,MOUZ,Cloud9,5,12,-7,17600,20950,-3350,13350,17050,Semi Buy,Full Buy,building,full_buy,2,0,2,3,conversion,False,True,False,0.52,True,T,-3,0.0,0.0,,T,0
 mouz-vs-cloud9-m2-overpass,Rio,de_overpass,19,MOUZ,Cloud9,5,13,-8,2750,23350,-20600,3850,11050,Full Eco,Full Buy,broke,flush,3,0,2,4,gun,False,False,False,0.52,True,T,-4,0.0,0.0,0.0,T,0
 mouz-vs-cloud9-m2-overpass,Rio,de_overpass,20,MOUZ,Cloud9,5,14,-9,28450,27450,1000,27650,13450,Full Buy,Full Buy,flush,flush,4,0,2,5,gun,False,False,False,0.52,False,CT,0,0.0,0.0,0.0,CT,1
 mouz-vs-cloud9-m2-overpass,Rio,de_overpass,21,MOUZ,Cloud9,6,14,-8,29900,21450,8450,14200,20850,Full Buy,Full Buy,flush,full_buy,0,1,2,6,gun,False,False,False,0.52,False,T,1,1.0,0.0,0.0,CT,1
@@ -915,9 +915,9 @@ mouz-vs-cloud9-m3-ancient,Rio,de_ancient,12,Cloud9,MOUZ,5,6,-1,7850,27250,-19400
 mouz-vs-cloud9-m3-ancient,Rio,de_ancient,13,Cloud9,MOUZ,5,7,-2,28300,27750,550,27300,7800,Full Buy,Full Buy,flush,flush,7,0,1,13,gun,False,False,False,0.52,True,T,-7,0.0,0.0,0.0,T,0
 mouz-vs-cloud9-m3-ancient,Rio,de_ancient,14,Cloud9,MOUZ,5,8,-3,19450,27950,-8500,18450,5450,Semi Buy,Full Buy,full_buy,flush,8,0,1,14,gun,False,False,False,0.52,False,CT,0,0.0,0.0,0.0,CT,1
 mouz-vs-cloud9-m3-ancient,Rio,de_ancient,15,Cloud9,MOUZ,6,8,-2,30600,28250,2350,14850,28150,Full Buy,Full Buy,flush,flush,0,1,1,15,gun,False,False,False,0.52,False,CT,1,1.0,0.0,0.0,CT,1
-mouz-vs-cloud9-m3-ancient,Rio,de_ancient,16,Cloud9,MOUZ,8,7,1,4000,4350,-350,3400,3550,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,True,CT,0,1.0,1.0,0.0,T,0
-mouz-vs-cloud9-m3-ancient,Rio,de_ancient,17,Cloud9,MOUZ,8,8,0,10200,18150,-7950,9800,17450,Semi Buy,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.52,False,CT,0,0.0,1.0,1.0,CT,1
-mouz-vs-cloud9-m3-ancient,Rio,de_ancient,18,Cloud9,MOUZ,9,8,1,22100,8150,13950,16300,7850,Full Buy,Semi Eco,full_buy,building,0,1,2,3,conversion,False,True,False,0.52,False,CT,1,1.0,0.0,1.0,CT,1
+mouz-vs-cloud9-m3-ancient,Rio,de_ancient,16,Cloud9,MOUZ,8,7,1,4000,4350,-350,3400,3550,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,True,CT,0,,,,T,0
+mouz-vs-cloud9-m3-ancient,Rio,de_ancient,17,Cloud9,MOUZ,8,8,0,10200,18150,-7950,9800,17450,Semi Buy,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.52,False,CT,0,0.0,,,CT,1
+mouz-vs-cloud9-m3-ancient,Rio,de_ancient,18,Cloud9,MOUZ,9,8,1,22100,8150,13950,16300,7850,Full Buy,Semi Eco,full_buy,building,0,1,2,3,conversion,False,True,False,0.52,False,CT,1,1.0,0.0,,CT,1
 mouz-vs-cloud9-m3-ancient,Rio,de_ancient,19,Cloud9,MOUZ,10,8,2,26150,1500,24650,4800,700,Full Buy,Full Eco,full_buy,broke,0,2,2,4,gun,False,False,False,0.52,False,CT,2,1.0,1.0,0.0,CT,1
 mouz-vs-cloud9-m3-ancient,Rio,de_ancient,20,Cloud9,MOUZ,11,8,3,27850,22550,5300,9700,21250,Full Buy,Full Buy,full_buy,flush,0,3,2,5,gun,False,False,False,0.52,False,CT,3,1.0,1.0,1.0,CT,1
 mouz-vs-cloud9-m3-ancient,Rio,de_ancient,21,Cloud9,MOUZ,12,8,4,29550,5050,24500,5700,5050,Full Buy,Semi Eco,flush,broke,0,4,2,6,gun,False,False,False,0.52,False,CT,4,1.0,1.0,1.0,CT,1
@@ -940,9 +940,9 @@ mouz-vs-ence-m1-ancient,Rio,de_ancient,12,ENCE,MOUZ,5,6,-1,31350,26950,4400,1530
 mouz-vs-ence-m1-ancient,Rio,de_ancient,13,ENCE,MOUZ,5,7,-2,29700,26650,3050,28700,19100,Full Buy,Full Buy,flush,flush,1,0,1,13,gun,False,False,False,0.52,False,CT,-1,0.0,1.0,1.0,T,0
 mouz-vs-ence-m1-ancient,Rio,de_ancient,14,ENCE,MOUZ,5,8,-3,19350,27250,-7900,18350,16000,Semi Buy,Full Buy,full_buy,flush,2,0,1,14,gun,False,False,False,0.52,True,T,-2,0.0,0.0,1.0,T,0
 mouz-vs-ence-m1-ancient,Rio,de_ancient,15,ENCE,MOUZ,5,9,-4,16600,27050,-10450,12250,9050,Semi Buy,Full Buy,building,flush,3,0,1,15,gun,False,False,False,0.52,True,T,-3,0.0,0.0,0.0,T,0
-mouz-vs-ence-m1-ancient,Rio,de_ancient,16,ENCE,MOUZ,10,5,5,3250,4150,-900,3400,3550,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,True,CT,0,0.0,0.0,0.0,CT,1
-mouz-vs-ence-m1-ancient,Rio,de_ancient,17,ENCE,MOUZ,11,5,6,17800,14850,2950,19600,14450,Semi Buy,Semi Buy,building,full_buy,0,1,2,2,conversion,False,True,False,0.52,False,CT,1,1.0,0.0,0.0,CT,1
-mouz-vs-ence-m1-ancient,Rio,de_ancient,18,ENCE,MOUZ,12,5,7,25850,3000,22850,10600,3450,Full Buy,Full Eco,full_buy,broke,0,2,2,3,conversion,False,True,False,0.52,False,CT,2,1.0,1.0,0.0,CT,1
+mouz-vs-ence-m1-ancient,Rio,de_ancient,16,ENCE,MOUZ,10,5,5,3250,4150,-900,3400,3550,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,True,CT,0,,,,CT,1
+mouz-vs-ence-m1-ancient,Rio,de_ancient,17,ENCE,MOUZ,11,5,6,17800,14850,2950,19600,14450,Semi Buy,Semi Buy,building,full_buy,0,1,2,2,conversion,False,True,False,0.52,False,CT,1,1.0,,,CT,1
+mouz-vs-ence-m1-ancient,Rio,de_ancient,18,ENCE,MOUZ,12,5,7,25850,3000,22850,10600,3450,Full Buy,Full Eco,full_buy,broke,0,2,2,3,conversion,False,True,False,0.52,False,CT,2,1.0,1.0,,CT,1
 mouz-vs-ence-m1-ancient,Rio,de_ancient,19,ENCE,MOUZ,13,5,8,27650,24100,3550,4800,23300,Full Buy,Full Buy,full_buy,flush,0,3,2,4,gun,False,False,False,0.52,False,CT,3,1.0,1.0,1.0,CT,1
 mouz-vs-ence-m1-ancient,Rio,de_ancient,20,ENCE,MOUZ,14,5,9,31550,18900,12650,17150,17700,Full Buy,Semi Buy,flush,full_buy,0,4,2,5,gun,False,False,False,0.52,False,CT,4,1.0,1.0,1.0,CT,1
 mouz-vs-ence-m1-ancient,Rio,de_ancient,21,ENCE,MOUZ,15,5,10,31550,17800,13750,5700,16500,Full Buy,Semi Buy,flush,full_buy,0,5,2,6,gun,False,False,False,0.52,False,T,5,1.0,1.0,1.0,CT,1
@@ -961,9 +961,9 @@ mouz-vs-ence-m2-nuke,Rio,de_nuke,12,MOUZ,ENCE,3,8,-5,27350,25900,1450,22950,6550
 mouz-vs-ence-m2-nuke,Rio,de_nuke,13,MOUZ,ENCE,3,9,-6,24250,25600,-1350,18900,12800,Full Buy,Full Buy,full_buy,flush,4,0,1,13,gun,False,False,False,0.57,True,CT,0,0.0,0.0,0.0,CT,1
 mouz-vs-ence-m2-nuke,Rio,de_nuke,14,MOUZ,ENCE,4,9,-5,26650,27350,-700,19900,26550,Full Buy,Full Buy,full_buy,flush,0,1,1,14,gun,False,False,False,0.57,True,CT,0,1.0,0.0,0.0,T,0
 mouz-vs-ence-m2-nuke,Rio,de_nuke,15,MOUZ,ENCE,4,10,-6,16200,26400,-10200,16600,22100,Semi Buy,Full Buy,building,flush,1,0,1,15,gun,False,False,False,0.57,True,CT,-1,0.0,1.0,0.0,T,0
-mouz-vs-ence-m2-nuke,Rio,de_nuke,16,MOUZ,ENCE,11,4,7,4000,4900,-900,3400,3400,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.57,True,CT,-2,0.0,0.0,1.0,T,0
-mouz-vs-ence-m2-nuke,Rio,de_nuke,17,MOUZ,ENCE,11,5,6,10650,15600,-4950,10050,17550,Semi Buy,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.57,True,T,-3,0.0,0.0,0.0,T,0
-mouz-vs-ence-m2-nuke,Rio,de_nuke,18,MOUZ,ENCE,11,6,5,2850,21950,-19100,2950,11900,Full Eco,Full Buy,broke,full_buy,2,0,2,3,conversion,False,True,False,0.57,True,T,-4,0.0,0.0,0.0,T,0
+mouz-vs-ence-m2-nuke,Rio,de_nuke,16,MOUZ,ENCE,11,4,7,4000,4900,-900,3400,3400,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.57,True,CT,-2,,,,T,0
+mouz-vs-ence-m2-nuke,Rio,de_nuke,17,MOUZ,ENCE,11,5,6,10650,15600,-4950,10050,17550,Semi Buy,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.57,True,T,-3,0.0,,,T,0
+mouz-vs-ence-m2-nuke,Rio,de_nuke,18,MOUZ,ENCE,11,6,5,2850,21950,-19100,2950,11900,Full Eco,Full Buy,broke,full_buy,2,0,2,3,conversion,False,True,False,0.57,True,T,-4,0.0,0.0,,T,0
 mouz-vs-ence-m2-nuke,Rio,de_nuke,19,MOUZ,ENCE,11,7,4,26850,27650,-800,25650,17850,Full Buy,Full Buy,full_buy,flush,3,0,2,4,gun,False,False,False,0.57,False,CT,0,0.0,0.0,0.0,CT,1
 mouz-vs-ence-m2-nuke,Rio,de_nuke,20,MOUZ,ENCE,12,7,5,28450,9250,19200,9550,2700,Full Buy,Semi Eco,flush,building,0,1,2,5,gun,False,False,False,0.57,False,CT,1,1.0,0.0,0.0,CT,1
 mouz-vs-ence-m2-nuke,Rio,de_nuke,21,MOUZ,ENCE,13,7,6,30250,21800,8450,4300,20800,Full Buy,Full Buy,flush,full_buy,0,2,2,6,gun,False,False,False,0.57,True,CT,0,1.0,1.0,0.0,T,0
@@ -985,9 +985,9 @@ mouz-vs-ence-m3-mirage,Rio,de_mirage,12,ENCE,MOUZ,7,4,3,2600,27250,-24650,2700,1
 mouz-vs-ence-m3-mirage,Rio,de_mirage,13,ENCE,MOUZ,7,5,2,26850,27250,-400,25250,6900,Full Buy,Full Buy,full_buy,flush,4,0,1,13,gun,False,False,False,0.49,True,CT,0,0.0,0.0,0.0,CT,1
 mouz-vs-ence-m3-mirage,Rio,de_mirage,14,ENCE,MOUZ,8,5,3,29800,27050,2750,13800,26450,Full Buy,Full Buy,flush,flush,0,1,1,14,gun,False,False,False,0.49,True,CT,0,1.0,0.0,0.0,T,0
 mouz-vs-ence-m3-mirage,Rio,de_mirage,15,ENCE,MOUZ,8,6,2,17300,27550,-10250,18350,23250,Semi Buy,Full Buy,building,flush,1,0,1,15,gun,False,False,False,0.49,True,CT,-1,0.0,1.0,0.0,T,0
-mouz-vs-ence-m3-mirage,Rio,de_mirage,16,ENCE,MOUZ,7,8,-1,4500,4200,300,3400,3400,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.49,False,CT,0,0.0,0.0,1.0,CT,1
-mouz-vs-ence-m3-mirage,Rio,de_mirage,17,ENCE,MOUZ,8,8,0,21100,10650,10450,17450,10150,Full Buy,Semi Buy,full_buy,building,0,1,2,2,conversion,False,True,False,0.49,False,CT,1,1.0,0.0,0.0,CT,1
-mouz-vs-ence-m3-mirage,Rio,de_mirage,18,ENCE,MOUZ,9,8,1,24450,3100,21350,10400,3100,Full Buy,Full Eco,full_buy,broke,0,2,2,3,conversion,False,True,False,0.49,False,CT,2,1.0,1.0,0.0,CT,1
+mouz-vs-ence-m3-mirage,Rio,de_mirage,16,ENCE,MOUZ,7,8,-1,4500,4200,300,3400,3400,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.49,False,CT,0,,,,CT,1
+mouz-vs-ence-m3-mirage,Rio,de_mirage,17,ENCE,MOUZ,8,8,0,21100,10650,10450,17450,10150,Full Buy,Semi Buy,full_buy,building,0,1,2,2,conversion,False,True,False,0.49,False,CT,1,1.0,,,CT,1
+mouz-vs-ence-m3-mirage,Rio,de_mirage,18,ENCE,MOUZ,9,8,1,24450,3100,21350,10400,3100,Full Buy,Full Eco,full_buy,broke,0,2,2,3,conversion,False,True,False,0.49,False,CT,2,1.0,1.0,,CT,1
 mouz-vs-ence-m3-mirage,Rio,de_mirage,19,ENCE,MOUZ,10,8,2,30450,24700,5750,9150,23700,Full Buy,Full Buy,flush,flush,0,3,2,4,gun,False,False,False,0.49,False,CT,3,1.0,1.0,1.0,CT,1
 mouz-vs-ence-m3-mirage,Rio,de_mirage,20,ENCE,MOUZ,11,8,3,30650,19200,11450,19850,18000,Full Buy,Semi Buy,flush,full_buy,0,4,2,5,gun,False,False,False,0.49,True,CT,4,1.0,1.0,1.0,CT,1
 mouz-vs-ence-m3-mirage,Rio,de_mirage,21,ENCE,MOUZ,12,8,4,30350,23800,6550,14100,22100,Full Buy,Full Buy,flush,flush,0,5,2,6,gun,False,False,False,0.49,False,CT,5,1.0,1.0,1.0,CT,1
@@ -1010,9 +1010,9 @@ mouz-vs-liquid-inferno,Rio,de_inferno,12,Team Liquid,MOUZ,1,10,-9,3550,27450,-23
 mouz-vs-liquid-inferno,Rio,de_inferno,13,Team Liquid,MOUZ,1,11,-10,28950,27450,1500,27750,4100,Full Buy,Full Buy,flush,flush,2,0,1,13,gun,False,False,False,0.5,False,CT,0,0.0,0.0,1.0,CT,1
 mouz-vs-liquid-inferno,Rio,de_inferno,14,Team Liquid,MOUZ,2,11,-9,24150,27550,-3400,17000,27350,Full Buy,Full Buy,full_buy,flush,0,1,1,14,gun,False,False,False,0.5,True,T,0,1.0,0.0,0.0,T,0
 mouz-vs-liquid-inferno,Rio,de_inferno,15,Team Liquid,MOUZ,2,12,-10,27100,27950,-850,16250,23250,Full Buy,Full Buy,full_buy,flush,1,0,1,15,gun,False,False,False,0.5,True,T,-1,0.0,1.0,0.0,T,0
-mouz-vs-liquid-inferno,Rio,de_inferno,16,Team Liquid,MOUZ,13,2,11,4000,4350,-350,3400,3350,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.5,True,CT,0,0.0,0.0,1.0,CT,1
-mouz-vs-liquid-inferno,Rio,de_inferno,17,Team Liquid,MOUZ,14,2,12,21300,15900,5400,19350,15100,Full Buy,Semi Buy,full_buy,full_buy,0,1,2,2,conversion,False,True,False,0.5,False,CT,1,1.0,0.0,0.0,CT,1
-mouz-vs-liquid-inferno,Rio,de_inferno,18,Team Liquid,MOUZ,15,2,13,25450,12300,13150,11600,12300,Full Buy,Semi Buy,full_buy,building,0,2,2,3,conversion,False,True,False,0.5,False,T,2,1.0,1.0,0.0,CT,1
+mouz-vs-liquid-inferno,Rio,de_inferno,16,Team Liquid,MOUZ,13,2,11,4000,4350,-350,3400,3350,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.5,True,CT,0,,,,CT,1
+mouz-vs-liquid-inferno,Rio,de_inferno,17,Team Liquid,MOUZ,14,2,12,21300,15900,5400,19350,15100,Full Buy,Semi Buy,full_buy,full_buy,0,1,2,2,conversion,False,True,False,0.5,False,CT,1,1.0,,,CT,1
+mouz-vs-liquid-inferno,Rio,de_inferno,18,Team Liquid,MOUZ,15,2,13,25450,12300,13150,11600,12300,Full Buy,Semi Buy,full_buy,building,0,2,2,3,conversion,False,True,False,0.5,False,T,2,1.0,1.0,,CT,1
 mouz-vs-outsiders-m1-overpass,Rio,de_overpass,1,MOUZ,Outsiders,0,0,0,4400,4350,50,3400,3350,Full Eco,Full Eco,broke,broke,0,0,1,1,pistol,True,False,False,0.52,True,T,0,,,,T,0
 mouz-vs-outsiders-m1-overpass,Rio,de_overpass,2,MOUZ,Outsiders,0,1,-1,8900,21650,-12750,8900,18300,Semi Eco,Full Buy,building,full_buy,1,0,1,2,conversion,False,True,False,0.52,True,T,-1,0.0,,,T,0
 mouz-vs-outsiders-m1-overpass,Rio,de_overpass,3,MOUZ,Outsiders,0,2,-2,1500,23450,-21950,700,8400,Full Eco,Full Buy,broke,flush,2,0,1,3,conversion,False,True,False,0.52,True,T,-2,0.0,0.0,,T,0
@@ -1028,9 +1028,9 @@ mouz-vs-outsiders-m1-overpass,Rio,de_overpass,12,MOUZ,Outsiders,7,4,3,28150,2430
 mouz-vs-outsiders-m1-overpass,Rio,de_overpass,13,MOUZ,Outsiders,7,5,2,1000,27450,-26450,300,12200,Full Eco,Full Buy,broke,flush,1,0,1,13,gun,False,False,False,0.52,True,T,-1,0.0,1.0,1.0,T,0
 mouz-vs-outsiders-m1-overpass,Rio,de_overpass,14,MOUZ,Outsiders,7,6,1,23050,27250,-4200,19350,7000,Full Buy,Full Buy,full_buy,flush,2,0,1,14,gun,False,False,False,0.52,False,CT,0,0.0,0.0,1.0,CT,1
 mouz-vs-outsiders-m1-overpass,Rio,de_overpass,15,MOUZ,Outsiders,8,6,2,29100,26550,2550,9450,26450,Full Buy,Full Buy,flush,flush,0,1,1,15,gun,False,False,False,0.52,False,CT,1,1.0,0.0,0.0,CT,1
-mouz-vs-outsiders-m1-overpass,Rio,de_overpass,16,MOUZ,Outsiders,6,9,-3,4400,4200,200,3400,3400,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,False,CT,2,1.0,1.0,0.0,CT,1
-mouz-vs-outsiders-m1-overpass,Rio,de_overpass,17,MOUZ,Outsiders,7,9,-2,20400,1000,19400,16650,0,Full Buy,Full Eco,full_buy,broke,0,1,2,2,conversion,False,True,False,0.52,False,CT,3,1.0,1.0,1.0,CT,1
-mouz-vs-outsiders-m1-overpass,Rio,de_overpass,18,MOUZ,Outsiders,8,9,-1,28550,23000,5550,11650,22000,Full Buy,Full Buy,flush,flush,0,2,2,3,conversion,False,True,False,0.52,False,CT,4,1.0,1.0,1.0,CT,1
+mouz-vs-outsiders-m1-overpass,Rio,de_overpass,16,MOUZ,Outsiders,6,9,-3,4400,4200,200,3400,3400,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,False,CT,2,,,,CT,1
+mouz-vs-outsiders-m1-overpass,Rio,de_overpass,17,MOUZ,Outsiders,7,9,-2,20400,1000,19400,16650,0,Full Buy,Full Eco,full_buy,broke,0,1,2,2,conversion,False,True,False,0.52,False,CT,3,1.0,,,CT,1
+mouz-vs-outsiders-m1-overpass,Rio,de_overpass,18,MOUZ,Outsiders,8,9,-1,28550,23000,5550,11650,22000,Full Buy,Full Buy,flush,flush,0,2,2,3,conversion,False,True,False,0.52,False,CT,4,1.0,1.0,,CT,1
 mouz-vs-outsiders-m1-overpass,Rio,de_overpass,19,MOUZ,Outsiders,9,9,0,29850,6000,23850,10400,6650,Full Buy,Semi Eco,flush,building,0,3,2,4,gun,False,False,False,0.52,True,CT,5,1.0,1.0,1.0,CT,1
 mouz-vs-outsiders-m1-overpass,Rio,de_overpass,20,MOUZ,Outsiders,10,9,1,31150,27250,3900,14600,26250,Full Buy,Full Buy,flush,flush,0,4,2,5,gun,False,False,False,0.52,True,CT,0,1.0,1.0,1.0,T,0
 mouz-vs-outsiders-m1-overpass,Rio,de_overpass,21,MOUZ,Outsiders,10,10,0,30500,24550,5950,15050,13100,Full Buy,Full Buy,flush,flush,1,0,2,6,gun,False,False,False,0.52,False,CT,0,0.0,1.0,1.0,CT,1
@@ -1054,9 +1054,9 @@ mouz-vs-outsiders-m2-inferno,Rio,de_inferno,12,Outsiders,MOUZ,5,6,-1,21500,27450
 mouz-vs-outsiders-m2-inferno,Rio,de_inferno,13,Outsiders,MOUZ,5,7,-2,20350,27550,-7200,10600,13150,Full Buy,Full Buy,full_buy,flush,3,0,1,13,gun,False,False,False,0.5,True,T,-3,0.0,0.0,0.0,T,0
 mouz-vs-outsiders-m2-inferno,Rio,de_inferno,14,Outsiders,MOUZ,5,8,-3,27000,27450,-450,12250,9550,Full Buy,Full Buy,full_buy,flush,4,0,1,14,gun,False,False,False,0.5,False,CT,0,0.0,0.0,0.0,CT,1
 mouz-vs-outsiders-m2-inferno,Rio,de_inferno,15,Outsiders,MOUZ,6,8,-2,31650,28250,3400,13850,28850,Full Buy,Full Buy,flush,flush,0,1,1,15,gun,False,False,False,0.5,False,CT,1,1.0,0.0,0.0,CT,1
-mouz-vs-outsiders-m2-inferno,Rio,de_inferno,16,Outsiders,MOUZ,8,7,1,4800,4750,50,3400,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.5,True,CT,2,1.0,1.0,0.0,CT,1
-mouz-vs-outsiders-m2-inferno,Rio,de_inferno,17,Outsiders,MOUZ,9,7,2,20950,15600,5350,19750,14800,Full Buy,Semi Buy,full_buy,full_buy,0,1,2,2,conversion,False,True,False,0.5,True,T,0,1.0,1.0,1.0,T,0
-mouz-vs-outsiders-m2-inferno,Rio,de_inferno,18,Outsiders,MOUZ,9,8,1,5650,23400,-17750,4050,5600,Semi Eco,Full Buy,broke,flush,1,0,2,3,conversion,False,True,False,0.5,False,T,-1,0.0,1.0,1.0,T,0
+mouz-vs-outsiders-m2-inferno,Rio,de_inferno,16,Outsiders,MOUZ,8,7,1,4800,4750,50,3400,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.5,True,CT,2,,,,CT,1
+mouz-vs-outsiders-m2-inferno,Rio,de_inferno,17,Outsiders,MOUZ,9,7,2,20950,15600,5350,19750,14800,Full Buy,Semi Buy,full_buy,full_buy,0,1,2,2,conversion,False,True,False,0.5,True,T,0,1.0,,,T,0
+mouz-vs-outsiders-m2-inferno,Rio,de_inferno,18,Outsiders,MOUZ,9,8,1,5650,23400,-17750,4050,5600,Semi Eco,Full Buy,broke,flush,1,0,2,3,conversion,False,True,False,0.5,False,T,-1,0.0,1.0,,T,0
 mouz-vs-outsiders-m2-inferno,Rio,de_inferno,19,Outsiders,MOUZ,9,9,0,1000,22350,-21350,0,6350,Full Eco,Full Buy,broke,flush,2,0,2,4,gun,False,False,False,0.5,False,T,-2,0.0,0.0,1.0,T,0
 mouz-vs-outsiders-m2-inferno,Rio,de_inferno,20,Outsiders,MOUZ,9,10,-1,25500,23050,2450,24500,2000,Full Buy,Full Buy,full_buy,flush,3,0,2,5,gun,False,False,False,0.5,True,CT,-3,0.0,0.0,0.0,T,0
 mouz-vs-outsiders-m2-inferno,Rio,de_inferno,21,Outsiders,MOUZ,9,11,-2,27400,26600,800,13600,13100,Full Buy,Full Buy,full_buy,flush,4,0,2,6,gun,False,False,False,0.5,True,CT,-4,0.0,0.0,0.0,T,0
@@ -1080,9 +1080,9 @@ mouz-vs-vitality-mirage,Rio,de_mirage,12,MOUZ,Vitality,3,8,-5,29300,27550,1750,1
 mouz-vs-vitality-mirage,Rio,de_mirage,13,MOUZ,Vitality,4,8,-4,30150,24000,6150,11600,22600,Full Buy,Full Buy,flush,flush,0,1,1,13,gun,False,False,False,0.49,False,CT,1,1.0,0.0,1.0,CT,1
 mouz-vs-vitality-mirage,Rio,de_mirage,14,MOUZ,Vitality,5,8,-3,30450,19800,10650,5700,8800,Full Buy,Semi Buy,flush,full_buy,0,2,1,14,gun,False,False,False,0.49,False,CT,2,1.0,1.0,0.0,CT,1
 mouz-vs-vitality-mirage,Rio,de_mirage,15,MOUZ,Vitality,6,8,-2,31350,14350,17000,6600,13950,Full Buy,Semi Buy,flush,full_buy,0,3,1,15,gun,False,False,False,0.49,True,T,3,1.0,1.0,1.0,CT,1
-mouz-vs-vitality-mirage,Rio,de_mirage,16,MOUZ,Vitality,8,7,1,4200,4450,-250,3400,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.49,True,T,0,1.0,1.0,1.0,T,0
-mouz-vs-vitality-mirage,Rio,de_mirage,17,MOUZ,Vitality,8,8,0,11750,14500,-2750,9100,17300,Semi Buy,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.49,True,T,-1,0.0,1.0,1.0,T,0
-mouz-vs-vitality-mirage,Rio,de_mirage,18,MOUZ,Vitality,8,9,-1,9250,21950,-12700,3000,12100,Semi Eco,Full Buy,building,full_buy,2,0,2,3,conversion,False,True,False,0.49,True,CT,-2,0.0,0.0,1.0,T,0
+mouz-vs-vitality-mirage,Rio,de_mirage,16,MOUZ,Vitality,8,7,1,4200,4450,-250,3400,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.49,True,T,0,,,,T,0
+mouz-vs-vitality-mirage,Rio,de_mirage,17,MOUZ,Vitality,8,8,0,11750,14500,-2750,9100,17300,Semi Buy,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.49,True,T,-1,0.0,,,T,0
+mouz-vs-vitality-mirage,Rio,de_mirage,18,MOUZ,Vitality,8,9,-1,9250,21950,-12700,3000,12100,Semi Eco,Full Buy,building,full_buy,2,0,2,3,conversion,False,True,False,0.49,True,CT,-2,0.0,0.0,,T,0
 mouz-vs-vitality-mirage,Rio,de_mirage,19,MOUZ,Vitality,8,10,-2,26500,26350,150,24900,9650,Full Buy,Full Buy,full_buy,flush,3,0,2,4,gun,False,False,False,0.49,True,CT,-3,0.0,0.0,0.0,T,0
 mouz-vs-vitality-mirage,Rio,de_mirage,20,MOUZ,Vitality,8,11,-3,10350,27150,-16800,6900,17000,Semi Buy,Full Buy,building,flush,4,0,2,5,gun,False,False,False,0.49,True,T,-4,0.0,0.0,0.0,T,0
 mouz-vs-vitality-mirage,Rio,de_mirage,21,MOUZ,Vitality,8,12,-4,28400,27350,1050,27400,8150,Full Buy,Full Buy,flush,flush,5,0,2,6,gun,False,False,False,0.49,True,T,0,0.0,0.0,0.0,CT,1
@@ -1095,12 +1095,12 @@ mouz-vs-vitality-mirage,Rio,de_mirage,27,MOUZ,Vitality,14,12,2,31550,25650,5900,
 mouz-vs-vitality-mirage,Rio,de_mirage,28,MOUZ,Vitality,14,13,1,31800,27150,4650,12950,4550,Full Buy,Full Buy,flush,flush,1,0,2,13,gun,False,False,False,0.49,False,CT,0,0.0,1.0,1.0,CT,1
 mouz-vs-vitality-mirage,Rio,de_mirage,29,MOUZ,Vitality,15,13,2,33150,26950,6200,20600,22050,Full Buy,Full Buy,flush,flush,0,1,2,14,gun,False,False,False,0.49,True,CT,0,1.0,0.0,1.0,T,0
 mouz-vs-vitality-mirage,Rio,de_mirage,30,MOUZ,Vitality,15,14,1,33550,27450,6100,21700,20900,Full Buy,Full Buy,flush,flush,1,0,2,15,gun,False,False,False,0.49,True,T,-1,0.0,1.0,0.0,T,0
-mouz-vs-vitality-mirage,Rio,de_mirage,31,MOUZ,Vitality,15,15,0,28350,27250,1100,27350,26750,Full Buy,Full Buy,flush,flush,2,0,3,1,overtime,False,False,True,0.49,True,T,0,0.0,0.0,1.0,CT,1
-mouz-vs-vitality-mirage,Rio,de_mirage,32,MOUZ,Vitality,16,15,1,29750,27150,2600,22000,26150,Full Buy,Full Buy,flush,flush,0,1,3,2,overtime,False,False,True,0.49,False,CT,1,1.0,0.0,0.0,CT,1
-mouz-vs-vitality-mirage,Rio,de_mirage,33,MOUZ,Vitality,17,15,2,33350,22700,10650,14550,21900,Full Buy,Full Buy,flush,flush,0,2,3,3,overtime,False,False,True,0.49,False,T,0,1.0,1.0,0.0,T,0
-mouz-vs-vitality-mirage,Rio,de_mirage,34,MOUZ,Vitality,16,17,-1,29550,26650,2900,28750,25650,Full Buy,Full Buy,flush,flush,1,0,3,4,overtime,False,False,True,0.49,False,T,0,0.0,1.0,1.0,CT,1
-mouz-vs-vitality-mirage,Rio,de_mirage,35,MOUZ,Vitality,17,17,0,33050,25700,7350,16450,24700,Full Buy,Full Buy,flush,flush,0,1,3,5,overtime,False,False,True,0.49,False,CT,1,1.0,0.0,1.0,CT,1
-mouz-vs-vitality-mirage,Rio,de_mirage,36,MOUZ,Vitality,18,17,1,31650,23700,7950,15500,19100,Full Buy,Full Buy,flush,flush,0,2,3,6,overtime,False,False,True,0.49,True,CT,2,1.0,1.0,0.0,CT,1
+mouz-vs-vitality-mirage,Rio,de_mirage,31,MOUZ,Vitality,15,15,0,28350,27250,1100,27350,26750,Full Buy,Full Buy,flush,flush,2,0,3,1,overtime,False,False,True,0.49,True,T,0,,,,CT,1
+mouz-vs-vitality-mirage,Rio,de_mirage,32,MOUZ,Vitality,16,15,1,29750,27150,2600,22000,26150,Full Buy,Full Buy,flush,flush,0,1,3,2,overtime,False,False,True,0.49,False,CT,1,1.0,,,CT,1
+mouz-vs-vitality-mirage,Rio,de_mirage,33,MOUZ,Vitality,17,15,2,33350,22700,10650,14550,21900,Full Buy,Full Buy,flush,flush,0,2,3,3,overtime,False,False,True,0.49,False,T,0,1.0,1.0,,T,0
+mouz-vs-vitality-mirage,Rio,de_mirage,34,MOUZ,Vitality,16,17,-1,29550,26650,2900,28750,25650,Full Buy,Full Buy,flush,flush,1,0,3,4,overtime,False,False,True,0.49,False,T,0,,,,CT,1
+mouz-vs-vitality-mirage,Rio,de_mirage,35,MOUZ,Vitality,17,17,0,33050,25700,7350,16450,24700,Full Buy,Full Buy,flush,flush,0,1,3,5,overtime,False,False,True,0.49,False,CT,1,1.0,,,CT,1
+mouz-vs-vitality-mirage,Rio,de_mirage,36,MOUZ,Vitality,18,17,1,31650,23700,7950,15500,19100,Full Buy,Full Buy,flush,flush,0,2,3,6,overtime,False,False,True,0.49,True,CT,2,1.0,1.0,,CT,1
 natus-vincere-vs-bad-news-eagles-m1-ancient,Rio,de_ancient,1,Natus Vincere,Bad News Eagles,0,0,0,4200,3850,350,3400,3550,Full Eco,Full Eco,broke,broke,0,0,1,1,pistol,True,False,False,0.52,False,CT,0,,,,CT,1
 natus-vincere-vs-bad-news-eagles-m1-ancient,Rio,de_ancient,2,Natus Vincere,Bad News Eagles,1,0,1,20600,9650,10950,17250,9750,Full Buy,Semi Eco,full_buy,building,0,1,1,2,conversion,False,True,False,0.52,True,T,1,1.0,,,CT,1
 natus-vincere-vs-bad-news-eagles-m1-ancient,Rio,de_ancient,3,Natus Vincere,Bad News Eagles,2,0,2,26000,6700,19300,13900,7850,Full Buy,Semi Eco,full_buy,building,0,2,1,3,conversion,False,True,False,0.52,False,CT,2,1.0,1.0,,CT,1
@@ -1116,9 +1116,9 @@ natus-vincere-vs-bad-news-eagles-m1-ancient,Rio,de_ancient,12,Natus Vincere,Bad 
 natus-vincere-vs-bad-news-eagles-m1-ancient,Rio,de_ancient,13,Natus Vincere,Bad News Eagles,10,2,8,29850,18450,11400,7400,10600,Full Buy,Semi Buy,flush,full_buy,0,1,1,13,gun,False,False,False,0.52,True,T,1,1.0,0.0,1.0,CT,1
 natus-vincere-vs-bad-news-eagles-m1-ancient,Rio,de_ancient,14,Natus Vincere,Bad News Eagles,11,2,9,31450,23100,8350,22450,22100,Full Buy,Full Buy,flush,flush,0,2,1,14,gun,False,False,False,0.52,False,T,0,1.0,1.0,0.0,T,0
 natus-vincere-vs-bad-news-eagles-m1-ancient,Rio,de_ancient,15,Natus Vincere,Bad News Eagles,11,3,8,28100,29150,-1050,27100,15500,Full Buy,Full Buy,flush,flush,1,0,1,15,gun,False,False,False,0.52,False,T,0,0.0,1.0,1.0,CT,1
-natus-vincere-vs-bad-news-eagles-m1-ancient,Rio,de_ancient,16,Natus Vincere,Bad News Eagles,3,12,-9,4400,4350,50,3400,3350,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,True,T,0,1.0,0.0,1.0,T,0
-natus-vincere-vs-bad-news-eagles-m1-ancient,Rio,de_ancient,17,Natus Vincere,Bad News Eagles,3,13,-10,9500,19000,-9500,9500,17950,Semi Eco,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.52,True,T,-1,0.0,1.0,0.0,T,0
-natus-vincere-vs-bad-news-eagles-m1-ancient,Rio,de_ancient,18,Natus Vincere,Bad News Eagles,3,14,-11,11600,22750,-11150,11200,3900,Semi Buy,Full Buy,building,flush,2,0,2,3,conversion,False,True,False,0.52,True,T,-2,0.0,0.0,1.0,T,0
+natus-vincere-vs-bad-news-eagles-m1-ancient,Rio,de_ancient,16,Natus Vincere,Bad News Eagles,3,12,-9,4400,4350,50,3400,3350,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,True,T,0,,,,T,0
+natus-vincere-vs-bad-news-eagles-m1-ancient,Rio,de_ancient,17,Natus Vincere,Bad News Eagles,3,13,-10,9500,19000,-9500,9500,17950,Semi Eco,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.52,True,T,-1,0.0,,,T,0
+natus-vincere-vs-bad-news-eagles-m1-ancient,Rio,de_ancient,18,Natus Vincere,Bad News Eagles,3,14,-11,11600,22750,-11150,11200,3900,Semi Buy,Full Buy,building,flush,2,0,2,3,conversion,False,True,False,0.52,True,T,-2,0.0,0.0,,T,0
 natus-vincere-vs-bad-news-eagles-m1-ancient,Rio,de_ancient,19,Natus Vincere,Bad News Eagles,3,15,-12,15850,23050,-7200,15450,5700,Semi Buy,Full Buy,building,flush,3,0,2,4,gun,False,False,False,0.52,True,CT,-3,0.0,0.0,0.0,T,0
 natus-vincere-vs-bad-news-eagles-m2-nuke,Rio,de_nuke,1,Bad News Eagles,Natus Vincere,0,0,0,4100,5150,-1050,3300,3450,Full Eco,Semi Eco,broke,broke,0,0,1,1,pistol,True,False,False,0.57,False,CT,0,,,,CT,1
 natus-vincere-vs-bad-news-eagles-m2-nuke,Rio,de_nuke,2,Bad News Eagles,Natus Vincere,1,0,1,19250,1300,17950,17950,500,Semi Buy,Full Eco,full_buy,broke,0,1,1,2,conversion,False,True,False,0.57,False,CT,1,1.0,,,CT,1
@@ -1135,9 +1135,9 @@ natus-vincere-vs-bad-news-eagles-m2-nuke,Rio,de_nuke,12,Bad News Eagles,Natus Vi
 natus-vincere-vs-bad-news-eagles-m2-nuke,Rio,de_nuke,13,Bad News Eagles,Natus Vincere,5,7,-2,2000,25400,-23400,1400,16700,Full Eco,Full Buy,broke,flush,2,0,1,13,gun,False,False,False,0.57,True,T,-2,0.0,0.0,1.0,T,0
 natus-vincere-vs-bad-news-eagles-m2-nuke,Rio,de_nuke,14,Bad News Eagles,Natus Vincere,5,8,-3,22500,25900,-3400,21500,5100,Full Buy,Full Buy,full_buy,flush,3,0,1,14,gun,False,False,False,0.57,True,T,0,0.0,0.0,0.0,CT,1
 natus-vincere-vs-bad-news-eagles-m2-nuke,Rio,de_nuke,15,Bad News Eagles,Natus Vincere,6,8,-2,24400,26300,-1900,18000,26500,Full Buy,Full Buy,full_buy,flush,0,1,1,15,gun,False,False,False,0.57,False,CT,1,1.0,0.0,0.0,CT,1
-natus-vincere-vs-bad-news-eagles-m2-nuke,Rio,de_nuke,16,Bad News Eagles,Natus Vincere,8,7,1,4200,4500,-300,3400,3400,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.57,True,CT,2,1.0,1.0,0.0,CT,1
-natus-vincere-vs-bad-news-eagles-m2-nuke,Rio,de_nuke,17,Bad News Eagles,Natus Vincere,9,7,2,21700,3700,18000,19650,5500,Full Buy,Full Eco,full_buy,broke,0,1,2,2,conversion,False,True,False,0.57,False,CT,3,1.0,1.0,1.0,CT,1
-natus-vincere-vs-bad-news-eagles-m2-nuke,Rio,de_nuke,18,Bad News Eagles,Natus Vincere,10,7,3,26100,22800,3300,7100,21800,Full Buy,Full Buy,full_buy,flush,0,2,2,3,conversion,False,True,False,0.57,False,T,4,1.0,1.0,1.0,CT,1
+natus-vincere-vs-bad-news-eagles-m2-nuke,Rio,de_nuke,16,Bad News Eagles,Natus Vincere,8,7,1,4200,4500,-300,3400,3400,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.57,True,CT,2,,,,CT,1
+natus-vincere-vs-bad-news-eagles-m2-nuke,Rio,de_nuke,17,Bad News Eagles,Natus Vincere,9,7,2,21700,3700,18000,19650,5500,Full Buy,Full Eco,full_buy,broke,0,1,2,2,conversion,False,True,False,0.57,False,CT,3,1.0,,,CT,1
+natus-vincere-vs-bad-news-eagles-m2-nuke,Rio,de_nuke,18,Bad News Eagles,Natus Vincere,10,7,3,26100,22800,3300,7100,21800,Full Buy,Full Buy,full_buy,flush,0,2,2,3,conversion,False,True,False,0.57,False,T,4,1.0,1.0,,CT,1
 natus-vincere-vs-bad-news-eagles-m2-nuke,Rio,de_nuke,19,Bad News Eagles,Natus Vincere,11,7,4,30250,5650,24600,19650,7150,Full Buy,Semi Eco,flush,broke,0,3,2,4,gun,False,False,False,0.57,False,CT,5,1.0,1.0,1.0,CT,1
 natus-vincere-vs-bad-news-eagles-m2-nuke,Rio,de_nuke,20,Bad News Eagles,Natus Vincere,12,7,5,30450,24900,5550,9300,23900,Full Buy,Full Buy,flush,flush,0,4,2,5,gun,False,False,False,0.57,False,T,0,1.0,1.0,1.0,T,0
 natus-vincere-vs-bad-news-eagles-m2-nuke,Rio,de_nuke,21,Bad News Eagles,Natus Vincere,12,8,4,23200,21300,1900,22200,17050,Full Buy,Full Buy,full_buy,full_buy,1,0,2,6,gun,False,False,False,0.57,False,CT,0,0.0,1.0,1.0,CT,1
@@ -1160,9 +1160,9 @@ natus-vincere-vs-cloud9-mirage,Rio,de_mirage,12,Natus Vincere,Cloud9,6,5,1,29550
 natus-vincere-vs-cloud9-mirage,Rio,de_mirage,13,Natus Vincere,Cloud9,7,5,2,30050,26750,3300,17350,25750,Full Buy,Full Buy,flush,flush,0,1,1,13,gun,False,False,False,0.49,True,T,0,1.0,0.0,1.0,T,0
 natus-vincere-vs-cloud9-mirage,Rio,de_mirage,14,Natus Vincere,Cloud9,7,6,1,7050,19250,-12200,6550,16850,Semi Eco,Semi Buy,broke,full_buy,1,0,1,14,gun,False,False,False,0.49,True,T,-1,0.0,1.0,0.0,T,0
 natus-vincere-vs-cloud9-mirage,Rio,de_mirage,15,Natus Vincere,Cloud9,7,7,0,19550,28050,-8500,19250,14700,Semi Buy,Full Buy,full_buy,flush,2,0,1,15,gun,False,False,False,0.49,True,T,0,0.0,0.0,1.0,CT,1
-natus-vincere-vs-cloud9-mirage,Rio,de_mirage,16,Natus Vincere,Cloud9,7,8,-1,3100,4350,-1250,3400,3550,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.49,True,CT,0,1.0,0.0,0.0,T,0
-natus-vincere-vs-cloud9-mirage,Rio,de_mirage,17,Natus Vincere,Cloud9,7,9,-2,8400,19800,-11400,10100,18050,Semi Eco,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.49,True,T,-1,0.0,1.0,0.0,T,0
-natus-vincere-vs-cloud9-mirage,Rio,de_mirage,18,Natus Vincere,Cloud9,7,10,-3,5150,20000,-14850,1300,12100,Semi Eco,Full Buy,broke,full_buy,2,0,2,3,conversion,False,True,False,0.49,True,T,-2,0.0,0.0,1.0,T,0
+natus-vincere-vs-cloud9-mirage,Rio,de_mirage,16,Natus Vincere,Cloud9,7,8,-1,3100,4350,-1250,3400,3550,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.49,True,CT,0,,,,T,0
+natus-vincere-vs-cloud9-mirage,Rio,de_mirage,17,Natus Vincere,Cloud9,7,9,-2,8400,19800,-11400,10100,18050,Semi Eco,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.49,True,T,-1,0.0,,,T,0
+natus-vincere-vs-cloud9-mirage,Rio,de_mirage,18,Natus Vincere,Cloud9,7,10,-3,5150,20000,-14850,1300,12100,Semi Eco,Full Buy,broke,full_buy,2,0,2,3,conversion,False,True,False,0.49,True,T,-2,0.0,0.0,,T,0
 natus-vincere-vs-cloud9-mirage,Rio,de_mirage,19,Natus Vincere,Cloud9,7,11,-4,28250,26050,2200,27250,13350,Full Buy,Full Buy,flush,flush,3,0,2,4,gun,False,False,False,0.49,True,T,-3,0.0,0.0,0.0,T,0
 natus-vincere-vs-cloud9-mirage,Rio,de_mirage,20,Natus Vincere,Cloud9,7,12,-5,26600,27150,-550,15600,16700,Full Buy,Full Buy,full_buy,flush,4,0,2,5,gun,False,False,False,0.49,True,T,-4,0.0,0.0,0.0,T,0
 natus-vincere-vs-cloud9-mirage,Rio,de_mirage,21,Natus Vincere,Cloud9,7,13,-6,11450,26750,-15300,10850,12700,Semi Buy,Full Buy,building,flush,5,0,2,6,gun,False,False,False,0.49,False,CT,0,0.0,0.0,0.0,CT,1
@@ -1190,9 +1190,9 @@ natus-vincere-vs-liquid-ancient,Rio,de_ancient,12,Natus Vincere,Team Liquid,8,3,
 natus-vincere-vs-liquid-ancient,Rio,de_ancient,13,Natus Vincere,Team Liquid,9,3,6,30850,9000,21850,6800,5100,Full Buy,Semi Eco,flush,building,0,4,1,13,gun,False,False,False,0.52,False,T,4,1.0,1.0,1.0,CT,1
 natus-vincere-vs-liquid-ancient,Rio,de_ancient,14,Natus Vincere,Team Liquid,10,3,7,31450,26050,5400,16300,25050,Full Buy,Full Buy,flush,flush,0,5,1,14,gun,False,False,False,0.52,False,CT,5,1.0,1.0,1.0,CT,1
 natus-vincere-vs-liquid-ancient,Rio,de_ancient,15,Natus Vincere,Team Liquid,11,3,8,26800,20650,6150,14650,19050,Full Buy,Full Buy,full_buy,full_buy,0,6,1,15,gun,False,False,False,0.52,False,CT,6,1.0,1.0,1.0,CT,1
-natus-vincere-vs-liquid-ancient,Rio,de_ancient,16,Natus Vincere,Team Liquid,3,12,-9,4250,4950,-700,3250,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,False,T,7,1.0,1.0,1.0,CT,1
-natus-vincere-vs-liquid-ancient,Rio,de_ancient,17,Natus Vincere,Team Liquid,4,12,-8,17000,1600,15400,17500,1000,Semi Buy,Full Eco,building,broke,0,1,2,2,conversion,False,True,False,0.52,True,CT,8,1.0,1.0,1.0,CT,1
-natus-vincere-vs-liquid-ancient,Rio,de_ancient,18,Natus Vincere,Team Liquid,5,12,-7,25950,25100,850,13100,24100,Full Buy,Full Buy,full_buy,flush,0,2,2,3,conversion,False,True,False,0.52,False,T,9,1.0,1.0,1.0,CT,1
+natus-vincere-vs-liquid-ancient,Rio,de_ancient,16,Natus Vincere,Team Liquid,3,12,-9,4250,4950,-700,3250,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,False,T,7,,,,CT,1
+natus-vincere-vs-liquid-ancient,Rio,de_ancient,17,Natus Vincere,Team Liquid,4,12,-8,17000,1600,15400,17500,1000,Semi Buy,Full Eco,building,broke,0,1,2,2,conversion,False,True,False,0.52,True,CT,8,1.0,,,CT,1
+natus-vincere-vs-liquid-ancient,Rio,de_ancient,18,Natus Vincere,Team Liquid,5,12,-7,25950,25100,850,13100,24100,Full Buy,Full Buy,full_buy,flush,0,2,2,3,conversion,False,True,False,0.52,False,T,9,1.0,1.0,,CT,1
 natus-vincere-vs-liquid-ancient,Rio,de_ancient,19,Natus Vincere,Team Liquid,6,12,-6,28400,7200,21200,10650,9400,Full Buy,Semi Eco,flush,building,0,3,2,4,gun,False,False,False,0.52,False,CT,10,1.0,1.0,1.0,CT,1
 natus-vincere-vs-liquid-ancient,Rio,de_ancient,20,Natus Vincere,Team Liquid,7,12,-5,31300,24300,7000,14700,23700,Full Buy,Full Buy,flush,flush,0,4,2,5,gun,False,False,False,0.52,False,CT,11,1.0,1.0,1.0,CT,1
 natus-vincere-vs-liquid-ancient,Rio,de_ancient,21,Natus Vincere,Team Liquid,8,12,-4,31350,3000,28350,20750,9250,Full Buy,Full Eco,flush,broke,0,5,2,6,gun,False,False,False,0.52,False,CT,12,1.0,1.0,1.0,CT,1
@@ -1220,9 +1220,9 @@ ninjas-in-pyjamas-vs-fnatic-inferno,Rio,de_inferno,12,Ninjas in Pyjamas,Fnatic,2
 ninjas-in-pyjamas-vs-fnatic-inferno,Rio,de_inferno,13,Ninjas in Pyjamas,Fnatic,3,9,-6,30050,25200,4850,11500,24200,Full Buy,Full Buy,flush,flush,0,1,1,13,gun,False,False,False,0.5,True,CT,0,1.0,0.0,0.0,T,0
 ninjas-in-pyjamas-vs-fnatic-inferno,Rio,de_inferno,14,Ninjas in Pyjamas,Fnatic,3,10,-7,30100,25200,4900,29100,24200,Full Buy,Full Buy,flush,flush,1,0,1,14,gun,False,False,False,0.5,False,T,0,0.0,1.0,0.0,CT,1
 ninjas-in-pyjamas-vs-fnatic-inferno,Rio,de_inferno,15,Ninjas in Pyjamas,Fnatic,4,10,-6,31950,15800,16150,12950,15200,Full Buy,Semi Buy,flush,full_buy,0,1,1,15,gun,False,False,False,0.5,False,CT,1,1.0,0.0,1.0,CT,1
-ninjas-in-pyjamas-vs-fnatic-inferno,Rio,de_inferno,16,Ninjas in Pyjamas,Fnatic,10,5,5,4400,4250,150,3400,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.5,True,T,0,1.0,1.0,0.0,T,0
-ninjas-in-pyjamas-vs-fnatic-inferno,Rio,de_inferno,17,Ninjas in Pyjamas,Fnatic,10,6,4,10050,19700,-9650,9650,18050,Semi Buy,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.5,True,CT,-1,0.0,1.0,1.0,T,0
-ninjas-in-pyjamas-vs-fnatic-inferno,Rio,de_inferno,18,Ninjas in Pyjamas,Fnatic,10,7,3,7700,22400,-14700,1200,8100,Semi Eco,Full Buy,broke,flush,2,0,2,3,conversion,False,True,False,0.5,True,CT,0,0.0,0.0,1.0,CT,1
+ninjas-in-pyjamas-vs-fnatic-inferno,Rio,de_inferno,16,Ninjas in Pyjamas,Fnatic,10,5,5,4400,4250,150,3400,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.5,True,T,0,,,,T,0
+ninjas-in-pyjamas-vs-fnatic-inferno,Rio,de_inferno,17,Ninjas in Pyjamas,Fnatic,10,6,4,10050,19700,-9650,9650,18050,Semi Buy,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.5,True,CT,-1,0.0,,,T,0
+ninjas-in-pyjamas-vs-fnatic-inferno,Rio,de_inferno,18,Ninjas in Pyjamas,Fnatic,10,7,3,7700,22400,-14700,1200,8100,Semi Eco,Full Buy,broke,flush,2,0,2,3,conversion,False,True,False,0.5,True,CT,0,0.0,0.0,,CT,1
 ninjas-in-pyjamas-vs-fnatic-inferno,Rio,de_inferno,19,Ninjas in Pyjamas,Fnatic,11,7,4,31200,22100,9100,22350,21800,Full Buy,Full Buy,flush,flush,0,1,2,4,gun,False,False,False,0.5,False,T,1,1.0,0.0,0.0,CT,1
 ninjas-in-pyjamas-vs-fnatic-inferno,Rio,de_inferno,20,Ninjas in Pyjamas,Fnatic,12,7,5,29950,1000,28950,22100,1600,Full Buy,Full Eco,flush,broke,0,2,2,5,gun,False,False,False,0.5,False,T,2,1.0,1.0,0.0,CT,1
 ninjas-in-pyjamas-vs-fnatic-inferno,Rio,de_inferno,21,Ninjas in Pyjamas,Fnatic,13,7,6,31050,22400,8650,13000,21400,Full Buy,Full Buy,flush,flush,0,3,2,6,gun,False,False,False,0.5,True,T,0,1.0,1.0,1.0,T,0
@@ -1249,9 +1249,9 @@ ninjas-in-pyjamas-vs-outsiders-mirage,Rio,de_mirage,12,Ninjas in Pyjamas,Outside
 ninjas-in-pyjamas-vs-outsiders-mirage,Rio,de_mirage,13,Ninjas in Pyjamas,Outsiders,4,8,-4,29350,25850,3500,6250,20750,Full Buy,Full Buy,flush,flush,0,1,1,13,gun,False,False,False,0.49,True,T,1,1.0,0.0,0.0,CT,1
 ninjas-in-pyjamas-vs-outsiders-mirage,Rio,de_mirage,14,Ninjas in Pyjamas,Outsiders,5,8,-3,30850,5300,25550,20600,9750,Full Buy,Semi Eco,flush,broke,0,2,1,14,gun,False,False,False,0.49,True,CT,2,1.0,1.0,0.0,CT,1
 ninjas-in-pyjamas-vs-outsiders-mirage,Rio,de_mirage,15,Ninjas in Pyjamas,Outsiders,6,8,-2,30150,24500,5650,18050,23500,Full Buy,Full Buy,flush,flush,0,3,1,15,gun,False,False,False,0.49,False,CT,3,1.0,1.0,1.0,CT,1
-ninjas-in-pyjamas-vs-outsiders-mirage,Rio,de_mirage,16,Ninjas in Pyjamas,Outsiders,8,7,1,4300,4300,0,3300,3600,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.49,True,T,0,1.0,1.0,1.0,T,0
-ninjas-in-pyjamas-vs-outsiders-mirage,Rio,de_mirage,17,Ninjas in Pyjamas,Outsiders,8,8,0,15300,16050,-750,11350,18100,Semi Buy,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.49,True,T,-1,0.0,1.0,1.0,T,0
-ninjas-in-pyjamas-vs-outsiders-mirage,Rio,de_mirage,18,Ninjas in Pyjamas,Outsiders,8,9,-1,1500,23000,-21500,1700,4800,Full Eco,Full Buy,broke,flush,2,0,2,3,conversion,False,True,False,0.49,True,T,-2,0.0,0.0,1.0,T,0
+ninjas-in-pyjamas-vs-outsiders-mirage,Rio,de_mirage,16,Ninjas in Pyjamas,Outsiders,8,7,1,4300,4300,0,3300,3600,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.49,True,T,0,,,,T,0
+ninjas-in-pyjamas-vs-outsiders-mirage,Rio,de_mirage,17,Ninjas in Pyjamas,Outsiders,8,8,0,15300,16050,-750,11350,18100,Semi Buy,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.49,True,T,-1,0.0,,,T,0
+ninjas-in-pyjamas-vs-outsiders-mirage,Rio,de_mirage,18,Ninjas in Pyjamas,Outsiders,8,9,-1,1500,23000,-21500,1700,4800,Full Eco,Full Buy,broke,flush,2,0,2,3,conversion,False,True,False,0.49,True,T,-2,0.0,0.0,,T,0
 ninjas-in-pyjamas-vs-outsiders-mirage,Rio,de_mirage,19,Ninjas in Pyjamas,Outsiders,8,10,-2,26050,23000,3050,24550,4100,Full Buy,Full Buy,full_buy,flush,3,0,2,4,gun,False,False,False,0.49,True,CT,-3,0.0,0.0,0.0,T,0
 ninjas-in-pyjamas-vs-outsiders-mirage,Rio,de_mirage,20,Ninjas in Pyjamas,Outsiders,8,11,-3,13750,27850,-14100,8900,11600,Semi Buy,Full Buy,building,flush,4,0,2,5,gun,False,False,False,0.49,False,CT,0,0.0,0.0,0.0,CT,1
 ninjas-in-pyjamas-vs-outsiders-mirage,Rio,de_mirage,21,Ninjas in Pyjamas,Outsiders,9,11,-2,29800,27050,2750,14000,26050,Full Buy,Full Buy,flush,flush,0,1,2,6,gun,False,False,False,0.49,False,T,1,1.0,0.0,0.0,CT,1
@@ -1277,9 +1277,9 @@ outsiders-vs-fnatic-m1-inferno,Rio,de_inferno,12,Outsiders,Fnatic,6,5,1,29500,25
 outsiders-vs-fnatic-m1-inferno,Rio,de_inferno,13,Outsiders,Fnatic,7,5,2,29750,24200,5550,9950,22800,Full Buy,Full Buy,flush,flush,0,1,1,13,gun,False,False,False,0.5,True,CT,1,1.0,0.0,1.0,CT,1
 outsiders-vs-fnatic-m1-inferno,Rio,de_inferno,14,Outsiders,Fnatic,8,5,3,30650,9650,21000,15300,9450,Full Buy,Semi Eco,flush,building,0,2,1,14,gun,False,False,False,0.5,False,CT,2,1.0,1.0,0.0,CT,1
 outsiders-vs-fnatic-m1-inferno,Rio,de_inferno,15,Outsiders,Fnatic,9,5,4,27000,23400,3600,11750,22200,Full Buy,Full Buy,full_buy,flush,0,3,1,15,gun,False,False,False,0.5,False,T,3,1.0,1.0,1.0,CT,1
-outsiders-vs-fnatic-m1-inferno,Rio,de_inferno,16,Outsiders,Fnatic,5,10,-5,4000,4800,-800,3400,3400,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.5,False,T,4,1.0,1.0,1.0,CT,1
-outsiders-vs-fnatic-m1-inferno,Rio,de_inferno,17,Outsiders,Fnatic,6,10,-4,20300,1500,18800,17900,700,Full Buy,Full Eco,full_buy,broke,0,1,2,2,conversion,False,True,False,0.5,False,CT,5,1.0,1.0,1.0,CT,1
-outsiders-vs-fnatic-m1-inferno,Rio,de_inferno,18,Outsiders,Fnatic,7,10,-3,24100,21100,3000,6300,21600,Full Buy,Full Buy,full_buy,full_buy,0,2,2,3,conversion,False,True,False,0.5,True,CT,6,1.0,1.0,1.0,CT,1
+outsiders-vs-fnatic-m1-inferno,Rio,de_inferno,16,Outsiders,Fnatic,5,10,-5,4000,4800,-800,3400,3400,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.5,False,T,4,,,,CT,1
+outsiders-vs-fnatic-m1-inferno,Rio,de_inferno,17,Outsiders,Fnatic,6,10,-4,20300,1500,18800,17900,700,Full Buy,Full Eco,full_buy,broke,0,1,2,2,conversion,False,True,False,0.5,False,CT,5,1.0,,,CT,1
+outsiders-vs-fnatic-m1-inferno,Rio,de_inferno,18,Outsiders,Fnatic,7,10,-3,24100,21100,3000,6300,21600,Full Buy,Full Buy,full_buy,full_buy,0,2,2,3,conversion,False,True,False,0.5,True,CT,6,1.0,1.0,,CT,1
 outsiders-vs-fnatic-m1-inferno,Rio,de_inferno,19,Outsiders,Fnatic,8,10,-2,30950,6350,24600,21550,12650,Full Buy,Semi Eco,flush,building,0,3,2,4,gun,False,False,False,0.5,False,CT,7,1.0,1.0,1.0,CT,1
 outsiders-vs-fnatic-m1-inferno,Rio,de_inferno,20,Outsiders,Fnatic,9,10,-1,31350,24350,7000,4500,23350,Full Buy,Full Buy,flush,flush,0,4,2,5,gun,False,False,False,0.5,True,CT,8,1.0,1.0,1.0,CT,1
 outsiders-vs-fnatic-m1-inferno,Rio,de_inferno,21,Outsiders,Fnatic,10,10,0,31250,23700,7550,19000,22500,Full Buy,Full Buy,flush,flush,0,5,2,6,gun,False,False,False,0.5,True,T,0,1.0,1.0,1.0,T,0
@@ -1304,9 +1304,9 @@ outsiders-vs-fnatic-m2-mirage,Rio,de_mirage,12,Fnatic,Outsiders,5,6,-1,30650,266
 outsiders-vs-fnatic-m2-mirage,Rio,de_mirage,13,Fnatic,Outsiders,5,7,-2,20550,24650,-4100,25350,13400,Full Buy,Full Buy,full_buy,flush,1,0,1,13,gun,False,False,False,0.49,True,CT,-1,0.0,1.0,1.0,T,0
 outsiders-vs-fnatic-m2-mirage,Rio,de_mirage,14,Fnatic,Outsiders,5,8,-3,4300,24800,-20500,4800,16300,Full Eco,Full Buy,broke,flush,2,0,1,14,gun,False,False,False,0.49,True,T,-2,0.0,0.0,1.0,T,0
 outsiders-vs-fnatic-m2-mirage,Rio,de_mirage,15,Fnatic,Outsiders,5,9,-4,24800,28550,-3750,23800,15250,Full Buy,Full Buy,full_buy,flush,3,0,1,15,gun,False,False,False,0.49,True,CT,0,0.0,0.0,0.0,CT,1
-outsiders-vs-fnatic-m2-mirage,Rio,de_mirage,16,Fnatic,Outsiders,9,6,3,4300,4150,150,3300,3550,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.49,True,CT,1,1.0,0.0,0.0,CT,1
-outsiders-vs-fnatic-m2-mirage,Rio,de_mirage,17,Fnatic,Outsiders,10,6,4,21200,15750,5450,19700,14550,Full Buy,Semi Buy,full_buy,full_buy,0,1,2,2,conversion,False,True,False,0.49,False,CT,0,1.0,1.0,0.0,T,0
-outsiders-vs-fnatic-m2-mirage,Rio,de_mirage,18,Fnatic,Outsiders,10,7,3,6450,24500,-18050,6950,15400,Semi Eco,Full Buy,broke,flush,1,0,2,3,conversion,False,True,False,0.49,True,CT,0,0.0,1.0,1.0,CT,1
+outsiders-vs-fnatic-m2-mirage,Rio,de_mirage,16,Fnatic,Outsiders,9,6,3,4300,4150,150,3300,3550,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.49,True,CT,1,,,,CT,1
+outsiders-vs-fnatic-m2-mirage,Rio,de_mirage,17,Fnatic,Outsiders,10,6,4,21200,15750,5450,19700,14550,Full Buy,Semi Buy,full_buy,full_buy,0,1,2,2,conversion,False,True,False,0.49,False,CT,0,1.0,,,T,0
+outsiders-vs-fnatic-m2-mirage,Rio,de_mirage,18,Fnatic,Outsiders,10,7,3,6450,24500,-18050,6950,15400,Semi Eco,Full Buy,broke,flush,1,0,2,3,conversion,False,True,False,0.49,True,CT,0,0.0,1.0,,CT,1
 outsiders-vs-fnatic-m2-mirage,Rio,de_mirage,19,Fnatic,Outsiders,11,7,4,23850,14700,9150,19650,14800,Full Buy,Semi Buy,full_buy,full_buy,0,1,2,4,gun,False,False,False,0.49,True,CT,1,1.0,0.0,1.0,CT,1
 outsiders-vs-fnatic-m2-mirage,Rio,de_mirage,20,Fnatic,Outsiders,12,7,5,25550,3850,21700,16750,5100,Full Buy,Full Eco,full_buy,broke,0,2,2,5,gun,False,False,False,0.49,False,CT,2,1.0,1.0,0.0,CT,1
 outsiders-vs-fnatic-m2-mirage,Rio,de_mirage,21,Fnatic,Outsiders,13,7,6,26250,22800,3450,4000,21800,Full Buy,Full Buy,full_buy,flush,0,3,2,6,gun,False,False,False,0.49,False,CT,3,1.0,1.0,1.0,CT,1
@@ -1328,9 +1328,9 @@ outsiders-vs-heroic-m1-mirage,Rio,de_mirage,12,Heroic,Outsiders,5,6,-1,1000,2735
 outsiders-vs-heroic-m1-mirage,Rio,de_mirage,13,Heroic,Outsiders,5,7,-2,24400,27250,-2850,20700,7000,Full Buy,Full Buy,full_buy,flush,3,0,1,13,gun,False,False,False,0.49,False,CT,0,0.0,0.0,0.0,CT,1
 outsiders-vs-heroic-m1-mirage,Rio,de_mirage,14,Heroic,Outsiders,6,7,-1,25950,27250,-1300,9050,19800,Full Buy,Full Buy,full_buy,flush,0,1,1,14,gun,False,False,False,0.49,True,CT,1,1.0,0.0,0.0,CT,1
 outsiders-vs-heroic-m1-mirage,Rio,de_mirage,15,Heroic,Outsiders,7,7,0,31550,18450,13100,24300,20050,Full Buy,Semi Buy,flush,full_buy,0,2,1,15,gun,False,False,False,0.49,True,CT,0,1.0,1.0,0.0,T,0
-outsiders-vs-heroic-m1-mirage,Rio,de_mirage,16,Heroic,Outsiders,8,7,1,4300,4450,-150,3300,3600,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.49,True,T,-1,0.0,1.0,1.0,T,0
-outsiders-vs-heroic-m1-mirage,Rio,de_mirage,17,Heroic,Outsiders,8,8,0,10700,20000,-9300,10300,18700,Semi Buy,Full Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.49,False,CT,0,0.0,0.0,1.0,CT,1
-outsiders-vs-heroic-m1-mirage,Rio,de_mirage,18,Heroic,Outsiders,9,8,1,20350,9500,10850,13650,9300,Full Buy,Semi Eco,full_buy,building,0,1,2,3,conversion,False,True,False,0.49,False,CT,1,1.0,0.0,0.0,CT,1
+outsiders-vs-heroic-m1-mirage,Rio,de_mirage,16,Heroic,Outsiders,8,7,1,4300,4450,-150,3300,3600,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.49,True,T,-1,,,,T,0
+outsiders-vs-heroic-m1-mirage,Rio,de_mirage,17,Heroic,Outsiders,8,8,0,10700,20000,-9300,10300,18700,Semi Buy,Full Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.49,False,CT,0,0.0,,,CT,1
+outsiders-vs-heroic-m1-mirage,Rio,de_mirage,18,Heroic,Outsiders,9,8,1,20350,9500,10850,13650,9300,Full Buy,Semi Eco,full_buy,building,0,1,2,3,conversion,False,True,False,0.49,False,CT,1,1.0,0.0,,CT,1
 outsiders-vs-heroic-m1-mirage,Rio,de_mirage,19,Heroic,Outsiders,10,8,2,24500,1500,23000,12250,500,Full Buy,Full Eco,full_buy,broke,0,2,2,4,gun,False,False,False,0.49,False,CT,2,1.0,1.0,0.0,CT,1
 outsiders-vs-heroic-m1-mirage,Rio,de_mirage,20,Heroic,Outsiders,11,8,3,29200,22400,6800,9050,21400,Full Buy,Full Buy,flush,flush,0,3,2,5,gun,False,False,False,0.49,False,CT,3,1.0,1.0,1.0,CT,1
 outsiders-vs-heroic-m1-mirage,Rio,de_mirage,21,Heroic,Outsiders,12,8,4,30450,5050,25400,14100,5550,Full Buy,Semi Eco,flush,broke,0,4,2,6,gun,False,False,False,0.49,False,CT,4,1.0,1.0,1.0,CT,1
@@ -1356,9 +1356,9 @@ outsiders-vs-heroic-m2-overpass,Rio,de_overpass,12,Outsiders,Heroic,8,3,5,31050,
 outsiders-vs-heroic-m2-overpass,Rio,de_overpass,13,Outsiders,Heroic,9,3,6,31150,26750,4400,10100,25950,Full Buy,Full Buy,flush,flush,0,5,1,13,gun,False,False,False,0.52,True,CT,5,1.0,1.0,1.0,CT,1
 outsiders-vs-heroic-m2-overpass,Rio,de_overpass,14,Outsiders,Heroic,10,3,7,31150,23800,7350,21750,22600,Full Buy,Full Buy,flush,flush,0,6,1,14,gun,False,False,False,0.52,False,CT,6,1.0,1.0,1.0,CT,1
 outsiders-vs-heroic-m2-overpass,Rio,de_overpass,15,Outsiders,Heroic,11,3,8,31250,19800,11450,22050,18600,Full Buy,Semi Buy,flush,full_buy,0,7,1,15,gun,False,False,False,0.52,False,CT,7,1.0,1.0,1.0,CT,1
-outsiders-vs-heroic-m2-overpass,Rio,de_overpass,16,Outsiders,Heroic,3,12,-9,4300,4150,150,3300,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,True,CT,8,1.0,1.0,1.0,CT,1
-outsiders-vs-heroic-m2-overpass,Rio,de_overpass,17,Outsiders,Heroic,4,12,-8,19150,6450,12700,19250,7000,Semi Buy,Semi Eco,full_buy,building,0,1,2,2,conversion,False,True,False,0.52,False,CT,9,1.0,1.0,1.0,CT,1
-outsiders-vs-heroic-m2-overpass,Rio,de_overpass,18,Outsiders,Heroic,5,12,-7,27700,20450,7250,12100,19650,Full Buy,Full Buy,full_buy,full_buy,0,2,2,3,conversion,False,True,False,0.52,True,CT,0,1.0,1.0,1.0,T,0
+outsiders-vs-heroic-m2-overpass,Rio,de_overpass,16,Outsiders,Heroic,3,12,-9,4300,4150,150,3300,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,True,CT,8,,,,CT,1
+outsiders-vs-heroic-m2-overpass,Rio,de_overpass,17,Outsiders,Heroic,4,12,-8,19150,6450,12700,19250,7000,Semi Buy,Semi Eco,full_buy,building,0,1,2,2,conversion,False,True,False,0.52,False,CT,9,1.0,,,CT,1
+outsiders-vs-heroic-m2-overpass,Rio,de_overpass,18,Outsiders,Heroic,5,12,-7,27700,20450,7250,12100,19650,Full Buy,Full Buy,full_buy,full_buy,0,2,2,3,conversion,False,True,False,0.52,True,CT,0,1.0,1.0,,T,0
 outsiders-vs-heroic-m2-overpass,Rio,de_overpass,19,Outsiders,Heroic,5,13,-8,15900,21250,-5350,15100,16250,Semi Buy,Full Buy,building,full_buy,1,0,2,4,gun,False,False,False,0.52,False,T,-1,0.0,1.0,1.0,T,0
 outsiders-vs-heroic-m2-overpass,Rio,de_overpass,20,Outsiders,Heroic,5,14,-9,1500,21600,-20100,700,12400,Full Eco,Full Buy,broke,full_buy,2,0,2,5,gun,False,False,False,0.52,True,T,-2,0.0,0.0,1.0,T,0
 outsiders-vs-heroic-m2-overpass,Rio,de_overpass,21,Outsiders,Heroic,5,15,-10,23900,25500,-1600,22600,12300,Full Buy,Full Buy,full_buy,flush,3,0,2,6,gun,False,False,False,0.52,True,T,-3,0.0,0.0,0.0,T,0
@@ -1377,9 +1377,9 @@ outsiders-vs-heroic-overpass,Rio,de_overpass,12,Heroic,Outsiders,9,2,7,30350,167
 outsiders-vs-heroic-overpass,Rio,de_overpass,13,Heroic,Outsiders,10,2,8,29800,24650,5150,18950,17900,Full Buy,Full Buy,flush,flush,0,5,1,13,gun,False,False,False,0.52,True,T,5,1.0,1.0,1.0,CT,1
 outsiders-vs-heroic-overpass,Rio,de_overpass,14,Heroic,Outsiders,11,2,9,27500,24100,3400,20950,23100,Full Buy,Full Buy,full_buy,flush,0,6,1,14,gun,False,False,False,0.52,False,CT,6,1.0,1.0,1.0,CT,1
 outsiders-vs-heroic-overpass,Rio,de_overpass,15,Heroic,Outsiders,12,2,10,31550,14350,17200,20300,16550,Full Buy,Semi Buy,flush,full_buy,0,7,1,15,gun,False,False,False,0.52,False,CT,7,1.0,1.0,1.0,CT,1
-outsiders-vs-heroic-overpass,Rio,de_overpass,16,Heroic,Outsiders,2,13,-11,4750,4350,400,3450,3350,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,False,CT,8,1.0,1.0,1.0,CT,1
-outsiders-vs-heroic-overpass,Rio,de_overpass,17,Heroic,Outsiders,3,13,-10,17000,10150,6850,14800,10250,Semi Buy,Semi Buy,building,building,0,1,2,2,conversion,False,True,False,0.52,True,CT,9,1.0,1.0,1.0,CT,1
-outsiders-vs-heroic-overpass,Rio,de_overpass,18,Heroic,Outsiders,4,13,-9,30050,8400,21650,19750,8400,Full Buy,Semi Eco,flush,building,0,2,2,3,conversion,False,True,False,0.52,False,CT,10,1.0,1.0,1.0,CT,1
+outsiders-vs-heroic-overpass,Rio,de_overpass,16,Heroic,Outsiders,2,13,-11,4750,4350,400,3450,3350,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,False,CT,8,,,,CT,1
+outsiders-vs-heroic-overpass,Rio,de_overpass,17,Heroic,Outsiders,3,13,-10,17000,10150,6850,14800,10250,Semi Buy,Semi Buy,building,building,0,1,2,2,conversion,False,True,False,0.52,True,CT,9,1.0,,,CT,1
+outsiders-vs-heroic-overpass,Rio,de_overpass,18,Heroic,Outsiders,4,13,-9,30050,8400,21650,19750,8400,Full Buy,Semi Eco,flush,building,0,2,2,3,conversion,False,True,False,0.52,False,CT,10,1.0,1.0,,CT,1
 outsiders-vs-heroic-overpass,Rio,de_overpass,19,Heroic,Outsiders,5,13,-8,30850,23450,7400,14200,22050,Full Buy,Full Buy,flush,flush,0,3,2,4,gun,False,False,False,0.52,True,T,0,1.0,1.0,1.0,T,0
 outsiders-vs-heroic-overpass,Rio,de_overpass,20,Heroic,Outsiders,5,14,-9,28000,27050,950,14150,10750,Full Buy,Full Buy,flush,flush,1,0,2,5,gun,False,False,False,0.52,True,CT,0,0.0,1.0,1.0,CT,1
 outsiders-vs-heroic-overpass,Rio,de_overpass,21,Heroic,Outsiders,6,14,-8,29400,15500,13900,13300,14900,Full Buy,Semi Buy,flush,full_buy,0,1,2,6,gun,False,False,False,0.52,True,CT,1,1.0,0.0,1.0,CT,1
@@ -1402,9 +1402,9 @@ outsiders-vs-mouz-m1-ancient,Rio,de_ancient,12,Outsiders,MOUZ,7,4,3,31550,27250,
 outsiders-vs-mouz-m1-ancient,Rio,de_ancient,13,Outsiders,MOUZ,7,5,2,30950,27050,3900,31850,15800,Full Buy,Full Buy,flush,flush,1,0,1,13,gun,False,False,False,0.52,True,CT,0,0.0,1.0,1.0,CT,1
 outsiders-vs-mouz-m1-ancient,Rio,de_ancient,14,Outsiders,MOUZ,8,5,3,30850,24850,6000,15900,23850,Full Buy,Full Buy,flush,flush,0,1,1,14,gun,False,False,False,0.52,True,T,1,1.0,0.0,1.0,CT,1
 outsiders-vs-mouz-m1-ancient,Rio,de_ancient,15,Outsiders,MOUZ,9,5,4,31950,22600,9350,26850,23400,Full Buy,Full Buy,flush,flush,0,2,1,15,gun,False,False,False,0.52,False,CT,2,1.0,1.0,0.0,CT,1
-outsiders-vs-mouz-m1-ancient,Rio,de_ancient,16,Outsiders,MOUZ,5,10,-5,4400,4450,-50,3400,3750,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,True,T,3,1.0,1.0,1.0,CT,1
-outsiders-vs-mouz-m1-ancient,Rio,de_ancient,17,Outsiders,MOUZ,6,10,-4,20250,4800,15450,19100,4800,Full Buy,Full Eco,full_buy,broke,0,1,2,2,conversion,False,True,False,0.52,True,CT,4,1.0,1.0,1.0,CT,1
-outsiders-vs-mouz-m1-ancient,Rio,de_ancient,18,Outsiders,MOUZ,7,10,-3,24350,24100,250,16650,23800,Full Buy,Full Buy,full_buy,flush,0,2,2,3,conversion,False,True,False,0.52,False,CT,5,1.0,1.0,1.0,CT,1
+outsiders-vs-mouz-m1-ancient,Rio,de_ancient,16,Outsiders,MOUZ,5,10,-5,4400,4450,-50,3400,3750,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,True,T,3,,,,CT,1
+outsiders-vs-mouz-m1-ancient,Rio,de_ancient,17,Outsiders,MOUZ,6,10,-4,20250,4800,15450,19100,4800,Full Buy,Full Eco,full_buy,broke,0,1,2,2,conversion,False,True,False,0.52,True,CT,4,1.0,,,CT,1
+outsiders-vs-mouz-m1-ancient,Rio,de_ancient,18,Outsiders,MOUZ,7,10,-3,24350,24100,250,16650,23800,Full Buy,Full Buy,full_buy,flush,0,2,2,3,conversion,False,True,False,0.52,False,CT,5,1.0,1.0,,CT,1
 outsiders-vs-mouz-m1-ancient,Rio,de_ancient,19,Outsiders,MOUZ,8,10,-2,26850,19200,7650,5100,5600,Full Buy,Semi Buy,full_buy,full_buy,0,3,2,4,gun,False,False,False,0.52,True,T,0,1.0,1.0,1.0,T,0
 outsiders-vs-mouz-m1-ancient,Rio,de_ancient,20,Outsiders,MOUZ,8,11,-3,24650,25700,-1050,23650,16700,Full Buy,Full Buy,full_buy,flush,1,0,2,5,gun,False,False,False,0.52,True,T,-1,0.0,1.0,1.0,T,0
 outsiders-vs-mouz-m1-ancient,Rio,de_ancient,21,Outsiders,MOUZ,8,12,-4,12050,25900,-13850,0,9200,Semi Buy,Full Buy,building,flush,2,0,2,6,gun,False,False,False,0.52,False,CT,0,0.0,0.0,1.0,CT,1
@@ -1428,9 +1428,9 @@ outsiders-vs-mouz-m2-overpass,Rio,de_overpass,12,MOUZ,Outsiders,5,6,-1,24550,276
 outsiders-vs-mouz-m2-overpass,Rio,de_overpass,13,MOUZ,Outsiders,6,6,0,26450,27250,-800,14650,22250,Full Buy,Full Buy,full_buy,flush,0,1,1,13,gun,False,False,False,0.52,False,CT,1,1.0,0.0,0.0,CT,1
 outsiders-vs-mouz-m2-overpass,Rio,de_overpass,14,MOUZ,Outsiders,7,6,1,29000,26550,2450,18200,15500,Full Buy,Full Buy,flush,flush,0,2,1,14,gun,False,False,False,0.52,False,CT,2,1.0,1.0,0.0,CT,1
 outsiders-vs-mouz-m2-overpass,Rio,de_overpass,15,MOUZ,Outsiders,8,6,2,29550,19100,10450,18900,18500,Full Buy,Semi Buy,flush,full_buy,0,3,1,15,gun,False,False,False,0.52,False,CT,3,1.0,1.0,1.0,CT,1
-outsiders-vs-mouz-m2-overpass,Rio,de_overpass,16,MOUZ,Outsiders,6,9,-3,4200,4350,-150,3400,3350,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,False,CT,4,1.0,1.0,1.0,CT,1
-outsiders-vs-mouz-m2-overpass,Rio,de_overpass,17,MOUZ,Outsiders,7,9,-2,17750,1000,16750,15250,0,Semi Buy,Full Eco,building,broke,0,1,2,2,conversion,False,True,False,0.52,False,CT,5,1.0,1.0,1.0,CT,1
-outsiders-vs-mouz-m2-overpass,Rio,de_overpass,18,MOUZ,Outsiders,8,9,-1,27550,22700,4850,13350,22700,Full Buy,Full Buy,full_buy,flush,0,2,2,3,conversion,False,True,False,0.52,True,T,6,1.0,1.0,1.0,CT,1
+outsiders-vs-mouz-m2-overpass,Rio,de_overpass,16,MOUZ,Outsiders,6,9,-3,4200,4350,-150,3400,3350,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,False,CT,4,,,,CT,1
+outsiders-vs-mouz-m2-overpass,Rio,de_overpass,17,MOUZ,Outsiders,7,9,-2,17750,1000,16750,15250,0,Semi Buy,Full Eco,building,broke,0,1,2,2,conversion,False,True,False,0.52,False,CT,5,1.0,,,CT,1
+outsiders-vs-mouz-m2-overpass,Rio,de_overpass,18,MOUZ,Outsiders,8,9,-1,27550,22700,4850,13350,22700,Full Buy,Full Buy,full_buy,flush,0,2,2,3,conversion,False,True,False,0.52,True,T,6,1.0,1.0,,CT,1
 outsiders-vs-mouz-m2-overpass,Rio,de_overpass,19,MOUZ,Outsiders,9,9,0,23600,19950,3650,21200,18850,Full Buy,Semi Buy,full_buy,full_buy,0,3,2,4,gun,False,False,False,0.52,False,T,7,1.0,1.0,1.0,CT,1
 outsiders-vs-mouz-m2-overpass,Rio,de_overpass,20,MOUZ,Outsiders,10,9,1,28500,10900,17600,14700,6950,Full Buy,Semi Buy,flush,building,0,4,2,5,gun,False,False,False,0.52,False,CT,8,1.0,1.0,1.0,CT,1
 outsiders-vs-mouz-m2-overpass,Rio,de_overpass,21,MOUZ,Outsiders,11,9,2,30650,25050,5600,7000,24050,Full Buy,Full Buy,flush,flush,0,5,2,6,gun,False,False,False,0.52,True,CT,9,1.0,1.0,1.0,CT,1
@@ -1458,9 +1458,9 @@ outsiders-vs-mouz-m3-inferno,Rio,de_inferno,12,Outsiders,MOUZ,7,4,3,30950,24550,
 outsiders-vs-mouz-m3-inferno,Rio,de_inferno,13,Outsiders,MOUZ,7,5,2,31350,27550,3800,19400,9000,Full Buy,Full Buy,flush,flush,3,0,1,13,gun,False,False,False,0.5,True,CT,-3,0.0,0.0,0.0,T,0
 outsiders-vs-mouz-m3-inferno,Rio,de_inferno,14,Outsiders,MOUZ,7,6,1,30600,24750,5850,18550,16750,Full Buy,Full Buy,flush,flush,4,0,1,14,gun,False,False,False,0.5,False,T,0,0.0,0.0,0.0,CT,1
 outsiders-vs-mouz-m3-inferno,Rio,de_inferno,15,Outsiders,MOUZ,8,6,2,31400,27350,4050,21000,26550,Full Buy,Full Buy,flush,flush,0,1,1,15,gun,False,False,False,0.5,True,CT,1,1.0,0.0,0.0,CT,1
-outsiders-vs-mouz-m3-inferno,Rio,de_inferno,16,Outsiders,MOUZ,6,9,-3,4700,4450,250,3400,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.5,True,T,0,1.0,1.0,0.0,T,0
-outsiders-vs-mouz-m3-inferno,Rio,de_inferno,17,Outsiders,MOUZ,6,10,-4,10550,18850,-8300,9950,17850,Semi Buy,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.5,True,T,-1,0.0,1.0,1.0,T,0
-outsiders-vs-mouz-m3-inferno,Rio,de_inferno,18,Outsiders,MOUZ,6,11,-5,11050,20350,-9300,2350,10450,Semi Buy,Full Buy,building,full_buy,2,0,2,3,conversion,False,True,False,0.5,True,T,-2,0.0,0.0,1.0,T,0
+outsiders-vs-mouz-m3-inferno,Rio,de_inferno,16,Outsiders,MOUZ,6,9,-3,4700,4450,250,3400,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.5,True,T,0,,,,T,0
+outsiders-vs-mouz-m3-inferno,Rio,de_inferno,17,Outsiders,MOUZ,6,10,-4,10550,18850,-8300,9950,17850,Semi Buy,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.5,True,T,-1,0.0,,,T,0
+outsiders-vs-mouz-m3-inferno,Rio,de_inferno,18,Outsiders,MOUZ,6,11,-5,11050,20350,-9300,2350,10450,Semi Buy,Full Buy,building,full_buy,2,0,2,3,conversion,False,True,False,0.5,True,T,-2,0.0,0.0,,T,0
 outsiders-vs-mouz-m3-inferno,Rio,de_inferno,19,Outsiders,MOUZ,6,12,-6,25550,20000,5550,22750,6500,Full Buy,Full Buy,full_buy,full_buy,3,0,2,4,gun,False,False,False,0.5,False,CT,0,0.0,0.0,0.0,CT,1
 outsiders-vs-mouz-m3-inferno,Rio,de_inferno,20,Outsiders,MOUZ,7,12,-5,27150,25400,1750,17050,24700,Full Buy,Full Buy,full_buy,flush,0,1,2,5,gun,False,False,False,0.5,True,CT,0,1.0,0.0,0.0,T,0
 outsiders-vs-mouz-m3-inferno,Rio,de_inferno,21,Outsiders,MOUZ,7,13,-6,5750,25100,-19350,5750,18550,Semi Eco,Full Buy,broke,flush,1,0,2,6,gun,False,False,False,0.5,True,T,-1,0.0,1.0,0.0,T,0
@@ -1481,9 +1481,9 @@ spirit-vs-bad-news-eagles-ancient,Rio,de_ancient,12,Team Spirit,Bad News Eagles,
 spirit-vs-bad-news-eagles-ancient,Rio,de_ancient,13,Team Spirit,Bad News Eagles,7,5,2,23300,12350,10950,16500,12350,Full Buy,Semi Buy,full_buy,building,0,1,1,13,gun,False,False,False,0.52,True,T,0,1.0,0.0,1.0,T,0
 spirit-vs-bad-news-eagles-ancient,Rio,de_ancient,14,Team Spirit,Bad News Eagles,7,6,1,8400,25950,-17550,8200,15350,Semi Eco,Full Buy,building,flush,1,0,1,14,gun,False,False,False,0.52,True,T,-1,0.0,1.0,0.0,T,0
 spirit-vs-bad-news-eagles-ancient,Rio,de_ancient,15,Team Spirit,Bad News Eagles,7,7,0,16550,26450,-9900,10750,18450,Semi Buy,Full Buy,building,flush,2,0,1,15,gun,False,False,False,0.52,True,T,-2,0.0,0.0,1.0,T,0
-spirit-vs-bad-news-eagles-ancient,Rio,de_ancient,16,Team Spirit,Bad News Eagles,8,7,1,4300,4450,-150,3300,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,True,T,-3,0.0,0.0,0.0,T,0
-spirit-vs-bad-news-eagles-ancient,Rio,de_ancient,17,Team Spirit,Bad News Eagles,8,8,0,9500,20250,-10750,10900,18300,Semi Eco,Full Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.52,True,CT,-4,0.0,0.0,0.0,T,0
-spirit-vs-bad-news-eagles-ancient,Rio,de_ancient,18,Team Spirit,Bad News Eagles,8,9,-1,1500,23950,-22450,2450,11250,Full Eco,Full Buy,broke,flush,2,0,2,3,conversion,False,True,False,0.52,True,T,-5,0.0,0.0,0.0,T,0
+spirit-vs-bad-news-eagles-ancient,Rio,de_ancient,16,Team Spirit,Bad News Eagles,8,7,1,4300,4450,-150,3300,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,True,T,-3,,,,T,0
+spirit-vs-bad-news-eagles-ancient,Rio,de_ancient,17,Team Spirit,Bad News Eagles,8,8,0,9500,20250,-10750,10900,18300,Semi Eco,Full Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.52,True,CT,-4,0.0,,,T,0
+spirit-vs-bad-news-eagles-ancient,Rio,de_ancient,18,Team Spirit,Bad News Eagles,8,9,-1,1500,23950,-22450,2450,11250,Full Eco,Full Buy,broke,flush,2,0,2,3,conversion,False,True,False,0.52,True,T,-5,0.0,0.0,,T,0
 spirit-vs-bad-news-eagles-ancient,Rio,de_ancient,19,Team Spirit,Bad News Eagles,8,10,-2,26300,23450,2850,24350,2900,Full Buy,Full Buy,full_buy,flush,3,0,2,4,gun,False,False,False,0.52,True,CT,-6,0.0,0.0,0.0,T,0
 spirit-vs-bad-news-eagles-ancient,Rio,de_ancient,20,Team Spirit,Bad News Eagles,8,11,-3,5950,27550,-21600,7750,18250,Semi Eco,Full Buy,broke,flush,4,0,2,5,gun,False,False,False,0.52,True,T,-7,0.0,0.0,0.0,T,0
 spirit-vs-bad-news-eagles-ancient,Rio,de_ancient,21,Team Spirit,Bad News Eagles,8,12,-4,27350,27850,-500,24900,8700,Full Buy,Full Buy,full_buy,flush,5,0,2,6,gun,False,False,False,0.52,True,CT,-8,0.0,0.0,0.0,T,0
@@ -1505,9 +1505,9 @@ spirit-vs-furia-mirage,Rio,de_mirage,12,Team Spirit,FURIA,10,1,9,28550,22600,595
 spirit-vs-furia-mirage,Rio,de_mirage,13,Team Spirit,FURIA,10,2,8,31350,19100,12250,30550,16000,Full Buy,Semi Buy,flush,full_buy,1,0,1,13,gun,False,False,False,0.49,True,T,0,0.0,1.0,1.0,CT,1
 spirit-vs-furia-mirage,Rio,de_mirage,14,Team Spirit,FURIA,11,2,9,30950,21950,9000,20450,20950,Full Buy,Full Buy,flush,full_buy,0,1,1,14,gun,False,False,False,0.49,True,T,0,1.0,0.0,1.0,T,0
 spirit-vs-furia-mirage,Rio,de_mirage,15,Team Spirit,FURIA,11,3,8,29450,23950,5500,30400,11900,Full Buy,Full Buy,flush,flush,1,0,1,15,gun,False,False,False,0.49,True,T,-1,0.0,1.0,0.0,T,0
-spirit-vs-furia-mirage,Rio,de_mirage,16,Team Spirit,FURIA,4,11,-7,4650,4200,450,3450,3400,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.49,True,CT,0,0.0,0.0,1.0,CT,1
-spirit-vs-furia-mirage,Rio,de_mirage,17,Team Spirit,FURIA,5,11,-6,19250,16350,2900,19300,14950,Semi Buy,Semi Buy,full_buy,full_buy,0,1,2,2,conversion,False,True,False,0.49,True,CT,1,1.0,0.0,0.0,CT,1
-spirit-vs-furia-mirage,Rio,de_mirage,18,Team Spirit,FURIA,6,11,-5,23850,18400,5450,18550,17400,Full Buy,Semi Buy,full_buy,full_buy,0,2,2,3,conversion,False,True,False,0.49,False,CT,2,1.0,1.0,0.0,CT,1
+spirit-vs-furia-mirage,Rio,de_mirage,16,Team Spirit,FURIA,4,11,-7,4650,4200,450,3450,3400,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.49,True,CT,0,,,,CT,1
+spirit-vs-furia-mirage,Rio,de_mirage,17,Team Spirit,FURIA,5,11,-6,19250,16350,2900,19300,14950,Semi Buy,Semi Buy,full_buy,full_buy,0,1,2,2,conversion,False,True,False,0.49,True,CT,1,1.0,,,CT,1
+spirit-vs-furia-mirage,Rio,de_mirage,18,Team Spirit,FURIA,6,11,-5,23850,18400,5450,18550,17400,Full Buy,Semi Buy,full_buy,full_buy,0,2,2,3,conversion,False,True,False,0.49,False,CT,2,1.0,1.0,,CT,1
 spirit-vs-furia-mirage,Rio,de_mirage,19,Team Spirit,FURIA,7,11,-4,24850,2600,22250,6900,3050,Full Buy,Full Eco,full_buy,broke,0,3,2,4,gun,False,False,False,0.49,False,T,3,1.0,1.0,1.0,CT,1
 spirit-vs-furia-mirage,Rio,de_mirage,20,Team Spirit,FURIA,8,11,-3,30200,26450,3750,12050,25750,Full Buy,Full Buy,flush,flush,0,4,2,5,gun,False,False,False,0.49,False,CT,0,1.0,1.0,1.0,T,0
 spirit-vs-furia-mirage,Rio,de_mirage,21,Team Spirit,FURIA,8,12,-4,24600,26650,-2050,23600,16500,Full Buy,Full Buy,full_buy,flush,1,0,2,6,gun,False,False,False,0.49,True,T,-1,0.0,1.0,1.0,T,0
@@ -1534,9 +1534,9 @@ spirit-vs-heroic-m1-vertigo,Rio,de_vertigo,12,Heroic,Team Spirit,7,4,3,26200,274
 spirit-vs-heroic-m1-vertigo,Rio,de_vertigo,13,Heroic,Team Spirit,8,4,4,25600,25950,-350,18950,24350,Full Buy,Full Buy,full_buy,flush,0,1,1,13,gun,False,False,False,0.53,False,CT,1,1.0,0.0,1.0,CT,1
 spirit-vs-heroic-m1-vertigo,Rio,de_vertigo,14,Heroic,Team Spirit,9,4,5,25250,18200,7050,18850,11450,Full Buy,Semi Buy,full_buy,full_buy,0,2,1,14,gun,False,False,False,0.53,True,CT,0,1.0,1.0,0.0,T,0
 spirit-vs-heroic-m1-vertigo,Rio,de_vertigo,15,Heroic,Team Spirit,9,5,4,9650,23950,-14300,9450,17400,Semi Eco,Full Buy,building,flush,1,0,1,15,gun,False,False,False,0.53,False,CT,0,0.0,1.0,1.0,CT,1
-spirit-vs-heroic-m1-vertigo,Rio,de_vertigo,16,Heroic,Team Spirit,5,10,-5,4350,4950,-600,3550,3700,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.53,True,CT,1,1.0,0.0,1.0,CT,1
-spirit-vs-heroic-m1-vertigo,Rio,de_vertigo,17,Heroic,Team Spirit,6,10,-4,23900,2000,21900,20650,2100,Full Buy,Full Eco,full_buy,broke,0,1,2,2,conversion,False,True,False,0.53,True,T,2,1.0,1.0,0.0,CT,1
-spirit-vs-heroic-m1-vertigo,Rio,de_vertigo,18,Heroic,Team Spirit,7,10,-3,27950,24900,3050,15050,24200,Full Buy,Full Buy,full_buy,flush,0,2,2,3,conversion,False,True,False,0.53,False,T,0,1.0,1.0,1.0,T,0
+spirit-vs-heroic-m1-vertigo,Rio,de_vertigo,16,Heroic,Team Spirit,5,10,-5,4350,4950,-600,3550,3700,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.53,True,CT,1,,,,CT,1
+spirit-vs-heroic-m1-vertigo,Rio,de_vertigo,17,Heroic,Team Spirit,6,10,-4,23900,2000,21900,20650,2100,Full Buy,Full Eco,full_buy,broke,0,1,2,2,conversion,False,True,False,0.53,True,T,2,1.0,,,CT,1
+spirit-vs-heroic-m1-vertigo,Rio,de_vertigo,18,Heroic,Team Spirit,7,10,-3,27950,24900,3050,15050,24200,Full Buy,Full Buy,full_buy,flush,0,2,2,3,conversion,False,True,False,0.53,False,T,0,1.0,1.0,,T,0
 spirit-vs-heroic-m1-vertigo,Rio,de_vertigo,19,Heroic,Team Spirit,7,11,-4,12250,23500,-11250,12150,19400,Semi Buy,Full Buy,building,flush,1,0,2,4,gun,False,False,False,0.53,True,T,-1,0.0,1.0,1.0,T,0
 spirit-vs-heroic-m1-vertigo,Rio,de_vertigo,20,Heroic,Team Spirit,7,12,-5,5050,26650,-21600,500,18950,Semi Eco,Full Buy,broke,flush,2,0,2,5,gun,False,False,False,0.53,True,CT,-2,0.0,0.0,1.0,T,0
 spirit-vs-heroic-m1-vertigo,Rio,de_vertigo,21,Heroic,Team Spirit,7,13,-6,24200,27850,-3650,22100,8700,Full Buy,Full Buy,full_buy,flush,3,0,2,6,gun,False,False,False,0.53,True,CT,-3,0.0,0.0,0.0,T,0
@@ -1558,9 +1558,9 @@ spirit-vs-heroic-m2-overpass,Rio,de_overpass,12,Team Spirit,Heroic,4,7,-3,12900,
 spirit-vs-heroic-m2-overpass,Rio,de_overpass,13,Team Spirit,Heroic,4,8,-4,30200,27650,2550,19450,16800,Full Buy,Full Buy,flush,flush,3,0,1,13,gun,False,False,False,0.52,False,CT,0,0.0,0.0,0.0,CT,1
 spirit-vs-heroic-m2-overpass,Rio,de_overpass,14,Team Spirit,Heroic,5,8,-3,31000,25600,5400,15200,24900,Full Buy,Full Buy,flush,flush,0,1,1,14,gun,False,False,False,0.52,True,CT,0,1.0,0.0,0.0,T,0
 spirit-vs-heroic-m2-overpass,Rio,de_overpass,15,Team Spirit,Heroic,5,9,-4,26950,24250,2700,25850,18300,Full Buy,Full Buy,full_buy,flush,1,0,1,15,gun,False,False,False,0.52,True,CT,-1,0.0,1.0,0.0,T,0
-spirit-vs-heroic-m2-overpass,Rio,de_overpass,16,Team Spirit,Heroic,10,5,5,4250,4150,100,3250,3350,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,True,CT,-2,0.0,0.0,1.0,T,0
-spirit-vs-heroic-m2-overpass,Rio,de_overpass,17,Team Spirit,Heroic,10,6,4,1300,19500,-18200,300,18200,Full Eco,Semi Buy,broke,full_buy,1,0,2,2,conversion,False,True,False,0.52,True,T,-3,0.0,0.0,0.0,T,0
-spirit-vs-heroic-m2-overpass,Rio,de_overpass,18,Team Spirit,Heroic,10,7,3,24900,23300,1600,23300,9600,Full Buy,Full Buy,full_buy,flush,2,0,2,3,conversion,False,True,False,0.52,True,CT,-4,0.0,0.0,0.0,T,0
+spirit-vs-heroic-m2-overpass,Rio,de_overpass,16,Team Spirit,Heroic,10,5,5,4250,4150,100,3250,3350,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,True,CT,-2,,,,T,0
+spirit-vs-heroic-m2-overpass,Rio,de_overpass,17,Team Spirit,Heroic,10,6,4,1300,19500,-18200,300,18200,Full Eco,Semi Buy,broke,full_buy,1,0,2,2,conversion,False,True,False,0.52,True,T,-3,0.0,,,T,0
+spirit-vs-heroic-m2-overpass,Rio,de_overpass,18,Team Spirit,Heroic,10,7,3,24900,23300,1600,23300,9600,Full Buy,Full Buy,full_buy,flush,2,0,2,3,conversion,False,True,False,0.52,True,CT,-4,0.0,0.0,,T,0
 spirit-vs-heroic-m2-overpass,Rio,de_overpass,19,Team Spirit,Heroic,10,8,2,3200,22950,-19750,3900,10850,Full Eco,Full Buy,broke,flush,3,0,2,4,gun,False,False,False,0.52,True,T,-5,0.0,0.0,0.0,T,0
 spirit-vs-heroic-m2-overpass,Rio,de_overpass,20,Team Spirit,Heroic,10,9,1,28600,27950,650,27600,14650,Full Buy,Full Buy,flush,flush,4,0,2,5,gun,False,False,False,0.52,False,T,0,0.0,0.0,0.0,CT,1
 spirit-vs-heroic-m2-overpass,Rio,de_overpass,21,Team Spirit,Heroic,11,9,2,29250,27450,1800,9850,16500,Full Buy,Full Buy,flush,flush,0,1,2,6,gun,False,False,False,0.52,False,CT,1,1.0,0.0,0.0,CT,1
@@ -1588,9 +1588,9 @@ spirit-vs-outsiders-dust2,Rio,de_dust2,12,Team Spirit,Outsiders,5,6,-1,31500,153
 spirit-vs-outsiders-dust2,Rio,de_dust2,13,Team Spirit,Outsiders,5,7,-2,8050,25900,-17850,1650,10750,Semi Eco,Full Buy,building,flush,1,0,1,13,gun,False,False,False,0.48,True,T,-1,0.0,1.0,0.0,T,0
 spirit-vs-outsiders-dust2,Rio,de_dust2,14,Team Spirit,Outsiders,5,8,-3,28850,23750,5100,23100,21750,Full Buy,Full Buy,flush,flush,2,0,1,14,gun,False,False,False,0.48,True,CT,-2,0.0,0.0,1.0,T,0
 spirit-vs-outsiders-dust2,Rio,de_dust2,15,Team Spirit,Outsiders,5,9,-4,17750,28350,-10600,16450,13700,Semi Buy,Full Buy,building,flush,3,0,1,15,gun,False,False,False,0.48,True,CT,-3,0.0,0.0,0.0,T,0
-spirit-vs-outsiders-dust2,Rio,de_dust2,16,Team Spirit,Outsiders,10,5,5,4400,4350,50,3400,3350,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.48,True,CT,-4,0.0,0.0,0.0,T,0
-spirit-vs-outsiders-dust2,Rio,de_dust2,17,Team Spirit,Outsiders,10,6,4,1000,19100,-18100,0,18000,Full Eco,Semi Buy,broke,full_buy,1,0,2,2,conversion,False,True,False,0.48,False,T,-5,0.0,0.0,0.0,T,0
-spirit-vs-outsiders-dust2,Rio,de_dust2,18,Team Spirit,Outsiders,10,7,3,24100,21600,2500,22500,4200,Full Buy,Full Buy,full_buy,full_buy,2,0,2,3,conversion,False,True,False,0.48,True,CT,-6,0.0,0.0,0.0,T,0
+spirit-vs-outsiders-dust2,Rio,de_dust2,16,Team Spirit,Outsiders,10,5,5,4400,4350,50,3400,3350,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.48,True,CT,-4,,,,T,0
+spirit-vs-outsiders-dust2,Rio,de_dust2,17,Team Spirit,Outsiders,10,6,4,1000,19100,-18100,0,18000,Full Eco,Semi Buy,broke,full_buy,1,0,2,2,conversion,False,True,False,0.48,False,T,-5,0.0,,,T,0
+spirit-vs-outsiders-dust2,Rio,de_dust2,18,Team Spirit,Outsiders,10,7,3,24100,21600,2500,22500,4200,Full Buy,Full Buy,full_buy,full_buy,2,0,2,3,conversion,False,True,False,0.48,True,CT,-6,0.0,0.0,,T,0
 spirit-vs-outsiders-dust2,Rio,de_dust2,19,Team Spirit,Outsiders,10,8,2,16300,22550,-6250,4150,11150,Semi Buy,Full Buy,building,flush,3,0,2,4,gun,False,False,False,0.48,True,T,-7,0.0,0.0,0.0,T,0
 spirit-vs-outsiders-dust2,Rio,de_dust2,20,Team Spirit,Outsiders,10,9,1,29200,27550,1650,23100,12900,Full Buy,Full Buy,flush,flush,4,0,2,5,gun,False,False,False,0.48,False,T,0,0.0,0.0,0.0,CT,1
 spirit-vs-outsiders-dust2,Rio,de_dust2,21,Team Spirit,Outsiders,11,9,2,28700,27250,1450,17650,11800,Full Buy,Full Buy,flush,flush,0,1,2,6,gun,False,False,False,0.48,False,CT,1,1.0,0.0,0.0,CT,1
@@ -1618,9 +1618,9 @@ spirit-vs-sprout-m1-nuke,Rio,de_nuke,12,Sprout Esports,Team Spirit,4,7,-3,25900,
 spirit-vs-sprout-m1-nuke,Rio,de_nuke,13,Sprout Esports,Team Spirit,5,7,-2,27900,24900,3000,16250,23900,Full Buy,Full Buy,full_buy,flush,0,1,1,13,gun,False,False,False,0.57,False,CT,1,1.0,0.0,0.0,CT,1
 spirit-vs-sprout-m1-nuke,Rio,de_nuke,14,Sprout Esports,Team Spirit,6,7,-1,26400,25850,550,14600,24850,Full Buy,Full Buy,full_buy,flush,0,2,1,14,gun,False,False,False,0.57,False,CT,2,1.0,1.0,0.0,CT,1
 spirit-vs-sprout-m1-nuke,Rio,de_nuke,15,Sprout Esports,Team Spirit,7,7,0,31450,21200,10250,20100,14550,Full Buy,Full Buy,flush,full_buy,0,3,1,15,gun,False,False,False,0.57,True,CT,0,1.0,1.0,1.0,T,0
-spirit-vs-sprout-m1-nuke,Rio,de_nuke,16,Sprout Esports,Team Spirit,8,7,1,4300,5000,-700,3300,3400,Full Eco,Semi Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.57,False,CT,0,0.0,1.0,1.0,CT,1
-spirit-vs-sprout-m1-nuke,Rio,de_nuke,17,Sprout Esports,Team Spirit,9,7,2,21500,1000,20500,17850,0,Full Buy,Full Eco,full_buy,broke,0,1,2,2,conversion,False,True,False,0.57,False,CT,1,1.0,0.0,1.0,CT,1
-spirit-vs-sprout-m1-nuke,Rio,de_nuke,18,Sprout Esports,Team Spirit,10,7,3,26200,22900,3300,6400,21700,Full Buy,Full Buy,full_buy,flush,0,2,2,3,conversion,False,True,False,0.57,True,T,0,1.0,1.0,0.0,T,0
+spirit-vs-sprout-m1-nuke,Rio,de_nuke,16,Sprout Esports,Team Spirit,8,7,1,4300,5000,-700,3300,3400,Full Eco,Semi Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.57,False,CT,0,,,,CT,1
+spirit-vs-sprout-m1-nuke,Rio,de_nuke,17,Sprout Esports,Team Spirit,9,7,2,21500,1000,20500,17850,0,Full Buy,Full Eco,full_buy,broke,0,1,2,2,conversion,False,True,False,0.57,False,CT,1,1.0,,,CT,1
+spirit-vs-sprout-m1-nuke,Rio,de_nuke,18,Sprout Esports,Team Spirit,10,7,3,26200,22900,3300,6400,21700,Full Buy,Full Buy,full_buy,flush,0,2,2,3,conversion,False,True,False,0.57,True,T,0,1.0,1.0,,T,0
 spirit-vs-sprout-m1-nuke,Rio,de_nuke,19,Sprout Esports,Team Spirit,10,8,2,21400,20400,1000,20400,15700,Full Buy,Full Buy,full_buy,full_buy,1,0,2,4,gun,False,False,False,0.57,True,CT,0,0.0,1.0,1.0,CT,1
 spirit-vs-sprout-m1-nuke,Rio,de_nuke,20,Sprout Esports,Team Spirit,11,8,3,22800,7500,15300,14050,8150,Full Buy,Semi Eco,full_buy,building,0,1,2,5,gun,False,False,False,0.57,False,CT,1,1.0,0.0,1.0,CT,1
 spirit-vs-sprout-m1-nuke,Rio,de_nuke,21,Sprout Esports,Team Spirit,12,8,4,29350,22500,6850,10850,21300,Full Buy,Full Buy,flush,flush,0,2,2,6,gun,False,False,False,0.57,False,CT,2,1.0,1.0,0.0,CT,1
@@ -1643,9 +1643,9 @@ spirit-vs-sprout-m2-vertigo,Rio,de_vertigo,12,Sprout Esports,Team Spirit,3,8,-5,
 spirit-vs-sprout-m2-vertigo,Rio,de_vertigo,13,Sprout Esports,Team Spirit,4,8,-4,23850,1500,22350,18900,700,Full Buy,Full Eco,full_buy,broke,0,2,1,13,gun,False,False,False,0.53,False,CT,2,1.0,1.0,0.0,CT,1
 spirit-vs-sprout-m2-vertigo,Rio,de_vertigo,14,Sprout Esports,Team Spirit,5,8,-3,26350,24850,1500,5600,23150,Full Buy,Full Buy,full_buy,flush,0,3,1,14,gun,False,False,False,0.53,True,T,0,1.0,1.0,1.0,T,0
 spirit-vs-sprout-m2-vertigo,Rio,de_vertigo,15,Sprout Esports,Team Spirit,5,9,-4,24150,27850,-3700,22550,5900,Full Buy,Full Buy,full_buy,flush,1,0,1,15,gun,False,False,False,0.53,True,T,-1,0.0,1.0,1.0,T,0
-spirit-vs-sprout-m2-vertigo,Rio,de_vertigo,16,Sprout Esports,Team Spirit,10,5,5,4300,4500,-200,3300,3500,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.53,False,T,0,0.0,0.0,1.0,CT,1
-spirit-vs-sprout-m2-vertigo,Rio,de_vertigo,17,Sprout Esports,Team Spirit,11,5,6,21800,1100,20700,18200,500,Full Buy,Full Eco,full_buy,broke,0,1,2,2,conversion,False,True,False,0.53,False,CT,1,1.0,0.0,0.0,CT,1
-spirit-vs-sprout-m2-vertigo,Rio,de_vertigo,18,Sprout Esports,Team Spirit,12,5,7,22800,21600,1200,4700,20600,Full Buy,Full Buy,full_buy,full_buy,0,2,2,3,conversion,False,True,False,0.53,True,CT,2,1.0,1.0,0.0,CT,1
+spirit-vs-sprout-m2-vertigo,Rio,de_vertigo,16,Sprout Esports,Team Spirit,10,5,5,4300,4500,-200,3300,3500,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.53,False,T,0,,,,CT,1
+spirit-vs-sprout-m2-vertigo,Rio,de_vertigo,17,Sprout Esports,Team Spirit,11,5,6,21800,1100,20700,18200,500,Full Buy,Full Eco,full_buy,broke,0,1,2,2,conversion,False,True,False,0.53,False,CT,1,1.0,,,CT,1
+spirit-vs-sprout-m2-vertigo,Rio,de_vertigo,18,Sprout Esports,Team Spirit,12,5,7,22800,21600,1200,4700,20600,Full Buy,Full Buy,full_buy,full_buy,0,2,2,3,conversion,False,True,False,0.53,True,CT,2,1.0,1.0,,CT,1
 spirit-vs-sprout-m2-vertigo,Rio,de_vertigo,19,Sprout Esports,Team Spirit,13,5,8,31350,21750,9600,25650,20750,Full Buy,Full Buy,flush,full_buy,0,3,2,4,gun,False,False,False,0.53,True,T,0,1.0,1.0,1.0,T,0
 spirit-vs-sprout-m2-vertigo,Rio,de_vertigo,20,Sprout Esports,Team Spirit,13,6,7,17550,22950,-5400,16350,14900,Semi Buy,Full Buy,building,flush,1,0,2,5,gun,False,False,False,0.53,True,T,-1,0.0,1.0,1.0,T,0
 spirit-vs-sprout-m2-vertigo,Rio,de_vertigo,21,Sprout Esports,Team Spirit,13,7,6,6150,25400,-19250,200,12900,Semi Eco,Full Buy,broke,flush,2,0,2,6,gun,False,False,False,0.53,True,T,-2,0.0,0.0,1.0,T,0
@@ -1667,9 +1667,9 @@ sprout-vs-big-vertigo,Rio,de_vertigo,12,Sprout Esports,BIG,6,5,1,28000,26550,145
 sprout-vs-big-vertigo,Rio,de_vertigo,13,Sprout Esports,BIG,7,5,2,27800,6450,21350,14600,6050,Full Buy,Semi Eco,full_buy,building,0,4,1,13,gun,False,False,False,0.53,False,CT,4,1.0,1.0,1.0,CT,1
 sprout-vs-big-vertigo,Rio,de_vertigo,14,Sprout Esports,BIG,8,5,3,31000,26650,4350,20850,25850,Full Buy,Full Buy,flush,flush,0,5,1,14,gun,False,False,False,0.53,True,T,0,1.0,1.0,1.0,T,0
 sprout-vs-big-vertigo,Rio,de_vertigo,15,Sprout Esports,BIG,8,6,2,30350,28950,1400,31550,14400,Full Buy,Full Buy,flush,flush,1,0,1,15,gun,False,False,False,0.53,True,T,-1,0.0,1.0,1.0,T,0
-sprout-vs-big-vertigo,Rio,de_vertigo,16,Sprout Esports,BIG,7,8,-1,4500,4400,100,3500,3400,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.53,False,CT,0,0.0,0.0,1.0,CT,1
-sprout-vs-big-vertigo,Rio,de_vertigo,17,Sprout Esports,BIG,8,8,0,18450,1200,17250,17250,200,Semi Buy,Full Eco,full_buy,broke,0,1,2,2,conversion,False,True,False,0.53,False,T,1,1.0,0.0,0.0,CT,1
-sprout-vs-big-vertigo,Rio,de_vertigo,18,Sprout Esports,BIG,9,8,1,23650,24100,-450,11200,22900,Full Buy,Full Buy,full_buy,flush,0,2,2,3,conversion,False,True,False,0.53,False,CT,2,1.0,1.0,0.0,CT,1
+sprout-vs-big-vertigo,Rio,de_vertigo,16,Sprout Esports,BIG,7,8,-1,4500,4400,100,3500,3400,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.53,False,CT,0,,,,CT,1
+sprout-vs-big-vertigo,Rio,de_vertigo,17,Sprout Esports,BIG,8,8,0,18450,1200,17250,17250,200,Semi Buy,Full Eco,full_buy,broke,0,1,2,2,conversion,False,True,False,0.53,False,T,1,1.0,,,CT,1
+sprout-vs-big-vertigo,Rio,de_vertigo,18,Sprout Esports,BIG,9,8,1,23650,24100,-450,11200,22900,Full Buy,Full Buy,full_buy,flush,0,2,2,3,conversion,False,True,False,0.53,False,CT,2,1.0,1.0,,CT,1
 sprout-vs-big-vertigo,Rio,de_vertigo,19,Sprout Esports,BIG,10,8,2,25250,5450,19800,15650,5550,Full Buy,Semi Eco,full_buy,broke,0,3,2,4,gun,False,False,False,0.53,False,CT,3,1.0,1.0,1.0,CT,1
 sprout-vs-big-vertigo,Rio,de_vertigo,20,Sprout Esports,BIG,11,8,3,30950,26450,4500,9350,25450,Full Buy,Full Buy,flush,flush,0,4,2,5,gun,False,False,False,0.53,False,T,4,1.0,1.0,1.0,CT,1
 sprout-vs-big-vertigo,Rio,de_vertigo,21,Sprout Esports,BIG,12,8,4,31050,8150,22900,10000,8800,Full Buy,Semi Eco,flush,building,0,5,2,6,gun,False,False,False,0.53,False,CT,5,1.0,1.0,1.0,CT,1
@@ -1694,9 +1694,9 @@ sprout-vs-liquid-inferno,Rio,de_inferno,12,Sprout Esports,Team Liquid,1,10,-9,27
 sprout-vs-liquid-inferno,Rio,de_inferno,13,Sprout Esports,Team Liquid,1,11,-10,28450,27850,600,17650,17300,Full Buy,Full Buy,flush,flush,4,0,1,13,gun,False,False,False,0.5,True,T,-4,0.0,0.0,0.0,T,0
 sprout-vs-liquid-inferno,Rio,de_inferno,14,Sprout Esports,Team Liquid,1,12,-11,30500,27850,2650,15250,9500,Full Buy,Full Buy,flush,flush,5,0,1,14,gun,False,False,False,0.5,False,CT,0,0.0,0.0,0.0,CT,1
 sprout-vs-liquid-inferno,Rio,de_inferno,15,Sprout Esports,Team Liquid,2,12,-10,34500,28750,5750,18400,29550,Full Buy,Full Buy,flush,flush,0,1,1,15,gun,False,False,False,0.5,True,T,0,1.0,0.0,0.0,T,0
-sprout-vs-liquid-inferno,Rio,de_inferno,16,Sprout Esports,Team Liquid,13,2,11,4250,4300,-50,3250,3300,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.5,True,T,-1,0.0,1.0,0.0,T,0
-sprout-vs-liquid-inferno,Rio,de_inferno,17,Sprout Esports,Team Liquid,13,3,10,12100,18800,-6700,9800,17800,Semi Buy,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.5,True,T,-2,0.0,0.0,1.0,T,0
-sprout-vs-liquid-inferno,Rio,de_inferno,18,Sprout Esports,Team Liquid,13,4,9,8900,19700,-10800,1450,10350,Semi Eco,Semi Buy,building,full_buy,2,0,2,3,conversion,False,True,False,0.5,False,T,0,0.0,0.0,0.0,CT,1
+sprout-vs-liquid-inferno,Rio,de_inferno,16,Sprout Esports,Team Liquid,13,2,11,4250,4300,-50,3250,3300,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.5,True,T,-1,,,,T,0
+sprout-vs-liquid-inferno,Rio,de_inferno,17,Sprout Esports,Team Liquid,13,3,10,12100,18800,-6700,9800,17800,Semi Buy,Semi Buy,building,full_buy,1,0,2,2,conversion,False,True,False,0.5,True,T,-2,0.0,,,T,0
+sprout-vs-liquid-inferno,Rio,de_inferno,18,Sprout Esports,Team Liquid,13,4,9,8900,19700,-10800,1450,10350,Semi Eco,Semi Buy,building,full_buy,2,0,2,3,conversion,False,True,False,0.5,False,T,0,0.0,0.0,,CT,1
 sprout-vs-liquid-inferno,Rio,de_inferno,19,Sprout Esports,Team Liquid,14,4,10,30150,18000,12150,23550,16650,Full Buy,Semi Buy,flush,full_buy,0,1,2,4,gun,False,False,False,0.5,True,T,0,1.0,0.0,0.0,T,0
 sprout-vs-liquid-inferno,Rio,de_inferno,20,Sprout Esports,Team Liquid,14,5,9,21450,21550,-100,16850,16850,Full Buy,Full Buy,full_buy,full_buy,1,0,2,5,gun,False,False,False,0.5,False,CT,0,0.0,1.0,0.0,CT,1
 sprout-vs-liquid-inferno,Rio,de_inferno,21,Sprout Esports,Team Liquid,15,5,10,24650,10050,14600,15600,10150,Full Buy,Semi Buy,full_buy,building,0,1,2,6,gun,False,False,False,0.5,False,CT,1,1.0,0.0,1.0,CT,1
@@ -1715,9 +1715,9 @@ sprout-vs-ninjas-in-pyjamas-m1-vertigo,Rio,de_vertigo,12,Sprout Esports,Ninjas i
 sprout-vs-ninjas-in-pyjamas-m1-vertigo,Rio,de_vertigo,13,Sprout Esports,Ninjas in Pyjamas,10,2,8,29900,24200,5700,9800,23200,Full Buy,Full Buy,flush,flush,0,5,1,13,gun,False,False,False,0.53,True,T,0,1.0,1.0,1.0,T,0
 sprout-vs-ninjas-in-pyjamas-m1-vertigo,Rio,de_vertigo,14,Sprout Esports,Ninjas in Pyjamas,10,3,7,25200,25400,-200,17950,12000,Full Buy,Full Buy,full_buy,flush,1,0,1,14,gun,False,False,False,0.53,True,T,-1,0.0,1.0,1.0,T,0
 sprout-vs-ninjas-in-pyjamas-m1-vertigo,Rio,de_vertigo,15,Sprout Esports,Ninjas in Pyjamas,10,4,6,19400,26200,-6800,14500,11950,Semi Buy,Full Buy,full_buy,flush,2,0,1,15,gun,False,False,False,0.53,True,T,-2,0.0,0.0,1.0,T,0
-sprout-vs-ninjas-in-pyjamas-m1-vertigo,Rio,de_vertigo,16,Sprout Esports,Ninjas in Pyjamas,5,10,-5,4000,4200,-200,3400,3400,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.53,True,T,-3,0.0,0.0,0.0,T,0
-sprout-vs-ninjas-in-pyjamas-m1-vertigo,Rio,de_vertigo,17,Sprout Esports,Ninjas in Pyjamas,5,11,-6,7300,18300,-11000,10000,17700,Semi Eco,Semi Buy,broke,full_buy,1,0,2,2,conversion,False,True,False,0.53,False,T,0,0.0,0.0,0.0,CT,1
-sprout-vs-ninjas-in-pyjamas-m1-vertigo,Rio,de_vertigo,18,Sprout Esports,Ninjas in Pyjamas,6,11,-5,22050,8000,14050,18550,7800,Full Buy,Semi Eco,full_buy,building,0,1,2,3,conversion,False,True,False,0.53,False,CT,1,1.0,0.0,0.0,CT,1
+sprout-vs-ninjas-in-pyjamas-m1-vertigo,Rio,de_vertigo,16,Sprout Esports,Ninjas in Pyjamas,5,10,-5,4000,4200,-200,3400,3400,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.53,True,T,-3,,,,T,0
+sprout-vs-ninjas-in-pyjamas-m1-vertigo,Rio,de_vertigo,17,Sprout Esports,Ninjas in Pyjamas,5,11,-6,7300,18300,-11000,10000,17700,Semi Eco,Semi Buy,broke,full_buy,1,0,2,2,conversion,False,True,False,0.53,False,T,0,0.0,,,CT,1
+sprout-vs-ninjas-in-pyjamas-m1-vertigo,Rio,de_vertigo,18,Sprout Esports,Ninjas in Pyjamas,6,11,-5,22050,8000,14050,18550,7800,Full Buy,Semi Eco,full_buy,building,0,1,2,3,conversion,False,True,False,0.53,False,CT,1,1.0,0.0,,CT,1
 sprout-vs-ninjas-in-pyjamas-m1-vertigo,Rio,de_vertigo,19,Sprout Esports,Ninjas in Pyjamas,7,11,-4,24600,1200,23400,6000,200,Full Buy,Full Eco,full_buy,broke,0,2,2,4,gun,False,False,False,0.53,False,CT,2,1.0,1.0,0.0,CT,1
 sprout-vs-ninjas-in-pyjamas-m1-vertigo,Rio,de_vertigo,20,Sprout Esports,Ninjas in Pyjamas,8,11,-3,24900,22200,2700,4500,21200,Full Buy,Full Buy,full_buy,flush,0,3,2,5,gun,False,False,False,0.53,False,T,3,1.0,1.0,1.0,CT,1
 sprout-vs-ninjas-in-pyjamas-m1-vertigo,Rio,de_vertigo,21,Sprout Esports,Ninjas in Pyjamas,9,11,-2,29450,9100,20350,14400,5500,Full Buy,Semi Eco,flush,building,0,4,2,6,gun,False,False,False,0.53,False,CT,4,1.0,1.0,1.0,CT,1
@@ -1742,9 +1742,9 @@ sprout-vs-ninjas-in-pyjamas-m2-ancient,Rio,de_ancient,12,Ninjas in Pyjamas,Sprou
 sprout-vs-ninjas-in-pyjamas-m2-ancient,Rio,de_ancient,13,Ninjas in Pyjamas,Sprout Esports,5,7,-2,24550,28150,-3600,24150,15050,Full Buy,Full Buy,full_buy,flush,1,0,1,13,gun,False,False,False,0.52,True,CT,0,0.0,1.0,1.0,CT,1
 sprout-vs-ninjas-in-pyjamas-m2-ancient,Rio,de_ancient,14,Ninjas in Pyjamas,Sprout Esports,6,7,-1,28650,26850,1800,17250,26150,Full Buy,Full Buy,flush,flush,0,1,1,14,gun,False,False,False,0.52,True,T,0,1.0,0.0,1.0,T,0
 sprout-vs-ninjas-in-pyjamas-m2-ancient,Rio,de_ancient,15,Ninjas in Pyjamas,Sprout Esports,6,8,-2,11050,23300,-12250,10450,22000,Semi Buy,Full Buy,building,flush,1,0,1,15,gun,False,False,False,0.52,False,CT,0,0.0,1.0,0.0,CT,1
-sprout-vs-ninjas-in-pyjamas-m2-ancient,Rio,de_ancient,16,Ninjas in Pyjamas,Sprout Esports,8,7,1,4400,4350,50,3400,3350,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,True,CT,1,1.0,0.0,1.0,CT,1
-sprout-vs-ninjas-in-pyjamas-m2-ancient,Rio,de_ancient,17,Ninjas in Pyjamas,Sprout Esports,9,7,2,22000,13700,8300,19550,14000,Full Buy,Semi Buy,full_buy,building,0,1,2,2,conversion,False,True,False,0.52,False,T,2,1.0,1.0,0.0,CT,1
-sprout-vs-ninjas-in-pyjamas-m2-ancient,Rio,de_ancient,18,Ninjas in Pyjamas,Sprout Esports,10,7,3,26500,1900,24600,11400,1700,Full Buy,Full Eco,full_buy,broke,0,2,2,3,conversion,False,True,False,0.52,False,CT,3,1.0,1.0,1.0,CT,1
+sprout-vs-ninjas-in-pyjamas-m2-ancient,Rio,de_ancient,16,Ninjas in Pyjamas,Sprout Esports,8,7,1,4400,4350,50,3400,3350,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.52,True,CT,1,,,,CT,1
+sprout-vs-ninjas-in-pyjamas-m2-ancient,Rio,de_ancient,17,Ninjas in Pyjamas,Sprout Esports,9,7,2,22000,13700,8300,19550,14000,Full Buy,Semi Buy,full_buy,building,0,1,2,2,conversion,False,True,False,0.52,False,T,2,1.0,,,CT,1
+sprout-vs-ninjas-in-pyjamas-m2-ancient,Rio,de_ancient,18,Ninjas in Pyjamas,Sprout Esports,10,7,3,26500,1900,24600,11400,1700,Full Buy,Full Eco,full_buy,broke,0,2,2,3,conversion,False,True,False,0.52,False,CT,3,1.0,1.0,,CT,1
 sprout-vs-ninjas-in-pyjamas-m2-ancient,Rio,de_ancient,19,Ninjas in Pyjamas,Sprout Esports,11,7,4,28900,25100,3800,5800,24100,Full Buy,Full Buy,flush,flush,0,3,2,4,gun,False,False,False,0.52,True,CT,0,1.0,1.0,1.0,T,0
 sprout-vs-ninjas-in-pyjamas-m2-ancient,Rio,de_ancient,20,Ninjas in Pyjamas,Sprout Esports,11,8,3,24000,25100,-1100,25900,12900,Full Buy,Full Buy,full_buy,flush,1,0,2,5,gun,False,False,False,0.52,False,CT,0,0.0,1.0,1.0,CT,1
 sprout-vs-ninjas-in-pyjamas-m2-ancient,Rio,de_ancient,21,Ninjas in Pyjamas,Sprout Esports,12,8,4,28800,7450,21350,13550,8350,Full Buy,Semi Eco,flush,building,0,1,2,6,gun,False,False,False,0.52,False,CT,1,1.0,0.0,1.0,CT,1
@@ -1772,9 +1772,9 @@ vitality-vs-natus-vincere-mirage,Rio,de_mirage,12,Natus Vincere,Vitality,6,5,1,2
 vitality-vs-natus-vincere-mirage,Rio,de_mirage,13,Natus Vincere,Vitality,7,5,2,30750,10050,20700,17250,9850,Full Buy,Semi Buy,flush,building,0,4,1,13,gun,False,False,False,0.49,False,CT,4,1.0,1.0,1.0,CT,1
 vitality-vs-natus-vincere-mirage,Rio,de_mirage,14,Natus Vincere,Vitality,8,5,3,32150,26050,6100,12200,25050,Full Buy,Full Buy,flush,flush,0,5,1,14,gun,False,False,False,0.49,False,CT,5,1.0,1.0,1.0,CT,1
 vitality-vs-natus-vincere-mirage,Rio,de_mirage,15,Natus Vincere,Vitality,9,5,4,31950,18200,13750,15150,17600,Full Buy,Semi Buy,flush,full_buy,0,6,1,15,gun,False,False,False,0.49,False,CT,6,1.0,1.0,1.0,CT,1
-vitality-vs-natus-vincere-mirage,Rio,de_mirage,16,Natus Vincere,Vitality,5,10,-5,4000,4250,-250,3400,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.49,False,CT,7,1.0,1.0,1.0,CT,1
-vitality-vs-natus-vincere-mirage,Rio,de_mirage,17,Natus Vincere,Vitality,6,10,-4,20200,1400,18800,17800,1300,Full Buy,Full Eco,full_buy,broke,0,1,2,2,conversion,False,True,False,0.49,False,CT,8,1.0,1.0,1.0,CT,1
-vitality-vs-natus-vincere-mirage,Rio,de_mirage,18,Natus Vincere,Vitality,7,10,-3,26500,22300,4200,9650,21300,Full Buy,Full Buy,full_buy,flush,0,2,2,3,conversion,False,True,False,0.49,True,CT,9,1.0,1.0,1.0,CT,1
+vitality-vs-natus-vincere-mirage,Rio,de_mirage,16,Natus Vincere,Vitality,5,10,-5,4000,4250,-250,3400,3450,Full Eco,Full Eco,broke,broke,0,0,2,1,pistol,True,False,False,0.49,False,CT,7,,,,CT,1
+vitality-vs-natus-vincere-mirage,Rio,de_mirage,17,Natus Vincere,Vitality,6,10,-4,20200,1400,18800,17800,1300,Full Buy,Full Eco,full_buy,broke,0,1,2,2,conversion,False,True,False,0.49,False,CT,8,1.0,,,CT,1
+vitality-vs-natus-vincere-mirage,Rio,de_mirage,18,Natus Vincere,Vitality,7,10,-3,26500,22300,4200,9650,21300,Full Buy,Full Buy,full_buy,flush,0,2,2,3,conversion,False,True,False,0.49,True,CT,9,1.0,1.0,,CT,1
 vitality-vs-natus-vincere-mirage,Rio,de_mirage,19,Natus Vincere,Vitality,8,10,-2,28600,18200,10400,22800,20100,Full Buy,Semi Buy,flush,full_buy,0,3,2,4,gun,False,False,False,0.49,False,T,10,1.0,1.0,1.0,CT,1
 vitality-vs-natus-vincere-mirage,Rio,de_mirage,20,Natus Vincere,Vitality,9,10,-1,29100,8000,21100,17600,8000,Full Buy,Semi Eco,flush,building,0,4,2,5,gun,False,False,False,0.49,False,CT,11,1.0,1.0,1.0,CT,1
 vitality-vs-natus-vincere-mirage,Rio,de_mirage,21,Natus Vincere,Vitality,10,10,0,28600,26650,1950,15750,25950,Full Buy,Full Buy,flush,flush,0,5,2,6,gun,False,False,False,0.49,False,CT,0,1.0,1.0,1.0,T,0
@@ -1787,19 +1787,19 @@ vitality-vs-natus-vincere-mirage,Rio,de_mirage,27,Natus Vincere,Vitality,11,15,-
 vitality-vs-natus-vincere-mirage,Rio,de_mirage,28,Natus Vincere,Vitality,12,15,-3,29450,24500,4950,22800,23800,Full Buy,Full Buy,flush,flush,0,2,2,13,gun,False,False,False,0.49,False,CT,2,1.0,1.0,0.0,CT,1
 vitality-vs-natus-vincere-mirage,Rio,de_mirage,29,Natus Vincere,Vitality,13,15,-2,30450,3600,26850,14300,4400,Full Buy,Full Eco,flush,broke,0,3,2,14,gun,False,False,False,0.49,False,CT,3,1.0,1.0,1.0,CT,1
 vitality-vs-natus-vincere-mirage,Rio,de_mirage,30,Natus Vincere,Vitality,14,15,-1,29750,26650,3100,9650,25650,Full Buy,Full Buy,flush,flush,0,4,2,15,gun,False,False,False,0.49,False,CT,4,1.0,1.0,1.0,CT,1
-vitality-vs-natus-vincere-mirage,Rio,de_mirage,31,Natus Vincere,Vitality,15,15,0,29400,27250,2150,28400,26450,Full Buy,Full Buy,flush,flush,0,5,3,1,overtime,False,False,True,0.49,True,CT,5,1.0,1.0,1.0,CT,1
-vitality-vs-natus-vincere-mirage,Rio,de_mirage,32,Natus Vincere,Vitality,16,15,1,29400,27050,2350,17500,26050,Full Buy,Full Buy,flush,flush,0,6,3,2,overtime,False,False,True,0.49,True,CT,0,1.0,1.0,1.0,T,0
-vitality-vs-natus-vincere-mirage,Rio,de_mirage,33,Natus Vincere,Vitality,16,16,0,28500,26400,2100,27700,19500,Full Buy,Full Buy,flush,flush,1,0,3,3,overtime,False,False,True,0.49,True,T,0,0.0,1.0,1.0,CT,1
-vitality-vs-natus-vincere-mirage,Rio,de_mirage,34,Natus Vincere,Vitality,16,17,-1,30750,27050,3700,29950,26050,Full Buy,Full Buy,flush,flush,0,1,3,4,overtime,False,False,True,0.49,False,CT,1,1.0,0.0,1.0,CT,1
-vitality-vs-natus-vincere-mirage,Rio,de_mirage,35,Natus Vincere,Vitality,17,17,0,30300,27150,3150,9700,26150,Full Buy,Full Buy,flush,flush,0,2,3,5,overtime,False,False,True,0.49,False,CT,2,1.0,1.0,0.0,CT,1
-vitality-vs-natus-vincere-mirage,Rio,de_mirage,36,Natus Vincere,Vitality,18,17,1,29900,26150,3750,19100,14800,Full Buy,Full Buy,flush,flush,0,3,3,6,overtime,False,False,True,0.49,False,T,0,1.0,1.0,1.0,T,0
-vitality-vs-natus-vincere-mirage,Rio,de_mirage,37,Natus Vincere,Vitality,18,18,0,29300,26750,2550,28650,25750,Full Buy,Full Buy,flush,flush,1,0,3,1,overtime,False,False,True,0.49,True,T,0,0.0,1.0,1.0,CT,1
-vitality-vs-natus-vincere-mirage,Rio,de_mirage,38,Natus Vincere,Vitality,19,18,1,30950,27050,3900,24000,26050,Full Buy,Full Buy,flush,flush,0,1,3,2,overtime,False,False,True,0.49,True,CT,1,1.0,0.0,1.0,CT,1
-vitality-vs-natus-vincere-mirage,Rio,de_mirage,39,Natus Vincere,Vitality,20,18,2,31750,25750,6000,29250,25650,Full Buy,Full Buy,flush,flush,0,2,3,3,overtime,False,False,True,0.49,False,CT,2,1.0,1.0,0.0,CT,1
-vitality-vs-natus-vincere-mirage,Rio,de_mirage,40,Natus Vincere,Vitality,18,21,-3,30150,27150,3000,29150,26150,Full Buy,Full Buy,flush,flush,0,3,3,4,overtime,False,False,True,0.49,True,CT,3,1.0,1.0,1.0,CT,1
-vitality-vs-natus-vincere-mirage,Rio,de_mirage,41,Natus Vincere,Vitality,19,21,-2,22200,25000,-2800,28850,16400,Full Buy,Full Buy,full_buy,flush,0,4,3,5,overtime,False,False,True,0.49,False,CT,4,1.0,1.0,1.0,CT,1
-vitality-vs-natus-vincere-mirage,Rio,de_mirage,42,Natus Vincere,Vitality,20,21,-1,32850,26850,6000,18100,26150,Full Buy,Full Buy,flush,flush,0,5,3,6,overtime,False,False,True,0.49,False,CT,5,1.0,1.0,1.0,CT,1
-vitality-vs-natus-vincere-mirage,Rio,de_mirage,43,Natus Vincere,Vitality,21,21,0,28450,27250,1200,27450,26550,Full Buy,Full Buy,flush,flush,0,6,3,1,overtime,False,False,True,0.49,True,T,0,1.0,1.0,1.0,T,0
-vitality-vs-natus-vincere-mirage,Rio,de_mirage,44,Natus Vincere,Vitality,21,22,-1,26850,27050,-200,26050,20300,Full Buy,Full Buy,full_buy,flush,1,0,3,2,overtime,False,False,True,0.49,True,T,-1,0.0,1.0,1.0,T,0
-vitality-vs-natus-vincere-mirage,Rio,de_mirage,45,Natus Vincere,Vitality,21,23,-2,23950,27850,-3900,19100,19750,Full Buy,Full Buy,full_buy,flush,2,0,3,3,overtime,False,False,True,0.49,False,T,-2,0.0,0.0,1.0,T,0
-vitality-vs-natus-vincere-mirage,Rio,de_mirage,46,Natus Vincere,Vitality,24,21,3,29400,27150,2250,28400,26150,Full Buy,Full Buy,flush,flush,3,0,3,4,overtime,False,False,True,0.49,False,CT,0,0.0,0.0,0.0,CT,1
+vitality-vs-natus-vincere-mirage,Rio,de_mirage,31,Natus Vincere,Vitality,15,15,0,29400,27250,2150,28400,26450,Full Buy,Full Buy,flush,flush,0,5,3,1,overtime,False,False,True,0.49,True,CT,5,,,,CT,1
+vitality-vs-natus-vincere-mirage,Rio,de_mirage,32,Natus Vincere,Vitality,16,15,1,29400,27050,2350,17500,26050,Full Buy,Full Buy,flush,flush,0,6,3,2,overtime,False,False,True,0.49,True,CT,0,1.0,,,T,0
+vitality-vs-natus-vincere-mirage,Rio,de_mirage,33,Natus Vincere,Vitality,16,16,0,28500,26400,2100,27700,19500,Full Buy,Full Buy,flush,flush,1,0,3,3,overtime,False,False,True,0.49,True,T,0,0.0,1.0,,CT,1
+vitality-vs-natus-vincere-mirage,Rio,de_mirage,34,Natus Vincere,Vitality,16,17,-1,30750,27050,3700,29950,26050,Full Buy,Full Buy,flush,flush,0,1,3,4,overtime,False,False,True,0.49,False,CT,1,,,,CT,1
+vitality-vs-natus-vincere-mirage,Rio,de_mirage,35,Natus Vincere,Vitality,17,17,0,30300,27150,3150,9700,26150,Full Buy,Full Buy,flush,flush,0,2,3,5,overtime,False,False,True,0.49,False,CT,2,1.0,,,CT,1
+vitality-vs-natus-vincere-mirage,Rio,de_mirage,36,Natus Vincere,Vitality,18,17,1,29900,26150,3750,19100,14800,Full Buy,Full Buy,flush,flush,0,3,3,6,overtime,False,False,True,0.49,False,T,0,1.0,1.0,,T,0
+vitality-vs-natus-vincere-mirage,Rio,de_mirage,37,Natus Vincere,Vitality,18,18,0,29300,26750,2550,28650,25750,Full Buy,Full Buy,flush,flush,1,0,3,1,overtime,False,False,True,0.49,True,T,0,,,,CT,1
+vitality-vs-natus-vincere-mirage,Rio,de_mirage,38,Natus Vincere,Vitality,19,18,1,30950,27050,3900,24000,26050,Full Buy,Full Buy,flush,flush,0,1,3,2,overtime,False,False,True,0.49,True,CT,1,1.0,,,CT,1
+vitality-vs-natus-vincere-mirage,Rio,de_mirage,39,Natus Vincere,Vitality,20,18,2,31750,25750,6000,29250,25650,Full Buy,Full Buy,flush,flush,0,2,3,3,overtime,False,False,True,0.49,False,CT,2,1.0,1.0,,CT,1
+vitality-vs-natus-vincere-mirage,Rio,de_mirage,40,Natus Vincere,Vitality,18,21,-3,30150,27150,3000,29150,26150,Full Buy,Full Buy,flush,flush,0,3,3,4,overtime,False,False,True,0.49,True,CT,3,,,,CT,1
+vitality-vs-natus-vincere-mirage,Rio,de_mirage,41,Natus Vincere,Vitality,19,21,-2,22200,25000,-2800,28850,16400,Full Buy,Full Buy,full_buy,flush,0,4,3,5,overtime,False,False,True,0.49,False,CT,4,1.0,,,CT,1
+vitality-vs-natus-vincere-mirage,Rio,de_mirage,42,Natus Vincere,Vitality,20,21,-1,32850,26850,6000,18100,26150,Full Buy,Full Buy,flush,flush,0,5,3,6,overtime,False,False,True,0.49,False,CT,5,1.0,1.0,,CT,1
+vitality-vs-natus-vincere-mirage,Rio,de_mirage,43,Natus Vincere,Vitality,21,21,0,28450,27250,1200,27450,26550,Full Buy,Full Buy,flush,flush,0,6,3,1,overtime,False,False,True,0.49,True,T,0,,,,T,0
+vitality-vs-natus-vincere-mirage,Rio,de_mirage,44,Natus Vincere,Vitality,21,22,-1,26850,27050,-200,26050,20300,Full Buy,Full Buy,full_buy,flush,1,0,3,2,overtime,False,False,True,0.49,True,T,-1,0.0,,,T,0
+vitality-vs-natus-vincere-mirage,Rio,de_mirage,45,Natus Vincere,Vitality,21,23,-2,23950,27850,-3900,19100,19750,Full Buy,Full Buy,full_buy,flush,2,0,3,3,overtime,False,False,True,0.49,False,T,-2,0.0,0.0,,T,0
+vitality-vs-natus-vincere-mirage,Rio,de_mirage,46,Natus Vincere,Vitality,24,21,3,29400,27150,2250,28400,26150,Full Buy,Full Buy,flush,flush,3,0,3,4,overtime,False,False,True,0.49,False,CT,0,,,,CT,1

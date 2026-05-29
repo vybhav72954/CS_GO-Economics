@@ -642,6 +642,7 @@ def main():
             ranked = pd.read_csv(src_path)
             ranked['tournament'] = tournament  # temp for lookup
             ranked = add_rankings(ranked)
+            ranked = add_halfaware_lags(ranked)  # persist half-aware ct_won_lag_* (not the stale cached lag)
             ranked = ranked.drop(columns=['tournament'])  # remove temp column
 
             ranked.to_csv(out_path, index=False)

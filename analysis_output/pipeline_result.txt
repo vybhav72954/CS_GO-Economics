@@ -90,7 +90,7 @@ All figures saved to: Z:\Projects\2025\CS-GO Time Series Analysis\analysis_outpu
 SECTION 3: MOMENTUM ANALYSIS (MODEL A - BASELINE)
 ======================================================================
 
-Analysis sample: 1587 rounds (excluding first round of each match)
+Analysis sample: 1587 rounds (excluding first round of each side segment due to half-aware lag)
 
 3.1 Model A: Baseline Momentum
 ----------------------------------------
@@ -1171,7 +1171,7 @@ PHASE 2: EXPLORATORY ANALYSIS
 ======================================================================
 
 
-  Phase 2 completed in 7.5s
+  Phase 2 completed in 23.5s
 
 ======================================================================
 PHASE 3: MOMENTUM DECOMPOSITION
@@ -1180,7 +1180,7 @@ PHASE 3: MOMENTUM DECOMPOSITION
 ======================================================================
 
 
-  Phase 3 completed in 6.2s
+  Phase 3 completed in 6.3s
 
 ======================================================================
 PHASE 4: PATTERN REPLICATION
@@ -1189,7 +1189,7 @@ PHASE 4: PATTERN REPLICATION
 ======================================================================
 
 
-  Phase 4 completed in 6.1s
+  Phase 4 completed in 5.9s
 
 ======================================================================
 PHASE 5: POOLED ANALYSIS
@@ -1198,7 +1198,7 @@ PHASE 5: POOLED ANALYSIS
 ======================================================================
 
 
-  Phase 5 completed in 5.6s
+  Phase 5 completed in 5.1s
 
 ======================================================================
 PHASE 6: RIO VALIDATION
@@ -1207,7 +1207,7 @@ PHASE 6: RIO VALIDATION
 ======================================================================
 
 
-  Phase 6 completed in 5.9s
+  Phase 6 completed in 5.4s
 
 ======================================================================
 PHASE 7: BEHAVIORAL ANALYSIS
@@ -1216,7 +1216,7 @@ PHASE 7: BEHAVIORAL ANALYSIS
 ======================================================================
 
 
-  Phase 7 completed in 28.5s
+  Phase 7 completed in 27.1s
 
 ======================================================================
 PHASE 8: CLUSTERED STANDARD ERRORS
@@ -1225,7 +1225,7 @@ PHASE 8: CLUSTERED STANDARD ERRORS
 ======================================================================
 
 
-  Phase 8 completed in 4.1s
+  Phase 8 completed in 3.8s
 
 ======================================================================
 PHASE 9: HLTV RANKINGS
@@ -1234,7 +1234,7 @@ PHASE 9: HLTV RANKINGS
 ======================================================================
 
 
-  Phase 9 completed in 4.7s
+  Phase 9 completed in 4.9s
 
 
 ======================================================================
@@ -1252,7 +1252,7 @@ Phase  Name                           Status
   [+]  8. Clustered Standard Errors    PASS
   [+]  9. HLTV Rankings                PASS
 
-8/8 phases completed in 68.6s
+8/8 phases completed in 82.1s
 
 All outputs saved to: Z:\Projects\2025\CS-GO Time Series Analysis\analysis_output
 
