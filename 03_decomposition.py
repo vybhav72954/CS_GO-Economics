@@ -15,6 +15,9 @@ import matplotlib.pyplot as plt
 import statsmodels.api as sm
 from pathlib import Path
 import warnings
+
+from lag_utils import add_halfaware_lags
+
 warnings.filterwarnings('ignore')
 
 plt.style.use('seaborn-v0_8-whitegrid')
@@ -28,6 +31,7 @@ OUTPUT_DIR.mkdir(exist_ok=True)
 # =============================================================================
 
 df = pd.read_csv(BASE_DIR / "json_output" / "Stockholm" / "stockholm_rounds.csv")
+df = add_halfaware_lags(df)  # recompute lags without crossing side switches
 print(f"Loaded {len(df)} rounds from {df['match_id'].nunique()} matches")
 
 analysis_df = df.dropna(subset=['ct_won_lag_1']).copy()
@@ -80,7 +84,10 @@ analysis_df = prepare_features(analysis_df)
 regime_vars = ['regime_building', 'regime_full_buy', 'regime_flush',
                't_regime_building', 't_regime_full_buy', 't_regime_flush']
 map_vars = [c for c in analysis_df.columns if c.startswith('map_de_')]
-phase_vars = ['phase_pistol', 'phase_conversion', 'phase_overtime']
+# phase_pistol omitted: both pistol rounds (1 and 16) are the first round of a
+# half, so they never have a within-side lag and are dropped from the lagged
+# sample -- the dummy would be all-zeros (singular).
+phase_vars = ['phase_conversion', 'phase_overtime']
 fk_vars = ['ct_first_kill', 'first_kill_missing']
 
 

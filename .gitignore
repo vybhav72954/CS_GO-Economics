@@ -1,4 +1,5 @@
 ### Project Specific
+CLAUDE.md
 demos/*
 json_output/Antwerp
 json_output/Rio
@@ -11,9 +12,19 @@ paper_draft_v1.md
 PAPER_INSTRUCTIONS.md
 literature_review.md
 paper.docx
-paper_draft_v2.md  
-manuscript 
+paper_draft_v2.md
+manuscript
+CODE_VALIDATION_REPORT.md
 
+
+### LLM & AI Agents
+.gemini/
+.claude/
+.cursor/
+.aiconfig/
+.ai/
+llm_artefacts/
+prompt_engineering/
 ### VisualStudioCode template
 .vscode/*
 !.vscode/settings.json

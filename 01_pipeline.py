@@ -30,6 +30,8 @@ from datetime import datetime
 # awpy 1.2.x imports (for CS:GO Source 1 demos)
 from awpy.parser import DemoParser
 
+from lag_utils import add_halfaware_lags
+
 # =============================================================================
 # CONFIGURATION
 # =============================================================================
@@ -376,6 +378,9 @@ def add_lag_features(df: pd.DataFrame, max_lag: int = 3) -> pd.DataFrame:
     """
     Add lagged outcome features within each match.
 
+    Lags are computed within (match_id, side-segment) blocks so the momentum
+    signal never crosses the half-time or overtime side switch (see lag_utils).
+
     Args:
         df: DataFrame with rounds
         max_lag: Maximum number of lags to create
@@ -383,12 +388,7 @@ def add_lag_features(df: pd.DataFrame, max_lag: int = 3) -> pd.DataFrame:
     Returns:
         DataFrame with lag features added
     """
-    df = df.sort_values(by=['match_id', 'round_num']).copy()
-
-    for lag in range(1, max_lag + 1):
-        df[f'ct_won_lag_{lag}'] = df.groupby('match_id')['ct_wins_round'].shift(lag)
-
-    return df
+    return add_halfaware_lags(df, max_lag=max_lag)
 
 
 def add_win_streak_features(df: pd.DataFrame) -> pd.DataFrame:
