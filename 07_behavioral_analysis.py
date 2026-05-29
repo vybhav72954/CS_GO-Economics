@@ -11,9 +11,16 @@ because everyone has $800 and "Full Eco" is the only option, artificially
 inflating eco win rates.
 
 Findings:
-- Teams force more after losses (+18.9pp)
-- Force-buying has HIGHER expected value than eco-ing
-- This is RATIONAL behavior, not tilt
+- Force-buy propensity DECREASES with consecutive losses (beta = -0.226):
+  more losses -> less money -> forcing is mechanically less feasible. This is
+  the opposite of an emotional "force more when tilted" pattern.
+- Force-buying still has HIGHER two-round expected value than eco-saving.
+- This is RATIONAL behavior, not tilt.
+
+Note: the raw "force rate after win vs after loss" split is NOT a clean
+behavioral signal -- conditioning on the broke/building (forceable) state makes
+the after-win cell tiny and degenerate (~100% on a handful of rounds). Use the
+force ~ consecutive_losses regression and the expected-value analysis instead.
 """
 
 import pandas as pd
@@ -22,6 +29,9 @@ import matplotlib.pyplot as plt
 import statsmodels.api as sm
 from pathlib import Path
 import warnings
+
+from lag_utils import add_halfaware_lags, side_segment
+
 warnings.filterwarnings('ignore')
 
 plt.style.use('seaborn-v0_8-whitegrid')
@@ -36,9 +46,9 @@ print("="*70)
 print("BEHAVIORAL ANALYSIS: FORCE-BUY RATIONALITY")
 print("="*70)
 
-stockholm = pd.read_csv(BASE_DIR / "json_output" / "Stockholm" / "stockholm_rounds.csv")
-antwerp = pd.read_csv(BASE_DIR / "json_output" / "Antwerp" / "antwerp_rounds.csv")
-rio = pd.read_csv(BASE_DIR / "json_output" / "Rio" / "rio_rounds.csv")
+stockholm = add_halfaware_lags(pd.read_csv(BASE_DIR / "json_output" / "Stockholm" / "stockholm_rounds.csv"))
+antwerp = add_halfaware_lags(pd.read_csv(BASE_DIR / "json_output" / "Antwerp" / "antwerp_rounds.csv"))
+rio = add_halfaware_lags(pd.read_csv(BASE_DIR / "json_output" / "Rio" / "rio_rounds.csv"))
 
 stockholm['tournament'] = 'Stockholm'
 antwerp['tournament'] = 'Antwerp'
@@ -151,12 +161,28 @@ print("\n" + "="*70)
 print("PART 3: MULTI-ROUND EXPECTED VALUE")
 print("="*70)
 
-# Prepare next-round data
-df_sorted = df_clean.sort_values(['match_id', 'round_num']).copy()
-df_sorted['ct_regime_next'] = df_sorted.groupby('match_id')['ct_economic_regime'].shift(-1)
-df_sorted['ct_wins_next'] = df_sorted.groupby('match_id')['ct_wins_round'].shift(-1)
+# Prepare next-round data from the FULL (pistol-inclusive) frame so the
+# "next round" is the true round_num+1, then keep only decisions whose next
+# round is consecutive AND on the same side (no half/OT switch in between).
+# This avoids the old bug where removing pistols first made shift(-1) jump over
+# the pistol round and across the half-time side switch.
+full_sorted = df.sort_values(['match_id', 'round_num']).copy()
+full_sorted['ct_could_force'] = full_sorted['ct_economic_regime'].isin(['broke', 'building'])
+g_next = full_sorted.groupby('match_id')
+full_sorted['ct_wins_next'] = g_next['ct_wins_round'].shift(-1)
+full_sorted['ct_regime_next'] = g_next['ct_economic_regime'].shift(-1)
+_next_round_num = g_next['round_num'].shift(-1)
+_seg = full_sorted['round_num'].map(side_segment)
+_seg_next = _next_round_num.map(side_segment)
+# For each match's last round, _next_round_num is NaN -> side_segment returns NaN
+# -> both comparisons below are False, so valid_next is correctly False (no next round).
+full_sorted['valid_next'] = (_next_round_num == full_sorted['round_num'] + 1) & (_seg == _seg_next)
 
-analysis_df = df_sorted[df_sorted['ct_could_force'] & df_sorted['ct_regime_next'].notna()].copy()
+analysis_df = full_sorted[
+    full_sorted['ct_could_force']
+    & (full_sorted['round_phase'] != 'pistol')
+    & full_sorted['valid_next']
+].copy()
 analysis_df['ct_is_forcing'] = (~analysis_df['ct_buy_type'].str.lower().str.contains('eco', na=False))
 analysis_df['ct_is_ecoing'] = ~analysis_df['ct_is_forcing']
 
@@ -286,17 +312,21 @@ print("="*70)
 
 fig, axes = plt.subplots(2, 2, figsize=(12, 10))
 
-# Plot 1: Force rate after win vs loss
+# Plot 1: Force rate by consecutive losses (mechanical decline with money)
+# NOTE: replaces the old "after win vs after loss" panel, which was degenerate
+# (the after-win cell conditions on the forceable state and saturates near 100%
+# on a tiny n). Force rate by loss count is the honest, mechanism-revealing view.
 ax1 = axes[0, 0]
-categories = ['After Win', 'After Loss']
-rates = [force_rate_after_win * 100, force_rate_after_loss * 100]
-colors = ['#2ecc71', '#e74c3c']
-bars = ax1.bar(categories, rates, color=colors, edgecolor='black', alpha=0.8)
+fr_by_loss = forceable.groupby('ct_consecutive_losses')['ct_is_forcing'].agg(['mean', 'count'])
+fr_by_loss = fr_by_loss[fr_by_loss['count'] >= 20]
+ax1.bar(fr_by_loss.index.astype(int), fr_by_loss['mean'] * 100,
+        color='#e74c3c', edgecolor='black', alpha=0.8)
+ax1.set_xlabel('CT Consecutive Losses')
 ax1.set_ylabel('Force-Buy Rate (%)')
-ax1.set_title('Force-Buy Rate by Previous Round Result')
-ax1.set_ylim(0, max(rates) * 1.2)
-for i, v in enumerate(rates):
-    ax1.text(i, v + 1.5, f'{v:.1f}%', ha='center', fontsize=12, fontweight='bold')
+ax1.set_title('Force-Buy Rate by Consecutive Losses')
+ax1.set_ylim(0, 100)
+for x, row in fr_by_loss.iterrows():
+    ax1.text(int(x), row['mean'] * 100 + 1.5, f"{row['mean'] * 100:.0f}%", ha='center', fontsize=11)
 
 # Plot 2: Win rate comparison
 ax2 = axes[0, 1]

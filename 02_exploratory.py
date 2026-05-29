@@ -10,6 +10,8 @@ import seaborn as sns
 import statsmodels.api as sm
 from pathlib import Path
 
+from lag_utils import add_halfaware_lags
+
 # Configuration
 plt.style.use('seaborn-v0_8-whitegrid')
 plt.rcParams['figure.figsize'] = (10, 6)
@@ -21,6 +23,7 @@ OUTPUT_DIR.mkdir(exist_ok=True)
 
 # Load Stockholm data only
 df = pd.read_csv(BASE_DIR / "json_output" / "Stockholm" / "stockholm_rounds.csv")
+df = add_halfaware_lags(df)  # recompute lags without crossing side switches
 print(f"Loaded {len(df)} rounds from {df['match_id'].nunique()} matches")
 
 
@@ -273,7 +276,7 @@ def momentum_baseline_analysis(df):
 
     # Prepare data (drop rows with missing lag values)
     analysis_df = df.dropna(subset=['ct_won_lag_1']).copy()
-    print(f"\nAnalysis sample: {len(analysis_df)} rounds (excluding first round of each match)")
+    print(f"\nAnalysis sample: {len(analysis_df)} rounds (excluding first round of each side segment due to half-aware lag)")
 
     # Model A: Simple logistic regression
     print("\n3.1 Model A: Baseline Momentum")

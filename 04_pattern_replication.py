@@ -16,6 +16,8 @@ from statsmodels.stats.outliers_influence import variance_inflation_factor
 from pathlib import Path
 import warnings
 
+from lag_utils import add_halfaware_lags
+
 warnings.filterwarnings('ignore')
 
 plt.style.use('seaborn-v0_8-whitegrid')
@@ -32,8 +34,8 @@ print("PHASE 4: ANTWERP REPLICATION")
 print("=" * 70)
 
 # Load both datasets
-stockholm_df = pd.read_csv(BASE_DIR / "json_output" / "Stockholm" / "stockholm_rounds.csv")
-antwerp_df = pd.read_csv(BASE_DIR / "json_output" / "Antwerp" / "antwerp_rounds.csv")
+stockholm_df = add_halfaware_lags(pd.read_csv(BASE_DIR / "json_output" / "Stockholm" / "stockholm_rounds.csv"))
+antwerp_df = add_halfaware_lags(pd.read_csv(BASE_DIR / "json_output" / "Antwerp" / "antwerp_rounds.csv"))
 
 print(f"\nStockholm (training):    {len(stockholm_df)} rounds, {stockholm_df['match_id'].nunique()} matches")
 print(f"Antwerp (confirmation):  {len(antwerp_df)} rounds, {antwerp_df['match_id'].nunique()} matches")
@@ -64,7 +66,7 @@ def prepare_features(df):
         df[col] = map_dummies[col].astype(int)
 
     # Phase dummies
-    df['phase_pistol'] = (df['round_phase']=='pistol').astype(int)
+    # phase_pistol dummy removed: pistol rounds are segment-firsts -> NaN lag -> dropped (see lag_utils)
     df['phase_conversion'] = (df['round_phase']=='conversion').astype(int)
     df['phase_overtime'] = (df['round_phase']=='overtime').astype(int)
 
@@ -209,7 +211,8 @@ def run_all_models(df, dataset_name):
     regime_vars = ['regime_building', 'regime_full_buy', 'regime_flush',
                    't_regime_building', 't_regime_full_buy', 't_regime_flush']
     map_vars = [c for c in df.columns if c.startswith('map_de_')]
-    phase_vars = ['phase_pistol', 'phase_conversion', 'phase_overtime']
+    # phase_pistol omitted: pistol rounds have no within-side lag (see lag_utils)
+    phase_vars = ['phase_conversion', 'phase_overtime']
 
     results = []
 

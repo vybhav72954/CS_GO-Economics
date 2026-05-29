@@ -30,6 +30,8 @@ from datetime import datetime
 # awpy 1.2.x imports (for CS:GO Source 1 demos)
 from awpy.parser import DemoParser
 
+from lag_utils import add_halfaware_lags
+
 # =============================================================================
 # CONFIGURATION
 # =============================================================================
@@ -128,6 +130,12 @@ def classify_round_phase(round_num: int) -> str:
     Conversion: Winner of pistol has huge advantage (anti-eco)
     Gun: Actual competitive rounds where momentum matters
     Overtime: Special OT rounds
+
+    Note: only regulation pistols (rounds 1 and 16) are labelled 'pistol'.
+    Overtime opening rounds (31, 34, ...) are deliberately kept as 'overtime':
+    they already receive a NaN lag as segment-firsts (see lag_utils) so they
+    never enter a lagged model, and relabelling them 'pistol' would instead
+    pull them out of the force-buy/behavioral sample (a results change).
     """
     if round_num in [1, 16]:
         return 'pistol'
@@ -376,6 +384,9 @@ def add_lag_features(df: pd.DataFrame, max_lag: int = 3) -> pd.DataFrame:
     """
     Add lagged outcome features within each match.
 
+    Lags are computed within (match_id, side-segment) blocks so the momentum
+    signal never crosses the half-time or overtime side switch (see lag_utils).
+
     Args:
         df: DataFrame with rounds
         max_lag: Maximum number of lags to create
@@ -383,12 +394,7 @@ def add_lag_features(df: pd.DataFrame, max_lag: int = 3) -> pd.DataFrame:
     Returns:
         DataFrame with lag features added
     """
-    df = df.sort_values(by=['match_id', 'round_num']).copy()
-
-    for lag in range(1, max_lag + 1):
-        df[f'ct_won_lag_{lag}'] = df.groupby('match_id')['ct_wins_round'].shift(lag)
-
-    return df
+    return add_halfaware_lags(df, max_lag=max_lag)
 
 
 def add_win_streak_features(df: pd.DataFrame) -> pd.DataFrame:
@@ -783,7 +789,13 @@ def check_cache_exists() -> bool:
 
 
 def load_from_cache() -> dict:
-    """Load tournament data from existing CSV files."""
+    """Load tournament data from existing CSV files.
+
+    NOTE: the returned DataFrames still carry the ``ct_won_lag_*`` columns that
+    were baked into the cache by a previous parse. Callers must re-apply
+    ``lag_utils.add_halfaware_lags()`` before modelling -- all analysis scripts
+    (02-09) already do this on load.
+    """
 
     print("\n" + "=" * 70)
     print("LOADING FROM CACHE")

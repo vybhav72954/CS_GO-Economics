@@ -18,6 +18,8 @@ from statsmodels.regression.linear_model import OLS
 from pathlib import Path
 import warnings
 
+from lag_utils import add_halfaware_lags
+
 warnings.filterwarnings('ignore')
 
 BASE_DIR = Path(r"Z:\Projects\2025\CS-GO Time Series Analysis")
@@ -31,9 +33,9 @@ print("=" * 70)
 print("PHASE 8: CLUSTERED STANDARD ERRORS")
 print("=" * 70)
 
-stockholm = pd.read_csv(BASE_DIR / "json_output" / "Stockholm" / "stockholm_rounds.csv")
-antwerp = pd.read_csv(BASE_DIR / "json_output" / "Antwerp" / "antwerp_rounds.csv")
-rio = pd.read_csv(BASE_DIR / "json_output" / "Rio" / "rio_rounds.csv")
+stockholm = add_halfaware_lags(pd.read_csv(BASE_DIR / "json_output" / "Stockholm" / "stockholm_rounds.csv"))
+antwerp = add_halfaware_lags(pd.read_csv(BASE_DIR / "json_output" / "Antwerp" / "antwerp_rounds.csv"))
+rio = add_halfaware_lags(pd.read_csv(BASE_DIR / "json_output" / "Rio" / "rio_rounds.csv"))
 
 stockholm['tournament'] = 'Stockholm'
 antwerp['tournament'] = 'Antwerp'

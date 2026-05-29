@@ -19,6 +19,8 @@ import statsmodels.api as sm
 from pathlib import Path
 import warnings
 
+from lag_utils import add_halfaware_lags
+
 warnings.filterwarnings('ignore')
 
 BASE_DIR = Path(r"Z:\Projects\2025\CS-GO Time Series Analysis")
@@ -340,9 +342,9 @@ def main():
     print("=" * 70)
 
     # Load all tournaments
-    stockholm = pd.read_csv(BASE_DIR / "json_output" / "Stockholm" / "stockholm_rounds.csv")
-    antwerp = pd.read_csv(BASE_DIR / "json_output" / "Antwerp" / "antwerp_rounds.csv")
-    rio = pd.read_csv(BASE_DIR / "json_output" / "Rio" / "rio_rounds.csv")
+    stockholm = add_halfaware_lags(pd.read_csv(BASE_DIR / "json_output" / "Stockholm" / "stockholm_rounds.csv"))
+    antwerp = add_halfaware_lags(pd.read_csv(BASE_DIR / "json_output" / "Antwerp" / "antwerp_rounds.csv"))
+    rio = add_halfaware_lags(pd.read_csv(BASE_DIR / "json_output" / "Rio" / "rio_rounds.csv"))
 
     stockholm['tournament'] = 'Stockholm'
     antwerp['tournament'] = 'Antwerp'
@@ -630,21 +632,23 @@ def main():
     results_df.to_csv(OUTPUT_DIR / 'phase9_rank_controlled_results.csv', index=False)
     print(f"Saved: {OUTPUT_DIR / 'phase9_rank_controlled_results.csv'}")
 
-    # Save updated CSVs with rank columns
+    # Save rank-augmented data to a SEPARATE file (do not mutate the parsed
+    # cache, which is shared on disk and would break branch/run reproducibility).
     for tournament in ['Stockholm', 'Antwerp', 'Rio']:
-        t_df = df[df['tournament'] == tournament].copy()
-        csv_path = BASE_DIR / "json_output" / tournament / f"{tournament.lower()}_rounds.csv"
+        src_path = BASE_DIR / "json_output" / tournament / f"{tournament.lower()}_rounds.csv"
+        out_path = BASE_DIR / "json_output" / tournament / f"{tournament.lower()}_rounds_with_rank.csv"
 
-        if csv_path.exists():
-            original = pd.read_csv(csv_path)
+        if src_path.exists():
+            ranked = pd.read_csv(src_path)
+            had_tournament = 'tournament' in ranked.columns  # cache CSVs already carry this column
+            ranked['tournament'] = tournament  # ensure correct value for the rank lookup
+            ranked = add_rankings(ranked)
+            ranked = add_halfaware_lags(ranked)  # persist half-aware ct_won_lag_* (not the stale cached lag)
+            if not had_tournament:
+                ranked = ranked.drop(columns=['tournament'])  # only drop if we added it
 
-            # Add rank columns
-            original['tournament'] = tournament  # temp for lookup
-            original = add_rankings(original)
-            original = original.drop(columns=['tournament'])  # remove temp column
-
-            original.to_csv(csv_path, index=False)
-            print(f"Updated: {csv_path.name} (+ct_rank, t_rank, rank_diff, rank_diff_5)")
+            ranked.to_csv(out_path, index=False)
+            print(f"Wrote: {out_path.name} (+ct_rank, t_rank, rank_diff, rank_diff_5)")
 
     # Save full model coefficients
     if model_full is not None:
