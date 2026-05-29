@@ -174,6 +174,8 @@ full_sorted['ct_regime_next'] = g_next['ct_economic_regime'].shift(-1)
 _next_round_num = g_next['round_num'].shift(-1)
 _seg = full_sorted['round_num'].map(side_segment)
 _seg_next = _next_round_num.map(side_segment)
+# For each match's last round, _next_round_num is NaN -> side_segment returns NaN
+# -> both comparisons below are False, so valid_next is correctly False (no next round).
 full_sorted['valid_next'] = (_next_round_num == full_sorted['round_num'] + 1) & (_seg == _seg_next)
 
 analysis_df = full_sorted[

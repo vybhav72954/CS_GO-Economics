@@ -66,7 +66,7 @@ def prepare_features(df):
         df[col] = map_dummies[col].astype(int)
 
     # Phase dummies
-    df['phase_pistol'] = (df['round_phase']=='pistol').astype(int)
+    # phase_pistol dummy removed: pistol rounds are segment-firsts -> NaN lag -> dropped (see lag_utils)
     df['phase_conversion'] = (df['round_phase']=='conversion').astype(int)
     df['phase_overtime'] = (df['round_phase']=='overtime').astype(int)
 

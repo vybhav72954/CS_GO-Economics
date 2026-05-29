@@ -1171,7 +1171,7 @@ PHASE 2: EXPLORATORY ANALYSIS
 ======================================================================
 
 
-  Phase 2 completed in 23.5s
+  Phase 2 completed in 53.2s
 
 ======================================================================
 PHASE 3: MOMENTUM DECOMPOSITION
@@ -1180,7 +1180,7 @@ PHASE 3: MOMENTUM DECOMPOSITION
 ======================================================================
 
 
-  Phase 3 completed in 6.3s
+  Phase 3 completed in 24.9s
 
 ======================================================================
 PHASE 4: PATTERN REPLICATION
@@ -1189,7 +1189,7 @@ PHASE 4: PATTERN REPLICATION
 ======================================================================
 
 
-  Phase 4 completed in 5.9s
+  Phase 4 completed in 13.1s
 
 ======================================================================
 PHASE 5: POOLED ANALYSIS
@@ -1198,7 +1198,7 @@ PHASE 5: POOLED ANALYSIS
 ======================================================================
 
 
-  Phase 5 completed in 5.1s
+  Phase 5 completed in 12.6s
 
 ======================================================================
 PHASE 6: RIO VALIDATION
@@ -1207,7 +1207,7 @@ PHASE 6: RIO VALIDATION
 ======================================================================
 
 
-  Phase 6 completed in 5.4s
+  Phase 6 completed in 16.1s
 
 ======================================================================
 PHASE 7: BEHAVIORAL ANALYSIS
@@ -1216,7 +1216,7 @@ PHASE 7: BEHAVIORAL ANALYSIS
 ======================================================================
 
 
-  Phase 7 completed in 27.1s
+  Phase 7 completed in 65.8s
 
 ======================================================================
 PHASE 8: CLUSTERED STANDARD ERRORS
@@ -1225,7 +1225,7 @@ PHASE 8: CLUSTERED STANDARD ERRORS
 ======================================================================
 
 
-  Phase 8 completed in 3.8s
+  Phase 8 completed in 10.7s
 
 ======================================================================
 PHASE 9: HLTV RANKINGS
@@ -1234,7 +1234,7 @@ PHASE 9: HLTV RANKINGS
 ======================================================================
 
 
-  Phase 9 completed in 4.9s
+  Phase 9 completed in 15.1s
 
 
 ======================================================================
@@ -1252,7 +1252,7 @@ Phase  Name                           Status
   [+]  8. Clustered Standard Errors    PASS
   [+]  9. HLTV Rankings                PASS
 
-8/8 phases completed in 82.1s
+8/8 phases completed in 211.4s
 
 All outputs saved to: Z:\Projects\2025\CS-GO Time Series Analysis\analysis_output
 

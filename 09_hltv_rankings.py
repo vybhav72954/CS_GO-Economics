@@ -640,10 +640,12 @@ def main():
 
         if src_path.exists():
             ranked = pd.read_csv(src_path)
-            ranked['tournament'] = tournament  # temp for lookup
+            had_tournament = 'tournament' in ranked.columns  # cache CSVs already carry this column
+            ranked['tournament'] = tournament  # ensure correct value for the rank lookup
             ranked = add_rankings(ranked)
             ranked = add_halfaware_lags(ranked)  # persist half-aware ct_won_lag_* (not the stale cached lag)
-            ranked = ranked.drop(columns=['tournament'])  # remove temp column
+            if not had_tournament:
+                ranked = ranked.drop(columns=['tournament'])  # only drop if we added it
 
             ranked.to_csv(out_path, index=False)
             print(f"Wrote: {out_path.name} (+ct_rank, t_rank, rank_diff, rank_diff_5)")

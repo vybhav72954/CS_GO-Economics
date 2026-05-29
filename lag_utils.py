@@ -18,15 +18,30 @@ columns are overwritten from ``ct_wins_round`` + ``round_num`` (both unaffected
 by the bug), so results depend only on tracked code and not on any cached lag.
 """
 
+from typing import Union
+
 import pandas as pd
 
+# Columns required by add_halfaware_lags.
+_REQUIRED_COLUMNS = {'match_id', 'round_num', 'ct_wins_round'}
 
-def side_segment(round_num: int) -> int:
+# Internal grouping column; suffixed to avoid clobbering a caller's column.
+_SEGMENT_COL = '_side_seg_halfaware_tmp'
+
+
+def side_segment(round_num: Union[int, float]) -> Union[int, float]:
     """Id for the contiguous block during which a team stays on one side.
 
     0 = first half (rounds 1-15), 1 = second half (16-30),
     2, 3, ... = successive 3-round overtime segments (31-33, 34-36, ...).
+
+    Accepts floats because pandas ``Series.map`` passes values as float64.
+    Returns NaN for NaN input (e.g. the synthetic "next round" of a match's
+    last round), so callers can compare segments without special-casing.
     """
+    if pd.isna(round_num):
+        return float('nan')
+    round_num = int(round_num)
     if round_num <= 15:
         return 0
     if round_num <= 30:
@@ -36,9 +51,13 @@ def side_segment(round_num: int) -> int:
 
 def add_halfaware_lags(df: pd.DataFrame, max_lag: int = 3) -> pd.DataFrame:
     """(Re)compute ``ct_won_lag_1..max_lag`` without crossing side switches."""
-    df = df.sort_values(['match_id', 'round_num']).copy()
-    df['_side_seg'] = df['round_num'].map(side_segment)
-    grouped = df.groupby(['match_id', '_side_seg'])['ct_wins_round']
+    missing = _REQUIRED_COLUMNS - set(df.columns)
+    if missing:
+        raise ValueError(f"add_halfaware_lags: missing required columns {sorted(missing)}")
+
+    df = df.sort_values(['match_id', 'round_num']).reset_index(drop=True)
+    df[_SEGMENT_COL] = df['round_num'].map(side_segment)
+    grouped = df.groupby(['match_id', _SEGMENT_COL])['ct_wins_round']
     for lag in range(1, max_lag + 1):
         df[f'ct_won_lag_{lag}'] = grouped.shift(lag)
-    return df.drop(columns='_side_seg')
+    return df.drop(columns=_SEGMENT_COL)
